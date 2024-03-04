@@ -18,7 +18,6 @@ class Demo extends React.Component {
         this.state = {
             styleType: 'default',
             icon: 'circle',
-
             border: true,
             borderType: 'default'
         };

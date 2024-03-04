@@ -13,7 +13,6 @@ class Demo extends React.Component {
         super(props);
         this.state = {
             styleType: 'default',
-
             border: true,
             borderType: 'default',
             suffix: 'none',
