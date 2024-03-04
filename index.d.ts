@@ -426,6 +426,7 @@ export interface TagProps extends HTMLAttributes<HTMLSpanElement> {
     onClose?: () => void;
     icon?: 'circle-fill' | 'circle' | 'loading' | 'custom' | ReactNode;
     disabled?: boolean;
+    iconSize?:'xs' | 'sm' | 'md' | 'lg';
     border?: boolean;
     borderType?: 'default' | 'circle';
     suffix?: ReactNode;
