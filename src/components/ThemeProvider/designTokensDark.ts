@@ -1,5 +1,5 @@
 // Do not edit directly
-// Generated with design-token-editor on 2024/6/24 10:58:31
+// Generated with design-token-editor on 2024/2/28 13:58:07
 
 export default {
     // 按钮加载遮罩
