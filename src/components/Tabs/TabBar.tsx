@@ -500,23 +500,25 @@ const ScrollableTabBarNode = ({
             }
         };
     }, [getRef, setNextPrev]);
+   
+ 
+    const prevButton = React.useMemo(() =>{
+        return  <span
+                    onClick={onPrev}
+                    unselectable="on"
+                    className={classnames({
+                        [`${prefixCls}-tab-prev`]: 1,
+                        [`${prefixCls}-tab-btn-disabled`]: !prev,
+                        [`${prefixCls}-tab-arrow-show`]: showNextPrev
+                    })}
+                    onTransitionEnd={prevTransitionEnd}
+                >
+                    {prevIcon || <span className={`${prefixCls}-tab-prev-icon`} />}
+                </span>
+    },[prevIcon,showNextPrev,prev]);
 
-    const prevButton = (
-        <span
-            onClick={onPrev}
-            unselectable="on"
-            className={classnames({
-                [`${prefixCls}-tab-prev`]: 1,
-                [`${prefixCls}-tab-btn-disabled`]: !prev,
-                [`${prefixCls}-tab-arrow-show`]: showNextPrev
-            })}
-            onTransitionEnd={prevTransitionEnd}
-        >
-            {prevIcon || <span className={`${prefixCls}-tab-prev-icon`} />}
-        </span>
-    );
-    const nextButton = (
-        <span
+    const nextButton = React.useMemo(() => {
+       return <span
             onClick={onNext}
             unselectable="on"
             className={classnames({
@@ -527,8 +529,10 @@ const ScrollableTabBarNode = ({
         >
             {nextIcon || <span className={`${prefixCls}-tab-next-icon`} />}
         </span>
-    );
+    },[nextIcon,showNextPrev,next]);
 
+         
+            
     const navClassName = `${prefixCls}-nav`;
     const navClasses = classnames(
         navClassName,
