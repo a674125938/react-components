@@ -21,6 +21,7 @@ const useRangePicker = ({
     ...pickProps
 }: DatePickerProps & {
     prefix?: boolean;
+    count?: number;
     type?: 'date' | 'month';
     suffix?: ReactNode;
     actionRef: MutableRefObject<RangeActionRef | undefined>;

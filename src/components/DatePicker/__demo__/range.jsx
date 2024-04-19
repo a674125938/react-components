@@ -12,11 +12,12 @@ class Demo extends React.Component {
         super(props);
         this.state = {
             size: 'md',
+            calibration: true,
             type: 'date'
         };
     }
     render() {
-        const { size, type, disabled, nullableS, nullableE } = this.state;
+        const { size, type, disabled, calibration, nullableS, nullableE } = this.state;
         const itemLayout = {
             labelCol: {
                 span: 3
@@ -35,15 +36,18 @@ class Demo extends React.Component {
                             onChange={type => this.setState({ type })}
                         />
                     </Form.Item>
+                    <Form.Item label="calibration" {...itemLayout}>
+                        <Switch checked={calibration} onChange={calibration => this.setState({ calibration })} />
+                    </Form.Item>
+                    <Form.Item label="disabled" {...itemLayout}>
+                        <Switch checked={disabled} onChange={disabled => this.setState({ disabled })} />
+                    </Form.Item>
                     <Form.Item label="size" {...itemLayout}>
                         <Radio.Group
                             value={size}
                             options={Sizes.map(value => ({ value }))}
                             onChange={size => this.setState({ size })}
                         />
-                    </Form.Item>
-                    <Form.Item label="disabled" {...itemLayout}>
-                        <Switch checked={disabled} onChange={disabled => this.setState({ disabled })} />
                     </Form.Item>
                     <Form.Item label="nullable[0]" {...itemLayout}>
                         <Switch checked={nullableS} onChange={nullableS => this.setState({ nullableS })} />
@@ -84,22 +88,33 @@ class Demo extends React.Component {
                                         hours: 1
                                     }
                                 }
+                            },
+                            {
+                                label: '近7天',
+                                value: '7days',
+                                range: {
+                                    start: {
+                                        days: -7
+                                    }
+                                }
                             }
                         ]}
                         {...{
                             size,
                             type,
                             disabled,
+                            calibration,
                             nullable: [nullableS, nullableE]
                         }}
                         rules={{
-                            range: [moment().add({ month: -1 }), moment().add({ month: 1 })],
-                            maxRange: {
-                                month: 1
-                            },
-                            minRange: {
-                                day: 6
-                            }
+                            // range: () => [moment().add({ month: -1 }), moment().add({ month: 1 })],
+                            range: [moment().add({ days: -7 }), moment()]
+                            // maxRange: {
+                            //     month: 1
+                            // },
+                            // minRange: {
+                            //     day: 6
+                            // }
                         }}
                         onChange={console.log}
                     />

@@ -4,6 +4,7 @@ import moment, { Moment } from 'moment';
 import { TDate } from '@ucloud-fe/calendar';
 
 import { isDateDisabled, getValidDate } from 'src/components/Calendar/utils';
+import { isFunction } from 'lodash';
 
 type Range = [TDate | void | null, TDate | void | null];
 export type Precision = 'second' | 'minute' | 'hour' | 'date' | 'month' | 'year';
@@ -33,7 +34,7 @@ export const setPrecision = (v: TDate, precision?: Precision) => {
 const isRangeDateValid = (
     value: [TDate | null, TDate | null],
     rules: {
-        range?: Range;
+        range?: Range | (() => Range) ;
         maxRange?: any;
         minRange?: any;
     },
@@ -48,9 +49,15 @@ const isRangeDateValid = (
     }
     const { range, maxRange, minRange } = rules;
     if (range) {
-        let [s, e] = range;
+        const finalRange = isFunction(range) ? range() : range;
+        let [s, e] = finalRange;
         s = s == null ? null : moment(+s);
         e = e == null ? null : moment(+e);
+        //@ts-ignore
+        console.log('value-->',range,moment(start).format('YYYY-MM-DD HH:mm:ss'),moment(end).format('YYYY-MM-DD HH:mm:ss'));
+         //@ts-ignore
+        console.log('value-->ruls',moment(s).format('YYYY-MM-DD HH:mm:ss'),moment(e).format('YYYY-MM-DD HH:mm:ss'));
+        
         if (precision) {
             s && (<Moment>s).startOf(precision);
             e && (<Moment>e).startOf(precision);

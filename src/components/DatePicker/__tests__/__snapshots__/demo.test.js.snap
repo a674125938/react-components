@@ -14056,7 +14056,7 @@ exports[`DatePicker demo -- month-uncontrolled 1`] = `
 `;
 
 exports[`DatePicker demo -- range 1`] = `
-.emotion-94 {
+.emotion-106 {
   -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
   transition: fill 0.3s,width 0.3s,height 0.3s;
   display: inline-block;
@@ -14066,15 +14066,15 @@ exports[`DatePicker demo -- range 1`] = `
   height: 12px;
 }
 
-.emotion-90 {
+.emotion-102 {
   font-size: 12px;
 }
 
-.emotion-90 .uc-fe-form-item {
+.emotion-102 .uc-fe-form-item {
   margin-bottom: 16px;
 }
 
-.emotion-90 .uc-fe-form-item:last-child {
+.emotion-102 .uc-fe-form-item:last-child {
   margin-bottom: 0;
 }
 
@@ -14129,7 +14129,7 @@ exports[`DatePicker demo -- range 1`] = `
   width: 75%;
 }
 
-.emotion-57 {
+.emotion-39 {
   position: relative;
   cursor: pointer;
   font-size: 12px;
@@ -14140,7 +14140,7 @@ exports[`DatePicker demo -- range 1`] = `
   width: 73px;
 }
 
-.emotion-57 .uc-fe-switch-inner {
+.emotion-39 .uc-fe-switch-inner {
   border-radius: 2px;
   box-sizing: border-box;
   display: -webkit-inline-box;
@@ -14161,7 +14161,7 @@ exports[`DatePicker demo -- range 1`] = `
   transition: color 0.3s;
 }
 
-.emotion-57 .uc-fe-switch-dot {
+.emotion-39 .uc-fe-switch-dot {
   position: absolute;
   display: block;
   right: 6px;
@@ -14174,7 +14174,7 @@ exports[`DatePicker demo -- range 1`] = `
   transition: background 0.3s;
 }
 
-.emotion-57 .uc-fe-switch-button {
+.emotion-39 .uc-fe-switch-button {
   position: absolute;
   display: block;
   box-sizing: border-box;
@@ -14184,7 +14184,7 @@ exports[`DatePicker demo -- range 1`] = `
   transition: all 0.3s;
 }
 
-.emotion-57 .uc-fe-switch-button > span {
+.emotion-39 .uc-fe-switch-button > span {
   display: block;
   width: 100%;
   height: 100%;
@@ -14192,15 +14192,15 @@ exports[`DatePicker demo -- range 1`] = `
   box-sizing: border-box;
 }
 
-.emotion-57 .uc-fe-switch-tip-on,
-.emotion-57 .uc-fe-switch-tip-off {
+.emotion-39 .uc-fe-switch-tip-on,
+.emotion-39 .uc-fe-switch-tip-off {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
   display: block;
 }
 
-.emotion-57 .uc-fe-switch-inner {
+.emotion-39 .uc-fe-switch-inner {
   background: #f6f6fb;
   border-color: #d2d6ea;
   border-width: 1px;
@@ -14209,35 +14209,163 @@ exports[`DatePicker demo -- range 1`] = `
   color: #526075;
 }
 
-.emotion-57 .uc-fe-switch-button {
+.emotion-39 .uc-fe-switch-button {
   width: 28px;
   height: 28px;
   padding: 2px;
 }
 
-.emotion-57 .uc-fe-switch-button > span {
+.emotion-39 .uc-fe-switch-button > span {
   background: #ffffff;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.12),inset 0 -2px 0 0 #e3e9ff;
   border: 1px solid #d2d6ea;
 }
 
-.emotion-57 .uc-fe-switch-dot {
+.emotion-39 .uc-fe-switch-dot {
   background: #f44336;
 }
 
-.emotion-57:hover .uc-fe-switch-inner {
+.emotion-39:hover .uc-fe-switch-inner {
   border-color: #c3cad9;
 }
 
-.emotion-57 .uc-fe-switch-tip-on {
+.emotion-39 .uc-fe-switch-tip-on {
   padding-right: 28px;
 }
 
-.emotion-57 .uc-fe-switch-tip-off {
+.emotion-39 .uc-fe-switch-tip-off {
   padding-left: 28px;
 }
 
-.emotion-57 .uc-fe-switch-tip-on {
+.emotion-39 .uc-fe-switch-tip-on {
+  display: none;
+}
+
+.emotion-27 {
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  line-height: 28px;
+  width: 73px;
+}
+
+.emotion-27 .uc-fe-switch-inner {
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.emotion-27 .uc-fe-switch-dot {
+  position: absolute;
+  display: block;
+  right: 6px;
+  top: 50%;
+  margin-top: -2px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+.emotion-27 .uc-fe-switch-button {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.emotion-27 .uc-fe-switch-button > span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.emotion-27 .uc-fe-switch-tip-on,
+.emotion-27 .uc-fe-switch-tip-off {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+}
+
+.emotion-27 .uc-fe-switch-inner {
+  background: #f6f6fb;
+  border-color: #d2d6ea;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  color: #526075;
+}
+
+.emotion-27 .uc-fe-switch-button {
+  width: 28px;
+  height: 28px;
+  padding: 2px;
+}
+
+.emotion-27 .uc-fe-switch-button > span {
+  background: #ffffff;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.12),inset 0 -2px 0 0 #e3e9ff;
+  border: 1px solid #d2d6ea;
+}
+
+.emotion-27 .uc-fe-switch-dot {
+  background: #f44336;
+}
+
+.emotion-27:hover .uc-fe-switch-inner {
+  border-color: #c3cad9;
+  border-color: #E6FFED;
+}
+
+.emotion-27 .uc-fe-switch-tip-on {
+  padding-right: 28px;
+}
+
+.emotion-27 .uc-fe-switch-tip-off {
+  padding-left: 28px;
+}
+
+.emotion-27 .uc-fe-switch-inner {
+  color: #ffffff;
+  border-color: #E6FFED;
+  background: #15AD31;
+}
+
+.emotion-27 .uc-fe-switch-button {
+  left: 100%;
+  margin-left: -28px;
+}
+
+.emotion-27 .uc-fe-switch-dot {
+  background: #15AD31;
+}
+
+.emotion-27 .uc-fe-switch-tip-off {
   display: none;
 }
 
@@ -14410,7 +14538,7 @@ exports[`DatePicker demo -- range 1`] = `
   fill: #3860f4;
 }
 
-.emotion-116 {
+.emotion-128 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -14421,7 +14549,7 @@ exports[`DatePicker demo -- range 1`] = `
   align-items: center;
 }
 
-.emotion-102 {
+.emotion-114 {
   box-sizing: border-box;
   position: relative;
   max-width: 100%;
@@ -14432,7 +14560,7 @@ exports[`DatePicker demo -- range 1`] = `
   margin-right: 8px;
 }
 
-.emotion-102 .uc-fe-select-list {
+.emotion-114 .uc-fe-select-list {
   display: block;
   width: 400px;
   max-height: 80px;
@@ -14441,7 +14569,7 @@ exports[`DatePicker demo -- range 1`] = `
   cursor: default;
 }
 
-.emotion-99 {
+.emotion-111 {
   position: relative;
   box-sizing: border-box;
   height: 28px;
@@ -14471,13 +14599,13 @@ exports[`DatePicker demo -- range 1`] = `
   overflow: hidden;
 }
 
-.emotion-99:hover {
+.emotion-111:hover {
   color: #0a1633;
   border-color: #c3cad9;
   background: #f6f6fb;
 }
 
-.emotion-99 .uc-fe-input-clear {
+.emotion-111 .uc-fe-input-clear {
   height: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -14494,30 +14622,30 @@ exports[`DatePicker demo -- range 1`] = `
   transition: opacity 0.3s,color 0.1s,fill 0.1s;
 }
 
-.emotion-99 .uc-fe-input-clear:hover {
+.emotion-111 .uc-fe-input-clear:hover {
   color: #7a8baa;
   fill: #7a8baa;
 }
 
-.emotion-99,
-.emotion-99 .uc-fe-input-prefix,
-.emotion-99 .uc-fe-input-suffix,
-.emotion-99 .uc-fe-input-clear,
-.emotion-99 input,
-.emotion-99 .emotion-93 {
+.emotion-111,
+.emotion-111 .uc-fe-input-prefix,
+.emotion-111 .uc-fe-input-suffix,
+.emotion-111 .uc-fe-input-clear,
+.emotion-111 input,
+.emotion-111 .emotion-105 {
   padding: 0 4px;
 }
 
-.emotion-99.uc-fe-input-block {
+.emotion-111.uc-fe-input-block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.emotion-99 .uc-fe-input-prefix,
-.emotion-99 .uc-fe-input-suffix,
-.emotion-99 .emotion-93 {
+.emotion-111 .uc-fe-input-prefix,
+.emotion-111 .uc-fe-input-suffix,
+.emotion-111 .emotion-105 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -14532,11 +14660,11 @@ exports[`DatePicker demo -- range 1`] = `
   flex: 0 0 auto;
 }
 
-.emotion-99 .emotion-93[hidden] {
+.emotion-111 .emotion-105[hidden] {
   display: none;
 }
 
-.emotion-99 .uc-fe-input-block-wrap {
+.emotion-111 .uc-fe-input-block-wrap {
   height: 18px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -14552,7 +14680,7 @@ exports[`DatePicker demo -- range 1`] = `
   min-width: 0px;
 }
 
-.emotion-99 input {
+.emotion-111 input {
   box-sizing: border-box;
   height: 100%;
   margin: 0;
@@ -14564,58 +14692,58 @@ exports[`DatePicker demo -- range 1`] = `
   min-width: 0px;
 }
 
-.emotion-99 input,
-.emotion-99 input:hover,
-.emotion-99 input:focus {
+.emotion-111 input,
+.emotion-111 input:hover,
+.emotion-111 input:focus {
   border: none;
   outline: none;
   background: none;
 }
 
-.emotion-99 input::-webkit-input-placeholder {
+.emotion-111 input::-webkit-input-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-99 input::-moz-placeholder {
+.emotion-111 input::-moz-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-99 input:-ms-input-placeholder {
+.emotion-111 input:-ms-input-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-99 input::placeholder {
+.emotion-111 input::placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-99 input::-ms-clear {
+.emotion-111 input::-ms-clear {
   display: none;
 }
 
-.emotion-99:hover .uc-fe-input-clear,
-.emotion-99.uc-fe-input-focused .uc-fe-input-clear {
+.emotion-111:hover .uc-fe-input-clear,
+.emotion-111.uc-fe-input-focused .uc-fe-input-clear {
   opacity: 1;
   cursor: pointer;
 }
 
-.emotion-99:hover {
+.emotion-111:hover {
   color: #0a1633;
 }
 
-.emotion-99 .uc-fe-select-input-wrap {
+.emotion-111 .uc-fe-select-input-wrap {
   position: relative;
   overflow: hidden;
 }
 
-.emotion-99 .uc-fe-select-input-wrap:empty {
+.emotion-111 .uc-fe-select-input-wrap:empty {
   display: initial;
 }
 
-.emotion-99 .uc-fe-select-input {
+.emotion-111 .uc-fe-select-input {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -14623,22 +14751,22 @@ exports[`DatePicker demo -- range 1`] = `
   right: 0;
 }
 
-.emotion-99 .uc-fe-select-placeholder {
+.emotion-111 .uc-fe-select-placeholder {
   color: rgba(10,22,51,0.2);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.emotion-99 .uc-fe-select-content {
+.emotion-111 .uc-fe-select-content {
   color: #526075;
 }
 
-.emotion-99:hover .uc-fe-select-content {
+.emotion-111:hover .uc-fe-select-content {
   color: #0a1633;
 }
 
-.emotion-99 .uc-fe-select-clear {
+.emotion-111 .uc-fe-select-clear {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14650,26 +14778,26 @@ exports[`DatePicker demo -- range 1`] = `
   transition: opacity 0.3s;
 }
 
-.emotion-99:hover .uc-fe-select-clear {
+.emotion-111:hover .uc-fe-select-clear {
   opacity: 1;
   cursor: pointer;
 }
 
-.emotion-92.emotion-92.emotion-92 {
+.emotion-104.emotion-104.emotion-104 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   visibility: visible;
 }
 
-.emotion-96.emotion-96.emotion-96 {
+.emotion-108.emotion-108.emotion-108 {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   visibility: visible;
 }
 
-.emotion-114 {
+.emotion-126 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -14686,23 +14814,23 @@ exports[`DatePicker demo -- range 1`] = `
   background: #fafafc;
 }
 
-.emotion-114:hover {
+.emotion-126:hover {
   border-color: #c3cad9;
   background: #fafafc;
 }
 
-.emotion-114 .uc-fe-input {
+.emotion-126 .uc-fe-input {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
-.emotion-114 .uc-fe-datepicker-input-readonly {
+.emotion-126 .uc-fe-datepicker-input-readonly {
   padding: 0 8px;
 }
 
-.emotion-108 .uc-fe-input .uc-fe-input-block-wrap {
+.emotion-120 .uc-fe-input .uc-fe-input-block-wrap {
   padding: 0 4px;
   background-clip: content-box;
   will-change: background;
@@ -14710,19 +14838,19 @@ exports[`DatePicker demo -- range 1`] = `
   transition: background 0.2s;
 }
 
-.emotion-108:hover .uc-fe-input .uc-fe-input-block-wrap {
+.emotion-120:hover .uc-fe-input .uc-fe-input-block-wrap {
   background-color: #e3e9ff;
 }
 
-.emotion-108 .uc-fe-input.uc-fe-input-focused .uc-fe-input-block-wrap {
+.emotion-120 .uc-fe-input.uc-fe-input-focused .uc-fe-input-block-wrap {
   background-color: #e3e9ff;
 }
 
-.emotion-108 input {
+.emotion-120 input {
   width: 140px;
 }
 
-.emotion-106 {
+.emotion-118 {
   position: relative;
   box-sizing: border-box;
   height: 28px;
@@ -14750,13 +14878,13 @@ exports[`DatePicker demo -- range 1`] = `
   background: none !important;
 }
 
-.emotion-106:hover {
+.emotion-118:hover {
   color: #0a1633;
   border-color: #c3cad9;
   background: #f6f6fb;
 }
 
-.emotion-106 .uc-fe-input-clear {
+.emotion-118 .uc-fe-input-clear {
   height: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -14773,30 +14901,30 @@ exports[`DatePicker demo -- range 1`] = `
   transition: opacity 0.3s,color 0.1s,fill 0.1s;
 }
 
-.emotion-106 .uc-fe-input-clear:hover {
+.emotion-118 .uc-fe-input-clear:hover {
   color: #7a8baa;
   fill: #7a8baa;
 }
 
-.emotion-106,
-.emotion-106 .uc-fe-input-prefix,
-.emotion-106 .uc-fe-input-suffix,
-.emotion-106 .uc-fe-input-clear,
-.emotion-106 input,
-.emotion-106 .emotion-93 {
+.emotion-118,
+.emotion-118 .uc-fe-input-prefix,
+.emotion-118 .uc-fe-input-suffix,
+.emotion-118 .uc-fe-input-clear,
+.emotion-118 input,
+.emotion-118 .emotion-105 {
   padding: 0 4px;
 }
 
-.emotion-106.uc-fe-input-block {
+.emotion-118.uc-fe-input-block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.emotion-106 .uc-fe-input-prefix,
-.emotion-106 .uc-fe-input-suffix,
-.emotion-106 .emotion-93 {
+.emotion-118 .uc-fe-input-prefix,
+.emotion-118 .uc-fe-input-suffix,
+.emotion-118 .emotion-105 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -14811,11 +14939,11 @@ exports[`DatePicker demo -- range 1`] = `
   flex: 0 0 auto;
 }
 
-.emotion-106 .emotion-93[hidden] {
+.emotion-118 .emotion-105[hidden] {
   display: none;
 }
 
-.emotion-106 .uc-fe-input-block-wrap {
+.emotion-118 .uc-fe-input-block-wrap {
   height: 18px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -14831,7 +14959,7 @@ exports[`DatePicker demo -- range 1`] = `
   min-width: 0px;
 }
 
-.emotion-106 input {
+.emotion-118 input {
   box-sizing: border-box;
   height: 100%;
   margin: 0;
@@ -14843,49 +14971,49 @@ exports[`DatePicker demo -- range 1`] = `
   min-width: 0px;
 }
 
-.emotion-106 input,
-.emotion-106 input:hover,
-.emotion-106 input:focus {
+.emotion-118 input,
+.emotion-118 input:hover,
+.emotion-118 input:focus {
   border: none;
   outline: none;
   background: none;
 }
 
-.emotion-106 input::-webkit-input-placeholder {
+.emotion-118 input::-webkit-input-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-106 input::-moz-placeholder {
+.emotion-118 input::-moz-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-106 input:-ms-input-placeholder {
+.emotion-118 input:-ms-input-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-106 input::placeholder {
+.emotion-118 input::placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-106 input::-ms-clear {
+.emotion-118 input::-ms-clear {
   display: none;
 }
 
-.emotion-106:hover .uc-fe-input-clear,
-.emotion-106.uc-fe-input-focused .uc-fe-input-clear {
+.emotion-118:hover .uc-fe-input-clear,
+.emotion-118.uc-fe-input-focused .uc-fe-input-clear {
   opacity: 1;
   cursor: pointer;
 }
 
-.emotion-112 {
+.emotion-124 {
   margin-left: -8px;
 }
 
-.emotion-112 .uc-fe-input .uc-fe-input-block-wrap {
+.emotion-124 .uc-fe-input .uc-fe-input-block-wrap {
   padding: 0 4px;
   background-clip: content-box;
   will-change: background;
@@ -14893,19 +15021,19 @@ exports[`DatePicker demo -- range 1`] = `
   transition: background 0.2s;
 }
 
-.emotion-112:hover .uc-fe-input .uc-fe-input-block-wrap {
+.emotion-124:hover .uc-fe-input .uc-fe-input-block-wrap {
   background-color: #e3e9ff;
 }
 
-.emotion-112 .uc-fe-input.uc-fe-input-focused .uc-fe-input-block-wrap {
+.emotion-124 .uc-fe-input.uc-fe-input-focused .uc-fe-input-block-wrap {
   background-color: #e3e9ff;
 }
 
-.emotion-112 input {
+.emotion-124 input {
   width: 140px;
 }
 
-.emotion-94 {
+.emotion-106 {
   -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
   transition: fill 0.3s,width 0.3s,height 0.3s;
   display: inline-block;
@@ -14915,15 +15043,15 @@ exports[`DatePicker demo -- range 1`] = `
   height: 12px;
 }
 
-.emotion-90 {
+.emotion-102 {
   font-size: 12px;
 }
 
-.emotion-90 .uc-fe-form-item {
+.emotion-102 .uc-fe-form-item {
   margin-bottom: 16px;
 }
 
-.emotion-90 .uc-fe-form-item:last-child {
+.emotion-102 .uc-fe-form-item:last-child {
   margin-bottom: 0;
 }
 
@@ -14978,7 +15106,7 @@ exports[`DatePicker demo -- range 1`] = `
   width: 75%;
 }
 
-.emotion-57 {
+.emotion-39 {
   position: relative;
   cursor: pointer;
   font-size: 12px;
@@ -14989,7 +15117,7 @@ exports[`DatePicker demo -- range 1`] = `
   width: 73px;
 }
 
-.emotion-57 .uc-fe-switch-inner {
+.emotion-39 .uc-fe-switch-inner {
   border-radius: 2px;
   box-sizing: border-box;
   display: -webkit-inline-box;
@@ -15010,7 +15138,7 @@ exports[`DatePicker demo -- range 1`] = `
   transition: color 0.3s;
 }
 
-.emotion-57 .uc-fe-switch-dot {
+.emotion-39 .uc-fe-switch-dot {
   position: absolute;
   display: block;
   right: 6px;
@@ -15023,7 +15151,7 @@ exports[`DatePicker demo -- range 1`] = `
   transition: background 0.3s;
 }
 
-.emotion-57 .uc-fe-switch-button {
+.emotion-39 .uc-fe-switch-button {
   position: absolute;
   display: block;
   box-sizing: border-box;
@@ -15033,7 +15161,7 @@ exports[`DatePicker demo -- range 1`] = `
   transition: all 0.3s;
 }
 
-.emotion-57 .uc-fe-switch-button > span {
+.emotion-39 .uc-fe-switch-button > span {
   display: block;
   width: 100%;
   height: 100%;
@@ -15041,15 +15169,15 @@ exports[`DatePicker demo -- range 1`] = `
   box-sizing: border-box;
 }
 
-.emotion-57 .uc-fe-switch-tip-on,
-.emotion-57 .uc-fe-switch-tip-off {
+.emotion-39 .uc-fe-switch-tip-on,
+.emotion-39 .uc-fe-switch-tip-off {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
   display: block;
 }
 
-.emotion-57 .uc-fe-switch-inner {
+.emotion-39 .uc-fe-switch-inner {
   background: #f6f6fb;
   border-color: #d2d6ea;
   border-width: 1px;
@@ -15058,35 +15186,163 @@ exports[`DatePicker demo -- range 1`] = `
   color: #526075;
 }
 
-.emotion-57 .uc-fe-switch-button {
+.emotion-39 .uc-fe-switch-button {
   width: 28px;
   height: 28px;
   padding: 2px;
 }
 
-.emotion-57 .uc-fe-switch-button > span {
+.emotion-39 .uc-fe-switch-button > span {
   background: #ffffff;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.12),inset 0 -2px 0 0 #e3e9ff;
   border: 1px solid #d2d6ea;
 }
 
-.emotion-57 .uc-fe-switch-dot {
+.emotion-39 .uc-fe-switch-dot {
   background: #f44336;
 }
 
-.emotion-57:hover .uc-fe-switch-inner {
+.emotion-39:hover .uc-fe-switch-inner {
   border-color: #c3cad9;
 }
 
-.emotion-57 .uc-fe-switch-tip-on {
+.emotion-39 .uc-fe-switch-tip-on {
   padding-right: 28px;
 }
 
-.emotion-57 .uc-fe-switch-tip-off {
+.emotion-39 .uc-fe-switch-tip-off {
   padding-left: 28px;
 }
 
-.emotion-57 .uc-fe-switch-tip-on {
+.emotion-39 .uc-fe-switch-tip-on {
+  display: none;
+}
+
+.emotion-27 {
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 28px;
+  line-height: 28px;
+  width: 73px;
+}
+
+.emotion-27 .uc-fe-switch-inner {
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.emotion-27 .uc-fe-switch-dot {
+  position: absolute;
+  display: block;
+  right: 6px;
+  top: 50%;
+  margin-top: -2px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+.emotion-27 .uc-fe-switch-button {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.emotion-27 .uc-fe-switch-button > span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.emotion-27 .uc-fe-switch-tip-on,
+.emotion-27 .uc-fe-switch-tip-off {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+}
+
+.emotion-27 .uc-fe-switch-inner {
+  background: #f6f6fb;
+  border-color: #d2d6ea;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: inset 0 1px 3px 0 #d2d6ea;
+  color: #526075;
+}
+
+.emotion-27 .uc-fe-switch-button {
+  width: 28px;
+  height: 28px;
+  padding: 2px;
+}
+
+.emotion-27 .uc-fe-switch-button > span {
+  background: #ffffff;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.12),inset 0 -2px 0 0 #e3e9ff;
+  border: 1px solid #d2d6ea;
+}
+
+.emotion-27 .uc-fe-switch-dot {
+  background: #f44336;
+}
+
+.emotion-27:hover .uc-fe-switch-inner {
+  border-color: #c3cad9;
+  border-color: #E6FFED;
+}
+
+.emotion-27 .uc-fe-switch-tip-on {
+  padding-right: 28px;
+}
+
+.emotion-27 .uc-fe-switch-tip-off {
+  padding-left: 28px;
+}
+
+.emotion-27 .uc-fe-switch-inner {
+  color: #ffffff;
+  border-color: #E6FFED;
+  background: #15AD31;
+}
+
+.emotion-27 .uc-fe-switch-button {
+  left: 100%;
+  margin-left: -28px;
+}
+
+.emotion-27 .uc-fe-switch-dot {
+  background: #15AD31;
+}
+
+.emotion-27 .uc-fe-switch-tip-off {
   display: none;
 }
 
@@ -15259,7 +15515,7 @@ exports[`DatePicker demo -- range 1`] = `
   fill: #3860f4;
 }
 
-.emotion-116 {
+.emotion-128 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -15270,7 +15526,7 @@ exports[`DatePicker demo -- range 1`] = `
   align-items: center;
 }
 
-.emotion-102 {
+.emotion-114 {
   box-sizing: border-box;
   position: relative;
   max-width: 100%;
@@ -15281,7 +15537,7 @@ exports[`DatePicker demo -- range 1`] = `
   margin-right: 8px;
 }
 
-.emotion-102 .uc-fe-select-list {
+.emotion-114 .uc-fe-select-list {
   display: block;
   width: 400px;
   max-height: 80px;
@@ -15290,7 +15546,7 @@ exports[`DatePicker demo -- range 1`] = `
   cursor: default;
 }
 
-.emotion-99 {
+.emotion-111 {
   position: relative;
   box-sizing: border-box;
   height: 28px;
@@ -15320,13 +15576,13 @@ exports[`DatePicker demo -- range 1`] = `
   overflow: hidden;
 }
 
-.emotion-99:hover {
+.emotion-111:hover {
   color: #0a1633;
   border-color: #c3cad9;
   background: #f6f6fb;
 }
 
-.emotion-99 .uc-fe-input-clear {
+.emotion-111 .uc-fe-input-clear {
   height: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -15343,30 +15599,30 @@ exports[`DatePicker demo -- range 1`] = `
   transition: opacity 0.3s,color 0.1s,fill 0.1s;
 }
 
-.emotion-99 .uc-fe-input-clear:hover {
+.emotion-111 .uc-fe-input-clear:hover {
   color: #7a8baa;
   fill: #7a8baa;
 }
 
-.emotion-99,
-.emotion-99 .uc-fe-input-prefix,
-.emotion-99 .uc-fe-input-suffix,
-.emotion-99 .uc-fe-input-clear,
-.emotion-99 input,
-.emotion-99 .emotion-93 {
+.emotion-111,
+.emotion-111 .uc-fe-input-prefix,
+.emotion-111 .uc-fe-input-suffix,
+.emotion-111 .uc-fe-input-clear,
+.emotion-111 input,
+.emotion-111 .emotion-105 {
   padding: 0 4px;
 }
 
-.emotion-99.uc-fe-input-block {
+.emotion-111.uc-fe-input-block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.emotion-99 .uc-fe-input-prefix,
-.emotion-99 .uc-fe-input-suffix,
-.emotion-99 .emotion-93 {
+.emotion-111 .uc-fe-input-prefix,
+.emotion-111 .uc-fe-input-suffix,
+.emotion-111 .emotion-105 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -15381,11 +15637,11 @@ exports[`DatePicker demo -- range 1`] = `
   flex: 0 0 auto;
 }
 
-.emotion-99 .emotion-93[hidden] {
+.emotion-111 .emotion-105[hidden] {
   display: none;
 }
 
-.emotion-99 .uc-fe-input-block-wrap {
+.emotion-111 .uc-fe-input-block-wrap {
   height: 18px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -15401,7 +15657,7 @@ exports[`DatePicker demo -- range 1`] = `
   min-width: 0px;
 }
 
-.emotion-99 input {
+.emotion-111 input {
   box-sizing: border-box;
   height: 100%;
   margin: 0;
@@ -15413,58 +15669,58 @@ exports[`DatePicker demo -- range 1`] = `
   min-width: 0px;
 }
 
-.emotion-99 input,
-.emotion-99 input:hover,
-.emotion-99 input:focus {
+.emotion-111 input,
+.emotion-111 input:hover,
+.emotion-111 input:focus {
   border: none;
   outline: none;
   background: none;
 }
 
-.emotion-99 input::-webkit-input-placeholder {
+.emotion-111 input::-webkit-input-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-99 input::-moz-placeholder {
+.emotion-111 input::-moz-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-99 input:-ms-input-placeholder {
+.emotion-111 input:-ms-input-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-99 input::placeholder {
+.emotion-111 input::placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-99 input::-ms-clear {
+.emotion-111 input::-ms-clear {
   display: none;
 }
 
-.emotion-99:hover .uc-fe-input-clear,
-.emotion-99.uc-fe-input-focused .uc-fe-input-clear {
+.emotion-111:hover .uc-fe-input-clear,
+.emotion-111.uc-fe-input-focused .uc-fe-input-clear {
   opacity: 1;
   cursor: pointer;
 }
 
-.emotion-99:hover {
+.emotion-111:hover {
   color: #0a1633;
 }
 
-.emotion-99 .uc-fe-select-input-wrap {
+.emotion-111 .uc-fe-select-input-wrap {
   position: relative;
   overflow: hidden;
 }
 
-.emotion-99 .uc-fe-select-input-wrap:empty {
+.emotion-111 .uc-fe-select-input-wrap:empty {
   display: initial;
 }
 
-.emotion-99 .uc-fe-select-input {
+.emotion-111 .uc-fe-select-input {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -15472,22 +15728,22 @@ exports[`DatePicker demo -- range 1`] = `
   right: 0;
 }
 
-.emotion-99 .uc-fe-select-placeholder {
+.emotion-111 .uc-fe-select-placeholder {
   color: rgba(10,22,51,0.2);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.emotion-99 .uc-fe-select-content {
+.emotion-111 .uc-fe-select-content {
   color: #526075;
 }
 
-.emotion-99:hover .uc-fe-select-content {
+.emotion-111:hover .uc-fe-select-content {
   color: #0a1633;
 }
 
-.emotion-99 .uc-fe-select-clear {
+.emotion-111 .uc-fe-select-clear {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15499,26 +15755,26 @@ exports[`DatePicker demo -- range 1`] = `
   transition: opacity 0.3s;
 }
 
-.emotion-99:hover .uc-fe-select-clear {
+.emotion-111:hover .uc-fe-select-clear {
   opacity: 1;
   cursor: pointer;
 }
 
-.emotion-92.emotion-92.emotion-92 {
+.emotion-104.emotion-104.emotion-104 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   visibility: visible;
 }
 
-.emotion-96.emotion-96.emotion-96 {
+.emotion-108.emotion-108.emotion-108 {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   visibility: visible;
 }
 
-.emotion-114 {
+.emotion-126 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -15535,23 +15791,23 @@ exports[`DatePicker demo -- range 1`] = `
   background: #fafafc;
 }
 
-.emotion-114:hover {
+.emotion-126:hover {
   border-color: #c3cad9;
   background: #fafafc;
 }
 
-.emotion-114 .uc-fe-input {
+.emotion-126 .uc-fe-input {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
-.emotion-114 .uc-fe-datepicker-input-readonly {
+.emotion-126 .uc-fe-datepicker-input-readonly {
   padding: 0 8px;
 }
 
-.emotion-108 .uc-fe-input .uc-fe-input-block-wrap {
+.emotion-120 .uc-fe-input .uc-fe-input-block-wrap {
   padding: 0 4px;
   background-clip: content-box;
   will-change: background;
@@ -15559,19 +15815,19 @@ exports[`DatePicker demo -- range 1`] = `
   transition: background 0.2s;
 }
 
-.emotion-108:hover .uc-fe-input .uc-fe-input-block-wrap {
+.emotion-120:hover .uc-fe-input .uc-fe-input-block-wrap {
   background-color: #e3e9ff;
 }
 
-.emotion-108 .uc-fe-input.uc-fe-input-focused .uc-fe-input-block-wrap {
+.emotion-120 .uc-fe-input.uc-fe-input-focused .uc-fe-input-block-wrap {
   background-color: #e3e9ff;
 }
 
-.emotion-108 input {
+.emotion-120 input {
   width: 140px;
 }
 
-.emotion-106 {
+.emotion-118 {
   position: relative;
   box-sizing: border-box;
   height: 28px;
@@ -15599,13 +15855,13 @@ exports[`DatePicker demo -- range 1`] = `
   background: none !important;
 }
 
-.emotion-106:hover {
+.emotion-118:hover {
   color: #0a1633;
   border-color: #c3cad9;
   background: #f6f6fb;
 }
 
-.emotion-106 .uc-fe-input-clear {
+.emotion-118 .uc-fe-input-clear {
   height: 100%;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -15622,30 +15878,30 @@ exports[`DatePicker demo -- range 1`] = `
   transition: opacity 0.3s,color 0.1s,fill 0.1s;
 }
 
-.emotion-106 .uc-fe-input-clear:hover {
+.emotion-118 .uc-fe-input-clear:hover {
   color: #7a8baa;
   fill: #7a8baa;
 }
 
-.emotion-106,
-.emotion-106 .uc-fe-input-prefix,
-.emotion-106 .uc-fe-input-suffix,
-.emotion-106 .uc-fe-input-clear,
-.emotion-106 input,
-.emotion-106 .emotion-93 {
+.emotion-118,
+.emotion-118 .uc-fe-input-prefix,
+.emotion-118 .uc-fe-input-suffix,
+.emotion-118 .uc-fe-input-clear,
+.emotion-118 input,
+.emotion-118 .emotion-105 {
   padding: 0 4px;
 }
 
-.emotion-106.uc-fe-input-block {
+.emotion-118.uc-fe-input-block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.emotion-106 .uc-fe-input-prefix,
-.emotion-106 .uc-fe-input-suffix,
-.emotion-106 .emotion-93 {
+.emotion-118 .uc-fe-input-prefix,
+.emotion-118 .uc-fe-input-suffix,
+.emotion-118 .emotion-105 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -15660,11 +15916,11 @@ exports[`DatePicker demo -- range 1`] = `
   flex: 0 0 auto;
 }
 
-.emotion-106 .emotion-93[hidden] {
+.emotion-118 .emotion-105[hidden] {
   display: none;
 }
 
-.emotion-106 .uc-fe-input-block-wrap {
+.emotion-118 .uc-fe-input-block-wrap {
   height: 18px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -15680,7 +15936,7 @@ exports[`DatePicker demo -- range 1`] = `
   min-width: 0px;
 }
 
-.emotion-106 input {
+.emotion-118 input {
   box-sizing: border-box;
   height: 100%;
   margin: 0;
@@ -15692,49 +15948,49 @@ exports[`DatePicker demo -- range 1`] = `
   min-width: 0px;
 }
 
-.emotion-106 input,
-.emotion-106 input:hover,
-.emotion-106 input:focus {
+.emotion-118 input,
+.emotion-118 input:hover,
+.emotion-118 input:focus {
   border: none;
   outline: none;
   background: none;
 }
 
-.emotion-106 input::-webkit-input-placeholder {
+.emotion-118 input::-webkit-input-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-106 input::-moz-placeholder {
+.emotion-118 input::-moz-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-106 input:-ms-input-placeholder {
+.emotion-118 input:-ms-input-placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-106 input::placeholder {
+.emotion-118 input::placeholder {
   opacity: 1;
   color: rgba(10,22,51,0.2);
 }
 
-.emotion-106 input::-ms-clear {
+.emotion-118 input::-ms-clear {
   display: none;
 }
 
-.emotion-106:hover .uc-fe-input-clear,
-.emotion-106.uc-fe-input-focused .uc-fe-input-clear {
+.emotion-118:hover .uc-fe-input-clear,
+.emotion-118.uc-fe-input-focused .uc-fe-input-clear {
   opacity: 1;
   cursor: pointer;
 }
 
-.emotion-112 {
+.emotion-124 {
   margin-left: -8px;
 }
 
-.emotion-112 .uc-fe-input .uc-fe-input-block-wrap {
+.emotion-124 .uc-fe-input .uc-fe-input-block-wrap {
   padding: 0 4px;
   background-clip: content-box;
   will-change: background;
@@ -15742,21 +15998,21 @@ exports[`DatePicker demo -- range 1`] = `
   transition: background 0.2s;
 }
 
-.emotion-112:hover .uc-fe-input .uc-fe-input-block-wrap {
+.emotion-124:hover .uc-fe-input .uc-fe-input-block-wrap {
   background-color: #e3e9ff;
 }
 
-.emotion-112 .uc-fe-input.uc-fe-input-focused .uc-fe-input-block-wrap {
+.emotion-124 .uc-fe-input.uc-fe-input-focused .uc-fe-input-block-wrap {
   background-color: #e3e9ff;
 }
 
-.emotion-112 input {
+.emotion-124 input {
   width: 140px;
 }
 
 <div>
   <form
-    class="uc-fe-form demo-form emotion-90 emotion-210"
+    class="uc-fe-form demo-form emotion-102 emotion-210"
   >
     <div
       class="uc-fe-row uc-fe-form-item emotion-20 emotion-21 emotion-22 emotion-23"
@@ -15820,6 +16076,91 @@ exports[`DatePicker demo -- range 1`] = `
               class="uc-fe-radio-content"
             >
               month
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="uc-fe-row uc-fe-form-item emotion-20 emotion-21 emotion-22 emotion-23"
+    >
+      <div
+        class="uc-fe-col uc-fe-form-label emotion-0 emotion-1 emotion-2"
+        span="3"
+      >
+        calibration
+      </div>
+      <div
+        class="uc-fe-col uc-fe-form-controller emotion-17 emotion-18 emotion-2"
+        span="9"
+      >
+        <div
+          checked=""
+          class="emotion-27 emotion-28"
+        >
+          <span
+            class="uc-fe-switch-inner"
+          >
+            <span
+              class="uc-fe-switch-tip-on"
+            >
+              ON
+            </span>
+            <span
+              class="uc-fe-switch-tip-off"
+            >
+              OFF
+            </span>
+          </span>
+          <span
+            class="uc-fe-switch-button"
+          >
+            <span>
+              <span
+                class="uc-fe-switch-dot"
+              />
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="uc-fe-row uc-fe-form-item emotion-20 emotion-21 emotion-22 emotion-23"
+    >
+      <div
+        class="uc-fe-col uc-fe-form-label emotion-0 emotion-1 emotion-2"
+        span="3"
+      >
+        disabled
+      </div>
+      <div
+        class="uc-fe-col uc-fe-form-controller emotion-17 emotion-18 emotion-2"
+        span="9"
+      >
+        <div
+          class="emotion-39 emotion-28"
+        >
+          <span
+            class="uc-fe-switch-inner"
+          >
+            <span
+              class="uc-fe-switch-tip-on"
+            >
+              ON
+            </span>
+            <span
+              class="uc-fe-switch-tip-off"
+            >
+              OFF
+            </span>
+          </span>
+          <span
+            class="uc-fe-switch-button"
+          >
+            <span>
+              <span
+                class="uc-fe-switch-dot"
+              />
             </span>
           </span>
         </div>
@@ -15922,48 +16263,6 @@ exports[`DatePicker demo -- range 1`] = `
         class="uc-fe-col uc-fe-form-label emotion-0 emotion-1 emotion-2"
         span="3"
       >
-        disabled
-      </div>
-      <div
-        class="uc-fe-col uc-fe-form-controller emotion-17 emotion-18 emotion-2"
-        span="9"
-      >
-        <div
-          class="emotion-57 emotion-58"
-        >
-          <span
-            class="uc-fe-switch-inner"
-          >
-            <span
-              class="uc-fe-switch-tip-on"
-            >
-              ON
-            </span>
-            <span
-              class="uc-fe-switch-tip-off"
-            >
-              OFF
-            </span>
-          </span>
-          <span
-            class="uc-fe-switch-button"
-          >
-            <span>
-              <span
-                class="uc-fe-switch-dot"
-              />
-            </span>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      class="uc-fe-row uc-fe-form-item emotion-20 emotion-21 emotion-22 emotion-23"
-    >
-      <div
-        class="uc-fe-col uc-fe-form-label emotion-0 emotion-1 emotion-2"
-        span="3"
-      >
         nullable[0]
       </div>
       <div
@@ -15971,7 +16270,7 @@ exports[`DatePicker demo -- range 1`] = `
         span="9"
       >
         <div
-          class="emotion-57 emotion-58"
+          class="emotion-39 emotion-28"
         >
           <span
             class="uc-fe-switch-inner"
@@ -16013,7 +16312,7 @@ exports[`DatePicker demo -- range 1`] = `
         span="9"
       >
         <div
-          class="emotion-57 emotion-58"
+          class="emotion-39 emotion-28"
         >
           <span
             class="uc-fe-switch-inner"
@@ -16046,17 +16345,17 @@ exports[`DatePicker demo -- range 1`] = `
     class="demo-wrap"
   >
     <div
-      class="uc-fe-datepicker-range emotion-116 emotion-117"
+      class="uc-fe-datepicker-range emotion-128 emotion-129"
     >
       <div
-        class="emotion-101 emotion-102 emotion-103"
+        class="emotion-113 emotion-114 emotion-115"
       >
         <span
-          class="uc-fe-input uc-fe-input-block uc-fe-select-input emotion-98 emotion-99 emotion-100"
+          class="uc-fe-input uc-fe-input-block uc-fe-select-input emotion-110 emotion-111 emotion-112"
           cursor="pointer"
         >
           <span
-            class="uc-fe-select-input-wrap emotion-92 emotion-93"
+            class="uc-fe-select-input-wrap emotion-104 emotion-105"
           >
             <span
               class="uc-fe-select-placeholder uc-fe-select-content"
@@ -16066,10 +16365,10 @@ exports[`DatePicker demo -- range 1`] = `
             </span>
           </span>
           <span
-            class="emotion-96 emotion-93"
+            class="emotion-108 emotion-105"
           >
             <svg
-              class=" emotion-94 emotion-4"
+              class=" emotion-106 emotion-4"
               viewBox="0 0 24 24"
             >
               <path
@@ -16081,19 +16380,19 @@ exports[`DatePicker demo -- range 1`] = `
         </span>
       </div>
       <span
-        class="emotion-114 emotion-115"
+        class="emotion-126 emotion-127"
       >
         <div
-          class="emotion-108 emotion-109"
+          class="emotion-120 emotion-121"
         >
           <span
-            class="uc-fe-input uc-fe-input-block emotion-106 emotion-100"
+            class="uc-fe-input uc-fe-input-block emotion-118 emotion-112"
           >
             <span
               class="uc-fe-input-prefix"
             >
               <svg
-                class=" emotion-94 emotion-4"
+                class=" emotion-106 emotion-4"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -16117,10 +16416,10 @@ exports[`DatePicker demo -- range 1`] = `
           </span>
         </div>
         <div
-          class="emotion-112 emotion-109"
+          class="emotion-124 emotion-121"
         >
           <span
-            class="uc-fe-input uc-fe-input-block emotion-106 emotion-100"
+            class="uc-fe-input uc-fe-input-block emotion-118 emotion-112"
           >
             <span
               class="uc-fe-input-block-wrap"

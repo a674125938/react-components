@@ -10,6 +10,7 @@ import React, {
     useContext
 } from 'react';
 import moment, { Moment } from 'moment';
+import { isFunction } from 'lodash';
 import { TDate } from '@ucloud-fe/calendar';
 
 import useUncontrolled from 'src/hooks/useUncontrolled';
@@ -38,6 +39,7 @@ import {
 } from './style';
 import Footer, { TShortcut } from './Footer';
 import useRangePicker, { RangeActionRef, RangePickerRef } from './useRangePicker';
+import useCoverRangeError from './useCoverRangeError';
 
 interface RangeProps {
     /** 当前值，受控 */
@@ -97,10 +99,12 @@ interface RangeProps {
     };
     /** 自定义规则 */
     rules?: {
-        range?: [TDate | void, TDate | void];
+        range?: ([TDate | void, TDate | void] ) | (() =>  [TDate , TDate ]) ;
         maxRange?: any;
         minRange?: any;
     };
+    /** 自定义校准状态 , 配合rules.range为函数时使用 */
+    calibration?:boolean;
     /** 状态 */
     status?: 'default' | 'error';
     /** placeholder */
@@ -183,7 +187,8 @@ const Range = ({
     size = 'md',
     display = {},
     format,
-    rules = {},
+    rules: _rules = {},
+    calibration=false,
     type = 'date',
     disabled,
     zIndex,
@@ -197,7 +202,15 @@ const Range = ({
     customRender,
     ...rest
 }: RangeProps) => {
+
+    const rules =  useMemo(() => {
+        return {
+            ..._rules,
+            range: _rules.range ? (isFunction(_rules.range) ? _rules.range() : _rules.range) : undefined,
+        }
+    }, [_rules]);
     const d = useMemo(() => new Date(), []);
+    const [count , setCount] = useState(0)
     const locale = useLocale(LOCALE, 'DatePicker', _locale);
     const [option, onOptionChange] = useUncontrolled(_option, defaultOption || 'custom', _onOptionChange);
     const options = useMemo(
@@ -215,6 +228,7 @@ const Range = ({
         defaultValue || [null, null],
         _onChange
     );
+    
     const [cacheValue, setCacheValue] = useState(() => formatRangeValue(value, nullable, d));
     const [rangeError, setRangeError] = useState<string>();
     const inputRefS = useRef<RangePickerRef>();
@@ -333,6 +347,7 @@ const Range = ({
         status
     };
     const [valueS, valueE] = cacheValue;
+ 
     const [placeholderS = locale.placeholderRangeStart, placeholderE = locale.placeholderRangeEnd] = isArray(
         placeholder
     )
@@ -349,6 +364,7 @@ const Range = ({
         popupProps,
         { hasTime, isMonth }
     ] = useRangePicker({
+        count:count,
         value: valueS,
         onChange: handleStartChange,
         nullable: nullableS,
@@ -369,6 +385,7 @@ const Range = ({
         footerPropsE,
         { active: activeE, error: errorE }
     ] = useRangePicker({
+        count: count,
         value: valueE,
         onChange: handleEndChange,
         nullable: nullableE,
@@ -379,6 +396,25 @@ const Range = ({
         ...sharedPickerProps,
         rules: isFirstEditing === 2 ? { ...rules, range: [cacheValue[0], rules.range?.[1]] } : rules
     });
+
+    useCoverRangeError({
+        option,
+        activeS,
+        activeE,
+        rules:rules,
+        count,
+        precision,
+        cacheValue,
+        calibration,
+        nullableS,
+        nullableE,
+        d,
+        setCount,
+        callback:(initialValue)=>{
+            updateValueWithoutCallOnChange(initialValue);
+            setCacheValue(initialValue)   
+        }
+    })
 
     useEffect(() => {
         if (activeS || activeE) return;

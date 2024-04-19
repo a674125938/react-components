@@ -50,6 +50,7 @@ const formatToTimeMode = (format: string): Time[] => {
 type TProps<D> = {
     onInitialChange?: (v: Moment | null) => void;
     display?: D;
+    count?: number;
 } & DatePickerProps;
 
 interface DisplayToFormatAndTimeMode<D> {
@@ -94,6 +95,7 @@ const usePicker = <D,>(
         shortcuts,
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         type,
+        count,
         ...rest
     } = props;
 
@@ -134,7 +136,8 @@ const usePicker = <D,>(
     const locale = useLocale(LOCALE, 'DatePicker', _locale);
 
     useEffect(() => {
-        if (visible) return;
+        // 第一次变更，可以设置
+        if (visible && count !== 1) return;
         if (!value) {
             if (nullable) {
                 setInputValue('');
@@ -144,7 +147,7 @@ const usePicker = <D,>(
         } else {
             setInputValue(formatDate(moment(+value), format));
         }
-    }, [visible, d, format, nullable, value]);
+    }, [visible, d, format, nullable, value,count]);
 
     const error = useMemo(() => {
         let currentValue: TDate | null | undefined;
