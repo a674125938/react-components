@@ -36,24 +36,11 @@ class Steps extends Component {
          * 指定步骤条方向 , 默认是horizontal
          */
         direction: PropTypes.oneOf(['horizontal', 'vertical'])
-        status: PropTypes.oneOf(Status),
-        /**
-         * 步骤状态改变时的回调函数
-         * @param {number} current 当前步骤的key
-         */
-        onChange: PropTypes.func,
-        /**
-         * 指定步骤条方向 , 默认是horizontal
-         */
-        direction: PropTypes.oneOf(['horizontal', 'vertical'])
     };
     static defaultProps = {
         status: 'current',
         direction: 'horizontal'
-        status: 'current',
-        direction: 'horizontal'
     };
-    renderSteps = ({ steps, current, status, direction, onChange }) => {
     renderSteps = ({ steps, current, status, direction, onChange }) => {
         let pos = 'before';
         const l = steps.length;
@@ -104,39 +91,9 @@ class Steps extends Component {
                     />
                 </StepsItemWrapper>
             );
-            const canHover = typeof onChange === 'function' && singleStatus !== 'disabled' ? true : false;
-            const showTitle = rest.title ? true : false;
-            return (
-                <StepsItemWrapper
-                    key={key}
-                    direction={direction}
-                    status={finalStatus}
-                    canHover={canHover}
-                    showTitle={showTitle}
-                    onClick={() => {
-                        if (canHover) {
-                            onChange(key, finalStatus);
-                        }
-                    }}
-                >
-                    <Step
-                        {...rest}
-                        key={`step-${key}`}
-                        status={finalStatus}
-                        step={stepContent}
-                        isLast={i === l - 1 ? true : false}
-                    />
-                </StepsItemWrapper>
-            );
         });
     };
     render() {
-        const { steps, current, status, onChange, direction, ...rest } = this.props;
-        return (
-            <StepsWrapper direction={direction} {...rest}>
-                {this.renderSteps({ steps, current, status, direction, onChange })}
-            </StepsWrapper>
-        );
         const { steps, current, status, onChange, direction, ...rest } = this.props;
         return (
             <StepsWrapper direction={direction} {...rest}>
