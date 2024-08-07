@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import { IconWrapper, StepCountWrapper, Icon, iconCls } from './style';
-import { IconWrapper, StepCountWrapper, Icon, iconCls } from './style';
 
 const STATUS = ['current', 'before', 'after', 'loading', 'error'];
 
@@ -29,8 +28,8 @@ export default class StepIcon extends PureComponent {
     render() {
         const { step, status, ...rest } = this.props;
         console.log('iconCls', iconCls);
+        console.log('iconCls', iconCls);
         return (
-            <IconWrapper status={status} {...rest} className={`${iconCls} ${rest.className ? rest.className : ''}`}>
             <IconWrapper status={status} {...rest} className={`${iconCls} ${rest.className ? rest.className : ''}`}>
                 {this.renderContent(status, step)}
             </IconWrapper>
