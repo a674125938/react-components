@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import config from 'src/config';
+import config from 'src/config';
 import SvgIcon from 'src/components/SvgIcon';
 import { spinMixin, inlineBlockWithVerticalMixin } from 'src/style';
 import withProps from 'src/utils/withProps';
@@ -10,6 +11,7 @@ export const prefixCls = _prefixCls + '-steps';
 export const stepWrapperCls = prefixCls + '-wrapper';
 export const iconCls = prefixCls + '-icon';
 export const itemTailCls = prefixCls + '-item-tail';
+
 
 export const Icon = withProps({ size: '16px' })(styled(SvgIcon)`
     /* empty */
@@ -25,6 +27,7 @@ const statusMixin = props => {
         case 'before':
             return css`
                 background: ${DT.T_INPUT_COLOR_BG_HL_DEFAULT};
+                background: ${DT.T_INPUT_COLOR_BG_HL_DEFAULT};
                 border-color: ${DT.T_COLOR_LINE_PRIMARY_DEFAULT};
                 color: ${DT.T_COLOR_TEXT_PRIMARY_DEFAULT};
                 fill: ${DT.T_COLOR_TEXT_PRIMARY_DEFAULT};
@@ -32,6 +35,9 @@ const statusMixin = props => {
         case 'after':
             return css`
                 background: ${DT.T_COLOR_BG_DISABLED_LIGHT};
+                border-color: ${DT.T_INPUT_COLOR_BG_DEFAULT};
+                color: ${DT.T_COLOR_BG_DISABLED_DARK};
+                fill: ${DT.T_COLOR_BG_DISABLED_DARK};
                 border-color: ${DT.T_INPUT_COLOR_BG_DEFAULT};
                 color: ${DT.T_COLOR_BG_DISABLED_DARK};
                 fill: ${DT.T_COLOR_BG_DISABLED_DARK};
@@ -87,20 +93,27 @@ export const ContentWrapper = styled('span')`
 
     ${inlineBlockWithVerticalMixin};
     flex: 1;
+    flex: 1;
 `;
 
 export const TitleWrapper = styled('span')`
     font-size: 14px;
     line-height: 32px;
     display: inline-block;
+    display: inline-block;
     transition: all 0.3s;
+    padding-inline-end: 16px;
     position: relative;
 `;
 
 export const RemarkWrapper = styled('span')`
     display: block;
 
+    display: block;
+
     transition: all 0.3s;
+    white-space: normal;
+    max-width: calc(100% - 16px);
     white-space: normal;
     max-width: calc(100% - 16px);
 `;
@@ -110,8 +123,6 @@ export const StepWrapper = withProps()(
         const {
             status,
             isLast,
-            showTitle,
-            showRemark,
             theme: { designTokens: DT }
         } = props;
 
@@ -122,7 +133,6 @@ export const StepWrapper = withProps()(
                       position: absolute;
                       width: 99999px;
                       height: 1px;
-                      margin-left: ${showTitle ? '16' : '0'}px;
                       background-color: ${status === 'before'
                           ? DT.T_COLOR_LINE_PRIMARY_DEFAULT
                           : DT.T_COLOR_LINE_DEFAULT_DARK};
@@ -133,11 +143,6 @@ export const StepWrapper = withProps()(
               `
             : '';
 
-        const contentWrapperCss = css`
-            ${ContentWrapper} {
-                ${showRemark || isLast ? 'padding-right:0px;' : 'padding-right:64px;'}
-            }
-        `;
         if (status === 'after') {
             return css`
                 display: flex;
@@ -148,11 +153,12 @@ export const StepWrapper = withProps()(
                     color: ${DT.T_COLOR_TEXT_DISABLED};
                     ${titleAfterCss}
                 }
-                ${contentWrapperCss}
             `;
         }
         if (status === 'error') {
             return css`
+                display: flex;
+                ${RemarkWrapper} {
                 display: flex;
                 ${RemarkWrapper} {
                     color: ${DT.T_COLOR_TEXT_ERROR};
@@ -161,7 +167,6 @@ export const StepWrapper = withProps()(
                     color: ${DT.T_COLOR_TEXT_ERROR};
                     ${titleAfterCss}
                 }
-                ${contentWrapperCss}
             `;
         }
         if (status === 'current') {
@@ -174,17 +179,19 @@ export const StepWrapper = withProps()(
                     color: ${DT.T_COLOR_TEXT_DEFAULT_DARK};
                     ${titleAfterCss}
                 }
-                ${contentWrapperCss}
             `;
         }
         if (status === 'before' || status === 'loading') {
             return css`
                 display: flex;
+                display: flex;
                 ${RemarkWrapper} {
+                    color: ${DT.T_COLOR_TEXT_REMARK_DARK};
                     color: ${DT.T_COLOR_TEXT_REMARK_DARK};
                 }
                 ${TitleWrapper} {
                     color: ${DT.T_COLOR_TEXT_DEFAULT_DARK};
+                    ${titleAfterCss}
                     ${titleAfterCss}
                 }
                 ${contentWrapperCss}
@@ -195,7 +202,6 @@ export const StepWrapper = withProps()(
             ${TitleWrapper} {
                 ${titleAfterCss}
             }
-            ${contentWrapperCss}
         `;
     })
 );
@@ -229,14 +235,18 @@ export const LinkWrapper = withProps()(
 
 export const StepsWrapper = withProps()(
     styled('div')(props => {
-        const { direction, nowrap } = props;
-
+        const { direction, status } = props;
         return css`
+<<<<<<< HEAD
             ${nowrap
                 ? css`
                       display: flex;
                   `
                 : css``}
+=======
+            width: 100%;
+            display: flex;
+>>>>>>> f5141d11 (feat(steps): steps new version)
             text-align: initial;
             box-sizing: border-box;
             margin: 0;
@@ -273,30 +283,21 @@ export const StepsItemWrapper = withProps()(
             canHover,
             showTitle,
             status,
-            nowrap,
             theme: { designTokens: DT }
         } = props;
-
         return css`
             position: relative;
             display: inline-block;
-            min-width: 72px;
             flex: 1;
             overflow: hidden;
             vertical-align: top;
             ${direction === 'horizontal'
                 ? `
-                ${
-                    nowrap
-                        ? `
-                    margin-left: 16px;
-                    &:first-of-type {
-                        margin-left: 0;
-                    };
-                `
-                        : `margin: 0 8px;`
-                }
                 white-space: nowrap; 
+                padding-inline-start: 16px;
+                &:first-child {
+                    padding-inline-start: 0;
+                };
                 &:last-child {
                     flex: none;
                 };
@@ -304,7 +305,7 @@ export const StepsItemWrapper = withProps()(
                 : `
                 display: block;
                 flex: 1 0 auto;
-                margin-left: 0;
+                padding-inline-start: 0;
                 overflow: visible;
                 position: relative;
                 vertical-align: top;
@@ -337,6 +338,7 @@ export const StepsItemWrapper = withProps()(
             `}
             ${TitleWrapper} {
                 font-size: ${DT.T_TYPO_FONT_SIZE_2};
+                padding-inline-end: ${showTitle ? 16 : 0}px;
                 min-height: ${direction === 'horizontal' ? 32 : 0}px;
             }
             ${RemarkWrapper} {
