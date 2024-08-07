@@ -1,8 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Steps demo -- steps 1`] = `
-.emotion-188 {
+.emotion-216 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +19,7 @@ exports[`Steps demo -- steps 1`] = `
   flex-direction: row;
 }
 
-.emotion-188 .uc-fe-steps-item-tail {
+.emotion-216 .uc-fe-steps-item-tail {
   display: none;
 }
 
@@ -23,6 +27,9 @@ exports[`Steps demo -- steps 1`] = `
   margin-left: 12px;
   display: inline-block;
   vertical-align: middle;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -34,6 +41,7 @@ exports[`Steps demo -- steps 1`] = `
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
@@ -53,6 +61,7 @@ exports[`Steps demo -- steps 1`] = `
 }
 
 .emotion-156 .emotion-153 {
+.emotion-156 .emotion-153 {
   color: #0a1633;
 }
 
@@ -65,17 +74,12 @@ exports[`Steps demo -- steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-156 .emotion-155 {
-  padding-right: 0px;
 }
 
 .emotion-148 {
@@ -99,9 +103,15 @@ exports[`Steps demo -- steps 1`] = `
 }
 
 .emotion-146 {
+.emotion-146 {
   font-size: 16px;
 }
 
+.emotion-170 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 .emotion-170 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -115,6 +125,12 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-170 .emotion-151 {
   color: #cccccc;
+.emotion-170 .emotion-153 {
+  color: #cccccc;
+}
+
+.emotion-170 .emotion-151 {
+  color: #cccccc;
 }
 
 .emotion-170 .emotion-151:after {
@@ -122,7 +138,6 @@ exports[`Steps demo -- steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -131,10 +146,7 @@ exports[`Steps demo -- steps 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-170 .emotion-155 {
-  padding-right: 0px;
-}
-
+.emotion-162 {
 .emotion-162 {
   width: 32px;
   height: 32px;
@@ -151,40 +163,40 @@ exports[`Steps demo -- steps 1`] = `
   transition: background 0.3s,border 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
+  border-color: #fafafc;
   color: #cccccc;
   fill: #cccccc;
 }
 
-.emotion-184 {
+.emotion-212 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.emotion-184 .emotion-153 {
+.emotion-212 .emotion-153 {
   color: #cccccc;
 }
 
-.emotion-184 .emotion-151 {
+.emotion-212 .emotion-151 {
   color: #cccccc;
-}
-
-.emotion-184 .emotion-155 {
-  padding-right: 0px;
 }
 
 .emotion-158 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin: 0 8px;
   white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-158:first-child {
+  padding-inline-start: 0;
 }
 
 .emotion-158:last-child {
@@ -195,6 +207,7 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-158 .emotion-151 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
@@ -205,12 +218,19 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-144 {
   font-size: 12px;
+  line-height: 1.7;
 }
 
+.emotion-144 {
+  font-size: 12px;
+}
+
+.emotion-144 .uc-fe-form-item {
 .emotion-144 .uc-fe-form-item {
   margin-bottom: 16px;
 }
 
+.emotion-144 .uc-fe-form-item:last-child {
 .emotion-144 .uc-fe-form-item:last-child {
   margin-bottom: 0;
 }
@@ -563,120 +583,12 @@ exports[`Steps demo -- steps 1`] = `
   left: -1px;
 }
 
-.emotion-135 {
-  position: relative;
-  cursor: pointer;
-  font-size: 12px;
-  display: inline-block;
-  vertical-align: middle;
-  height: 28px;
-  line-height: 28px;
-  width: 73px;
-}
-
-.emotion-135 .uc-fe-switch-inner {
-  border-radius: 2px;
-  box-sizing: border-box;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.emotion-216 {
   width: 100%;
-  height: 100%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-}
-
-.emotion-135 .uc-fe-switch-dot {
-  position: absolute;
-  display: block;
-  right: 6px;
-  top: 50%;
-  margin-top: -2px;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  -webkit-transition: background 0.3s;
-  transition: background 0.3s;
-}
-
-.emotion-135 .uc-fe-switch-button {
-  position: absolute;
-  display: block;
-  box-sizing: border-box;
-  left: 0;
-  top: 0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.emotion-135 .uc-fe-switch-button > span {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 2px;
-  box-sizing: border-box;
-}
-
-.emotion-135 .uc-fe-switch-tip-on,
-.emotion-135 .uc-fe-switch-tip-off {
-  width: 100%;
-  text-align: center;
-  box-sizing: border-box;
-  display: block;
-}
-
-.emotion-135 .uc-fe-switch-inner {
-  background: #f6f6fb;
-  border-color: #d2d6ea;
-  border-width: 1px;
-  border-style: solid;
-  box-shadow: inset 0 1px 3px 0 #d2d6ea;
-  color: #526075;
-}
-
-.emotion-135 .uc-fe-switch-button {
-  width: 28px;
-  height: 28px;
-  padding: 2px;
-}
-
-.emotion-135 .uc-fe-switch-button > span {
-  background: #ffffff;
-  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.12),inset 0 -2px 0 0 #e3e9ff;
-  border: 1px solid #d2d6ea;
-}
-
-.emotion-135 .uc-fe-switch-dot {
-  background: #f44336;
-}
-
-.emotion-135:hover .uc-fe-switch-inner {
-  border-color: #c3cad9;
-}
-
-.emotion-135 .uc-fe-switch-tip-on {
-  padding-right: 28px;
-}
-
-.emotion-135 .uc-fe-switch-tip-off {
-  padding-left: 28px;
-}
-
-.emotion-135 .uc-fe-switch-tip-on {
-  display: none;
-}
-
-.emotion-188 {
-  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -689,7 +601,7 @@ exports[`Steps demo -- steps 1`] = `
   flex-direction: row;
 }
 
-.emotion-188 .uc-fe-steps-item-tail {
+.emotion-216 .uc-fe-steps-item-tail {
   display: none;
 }
 
@@ -708,6 +620,7 @@ exports[`Steps demo -- steps 1`] = `
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
@@ -739,17 +652,12 @@ exports[`Steps demo -- steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-156 .emotion-155 {
-  padding-right: 0px;
 }
 
 .emotion-148 {
@@ -773,9 +681,15 @@ exports[`Steps demo -- steps 1`] = `
 }
 
 .emotion-146 {
+.emotion-146 {
   font-size: 16px;
 }
 
+.emotion-170 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 .emotion-170 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -789,6 +703,12 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-170 .emotion-151 {
   color: #cccccc;
+.emotion-170 .emotion-153 {
+  color: #cccccc;
+}
+
+.emotion-170 .emotion-151 {
+  color: #cccccc;
 }
 
 .emotion-170 .emotion-151:after {
@@ -796,7 +716,6 @@ exports[`Steps demo -- steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -805,10 +724,7 @@ exports[`Steps demo -- steps 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-170 .emotion-155 {
-  padding-right: 0px;
-}
-
+.emotion-162 {
 .emotion-162 {
   width: 32px;
   height: 32px;
@@ -825,40 +741,40 @@ exports[`Steps demo -- steps 1`] = `
   transition: background 0.3s,border 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
+  border-color: #fafafc;
   color: #cccccc;
   fill: #cccccc;
 }
 
-.emotion-184 {
+.emotion-212 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.emotion-184 .emotion-153 {
+.emotion-212 .emotion-153 {
   color: #cccccc;
 }
 
-.emotion-184 .emotion-151 {
+.emotion-212 .emotion-151 {
   color: #cccccc;
-}
-
-.emotion-184 .emotion-155 {
-  padding-right: 0px;
 }
 
 .emotion-158 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin: 0 8px;
   white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-158:first-child {
+  padding-inline-start: 0;
 }
 
 .emotion-158:last-child {
@@ -869,6 +785,7 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-158 .emotion-151 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
@@ -879,12 +796,19 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-144 {
   font-size: 12px;
+  line-height: 1.7;
 }
 
+.emotion-144 {
+  font-size: 12px;
+}
+
+.emotion-144 .uc-fe-form-item {
 .emotion-144 .uc-fe-form-item {
   margin-bottom: 16px;
 }
 
+.emotion-144 .uc-fe-form-item:last-child {
 .emotion-144 .uc-fe-form-item:last-child {
   margin-bottom: 0;
 }
@@ -1352,6 +1276,7 @@ exports[`Steps demo -- steps 1`] = `
 <div>
   <form
     class="uc-fe-form demo-form emotion-144 emotion-90"
+    class="uc-fe-form demo-form emotion-144 emotion-90"
   >
     <div
       class="uc-fe-row uc-fe-form-item emotion-8 emotion-9 emotion-10 emotion-11"
@@ -1693,6 +1618,73 @@ exports[`Steps demo -- steps 1`] = `
         class="uc-fe-col uc-fe-form-label emotion-0 emotion-1 emotion-2"
         span="3"
       >
+        direction
+      </div>
+      <div
+        class="uc-fe-col uc-fe-form-controller emotion-5 emotion-6 emotion-2"
+        span="9"
+      >
+        <div
+          class="emotion-45 emotion-46"
+        >
+          <span
+            checked=""
+            class="uc-fe-radio uc-fe-radio-checked uc-fe-radio-size-md uc-fe-radio-styletype-default emotion-31 emotion-32"
+          >
+            <span
+              checked=""
+              class="uc-fe-radio-icon-wrap emotion-29 emotion-30"
+            >
+              <svg
+                class="uc-fe-radio-icon emotion-27 emotion-28"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="6"
+                />
+              </svg>
+            </span>
+            <span
+              class="uc-fe-radio-content"
+            >
+              horizontal
+            </span>
+          </span>
+          <span
+            class="uc-fe-radio uc-fe-radio-size-md uc-fe-radio-styletype-default emotion-37 emotion-32"
+          >
+            <span
+              class="uc-fe-radio-icon-wrap emotion-35 emotion-30"
+            >
+              <svg
+                class="uc-fe-radio-icon emotion-27 emotion-28"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="6"
+                />
+              </svg>
+            </span>
+            <span
+              class="uc-fe-radio-content"
+            >
+              vertical
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="uc-fe-row uc-fe-form-item emotion-8 emotion-9 emotion-10 emotion-11"
+    >
+      <div
+        class="uc-fe-col uc-fe-form-label emotion-0 emotion-1 emotion-2"
+        span="3"
+      >
         onChange
       </div>
       <div
@@ -1753,54 +1745,12 @@ exports[`Steps demo -- steps 1`] = `
         </div>
       </div>
     </div>
-    <div
-      class="uc-fe-row uc-fe-form-item emotion-8 emotion-9 emotion-10 emotion-11"
-    >
-      <div
-        class="uc-fe-col uc-fe-form-label emotion-0 emotion-1 emotion-2"
-        span="3"
-      >
-        nowrap
-      </div>
-      <div
-        class="uc-fe-col uc-fe-form-controller emotion-5 emotion-6 emotion-2"
-        span="9"
-      >
-        <div
-          class="emotion-135 emotion-4"
-        >
-          <span
-            class="uc-fe-switch-inner"
-          >
-            <span
-              class="uc-fe-switch-tip-on"
-            >
-              ON
-            </span>
-            <span
-              class="uc-fe-switch-tip-off"
-            >
-              OFF
-            </span>
-          </span>
-          <span
-            class="uc-fe-switch-button"
-          >
-            <span>
-              <span
-                class="uc-fe-switch-dot"
-              />
-            </span>
-          </span>
-        </div>
-      </div>
-    </div>
   </form>
   <div
     class="demo-wrap"
   >
     <div
-      class=" emotion-188 emotion-189"
+      class=" emotion-216 emotion-217"
       direction="horizontal"
     >
       <div
@@ -1833,7 +1783,7 @@ exports[`Steps demo -- steps 1`] = `
             <span
               class="emotion-152 emotion-153"
             >
-              这是一条备注
+              这是一条备注这是一条备注这是一条备注
             </span>
           </span>
         </div>
@@ -1868,7 +1818,7 @@ exports[`Steps demo -- steps 1`] = `
             <span
               class="emotion-152 emotion-153"
             >
-              这是一条备注
+              这是一条备注这是一条备注这是一条备注
             </span>
           </span>
         </div>
@@ -1878,7 +1828,7 @@ exports[`Steps demo -- steps 1`] = `
         direction="horizontal"
       >
         <div
-          class="uc-fe-steps-wrapper  emotion-184 emotion-157"
+          class="uc-fe-steps-wrapper  emotion-170 emotion-157"
         >
           <div
             class="uc-fe-steps-item-tail"
@@ -1903,7 +1853,77 @@ exports[`Steps demo -- steps 1`] = `
             <span
               class="emotion-152 emotion-153"
             >
-              这是一条备注
+              这是一条备注这是一条备注这是一条备注
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-158 emotion-159"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-170 emotion-157"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-162 emotion-149"
+          >
+            <span
+              class="emotion-146 emotion-147"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-154 emotion-155"
+          >
+            <span
+              class="emotion-150 emotion-151"
+            >
+              第 4 步
+            </span>
+            <span
+              class="emotion-152 emotion-153"
+            >
+              这是一条备注这是一条备注这是一条备注
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-158 emotion-159"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-212 emotion-157"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-162 emotion-149"
+          >
+            <span
+              class="emotion-146 emotion-147"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-154 emotion-155"
+          >
+            <span
+              class="emotion-150 emotion-151"
+            >
+              第 5 步
+            </span>
+            <span
+              class="emotion-152 emotion-153"
+            >
+              这是一条备注这是一条备注这是一条备注
             </span>
           </span>
         </div>
@@ -1916,6 +1936,10 @@ exports[`Steps demo -- steps 1`] = `
 exports[`Steps demo -- steps-change 1`] = `
 .emotion-72 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -1935,15 +1959,18 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-13 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin: 0 8px;
   white-space: nowrap;
+  padding-inline-start: 16px;
   cursor: pointer;
+}
+
+.emotion-13:first-child {
+  padding-inline-start: 0;
 }
 
 .emotion-13:last-child {
@@ -1954,6 +1981,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-13 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
@@ -1962,6 +1990,7 @@ exports[`Steps demo -- steps-change 1`] = `
   line-height: 1.7;
 }
 
+.emotion-13 .uc-fe-steps-wrapper .emotion-6 {
 .emotion-13 .uc-fe-steps-wrapper .emotion-6 {
   color: #0a1633;
 }
@@ -2000,17 +2029,12 @@ exports[`Steps demo -- steps-change 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-11 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-3 {
@@ -2025,10 +2049,12 @@ exports[`Steps demo -- steps-change 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #e3e9ff;
   border-color: #3860f4;
+  color: #3860f4;
+  fill: #3860f4;
   color: #3860f4;
   fill: #3860f4;
 }
@@ -2041,8 +2067,17 @@ exports[`Steps demo -- steps-change 1`] = `
   fill: currentcolor;
   width: 16px;
   height: 16px;
+.emotion-1 {
+  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
+  transition: fill 0.3s,width 0.3s,height 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 16px;
+  height: 16px;
 }
 
+.emotion-9 {
 .emotion-9 {
   margin-left: 12px;
   display: inline-block;
@@ -2050,14 +2085,19 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
+.emotion-5 {
 .emotion-5 {
   font-size: 14px;
   line-height: 32px;
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
@@ -2089,7 +2129,6 @@ exports[`Steps demo -- steps-change 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -2098,14 +2137,9 @@ exports[`Steps demo -- steps-change 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-40 .emotion-10 {
-  padding-right: 0px;
-}
-
 .emotion-32 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -2114,8 +2148,8 @@ exports[`Steps demo -- steps-change 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #3860f4;
   border-color: #3860f4;
   color: #ffffff;
@@ -2129,15 +2163,18 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-56 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin: 0 8px;
   white-space: nowrap;
+  padding-inline-start: 16px;
   cursor: pointer;
+}
+
+.emotion-56:first-child {
+  padding-inline-start: 0;
 }
 
 .emotion-56:last-child {
@@ -2148,6 +2185,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-56 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
@@ -2200,7 +2238,6 @@ exports[`Steps demo -- steps-change 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -2209,14 +2246,9 @@ exports[`Steps demo -- steps-change 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-54 .emotion-10 {
-  padding-right: 0px;
-}
-
 .emotion-46 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -2225,8 +2257,8 @@ exports[`Steps demo -- steps-change 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -2248,12 +2280,12 @@ exports[`Steps demo -- steps-change 1`] = `
   color: #cccccc;
 }
 
-.emotion-68 .emotion-10 {
-  padding-right: 0px;
-}
-
 .emotion-146 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -2273,7 +2305,6 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-87 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -2283,7 +2314,7 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -2319,6 +2350,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-87 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
@@ -2348,7 +2380,6 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-116 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -2358,7 +2389,7 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -2394,6 +2425,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-116 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
@@ -2423,7 +2455,6 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-130 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -2433,7 +2464,7 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -2469,6 +2500,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-130 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
@@ -2504,7 +2536,6 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-204 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -2514,7 +2545,7 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -2549,180 +2580,21 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-204 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
 .emotion-204 .emotion-8 {
   font-size: 12px;
   line-height: 1.7;
-}
-
-.emotion-279 {
-  position: relative;
-  display: inline-block;
-  min-width: 72px;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  overflow: hidden;
-  vertical-align: top;
-  display: block;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  margin-left: 0;
-  overflow: visible;
-  position: relative;
-  vertical-align: top;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.emotion-279:last-child {
-  margin-bottom: 0px;
-}
-
-.emotion-279:last-child .uc-fe-steps-item-tail {
-  display: none;
-}
-
-.emotion-279 .uc-fe-steps-item-tail {
-  display: block;
-  position: absolute;
-  top: 0;
-  wdith: 1px;
-  height: calc(100% - 20px);
-  padding: 36px 0 0 0;
-  inset-inline-start: 15px;
-}
-
-.emotion-279 .uc-fe-steps-item-tail:after {
-  display: inline-block;
-  content: "";
-  width: 1px;
-  height: 100%;
-  background-color: #c3cad9;
-}
-
-.emotion-279 .emotion-6 {
-  font-size: 14px;
-  min-height: 0px;
-}
-
-.emotion-279 .emotion-8 {
-  font-size: 12px;
-  line-height: 1.7;
-}
-
-.emotion-279 .uc-fe-steps-wrapper .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-279 .uc-fe-steps-wrapper .emotion-8 {
-  color: #7a8baa;
-}
-
-.emotion-279 .uc-fe-steps-wrapper .emotion-8 {
-  color: #f44336;
-}
-
-.emotion-279 .uc-fe-steps-wrapper .emotion-6 {
-  color: #f44336;
-}
-
-.emotion-277 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-277 .emotion-8 {
-  color: #f44336;
-}
-
-.emotion-277 .emotion-6 {
-  color: #f44336;
-}
-
-.emotion-277 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-277 .emotion-10 {
-  padding-right: 0px;
-}
-
-.emotion-269 {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  line-height: 30px;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 1px solid;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
-  background: #fff0f0;
-  border-color: #f44336;
-  color: #f44336;
-  fill: #f44336;
-}
-
-.emotion-292 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-292 .emotion-8 {
-  color: #f44336;
-}
-
-.emotion-292 .emotion-6 {
-  color: #f44336;
-}
-
-.emotion-292 .emotion-10 {
-  padding-right: 0px;
-}
-
-.emotion-367 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-367 .emotion-8 {
-  color: #7a8baa;
-}
-
-.emotion-367 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-367 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-72 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -2742,15 +2614,18 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-13 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin: 0 8px;
   white-space: nowrap;
+  padding-inline-start: 16px;
   cursor: pointer;
+}
+
+.emotion-13:first-child {
+  padding-inline-start: 0;
 }
 
 .emotion-13:last-child {
@@ -2761,6 +2636,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-13 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
@@ -2807,7 +2683,6 @@ exports[`Steps demo -- steps-change 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
@@ -2816,14 +2691,9 @@ exports[`Steps demo -- steps-change 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-11 .emotion-10 {
-  padding-right: 0px;
-}
-
 .emotion-3 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -2832,8 +2702,8 @@ exports[`Steps demo -- steps-change 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
@@ -2865,6 +2735,7 @@ exports[`Steps demo -- steps-change 1`] = `
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
@@ -2896,17 +2767,12 @@ exports[`Steps demo -- steps-change 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-40 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-32 {
@@ -2921,8 +2787,8 @@ exports[`Steps demo -- steps-change 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #3860f4;
   border-color: #3860f4;
   color: #ffffff;
@@ -2936,15 +2802,18 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-56 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin: 0 8px;
   white-space: nowrap;
+  padding-inline-start: 16px;
   cursor: pointer;
+}
+
+.emotion-56:first-child {
+  padding-inline-start: 0;
 }
 
 .emotion-56:last-child {
@@ -2955,6 +2824,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-56 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
@@ -3002,22 +2872,21 @@ exports[`Steps demo -- steps-change 1`] = `
   color: #cccccc;
 }
 
+.emotion-54 .emotion-6 {
+  color: #cccccc;
+}
+
 .emotion-54 .emotion-6:after {
   content: '';
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-54 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-46 {
@@ -3032,8 +2901,8 @@ exports[`Steps demo -- steps-change 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -3055,12 +2924,12 @@ exports[`Steps demo -- steps-change 1`] = `
   color: #cccccc;
 }
 
-.emotion-68 .emotion-10 {
-  padding-right: 0px;
-}
-
 .emotion-146 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -3080,7 +2949,6 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-87 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -3090,7 +2958,7 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -3126,6 +2994,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-87 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
@@ -3155,7 +3024,6 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-116 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -3165,7 +3033,7 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -3201,6 +3069,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-116 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
@@ -3225,12 +3094,18 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-116:hover .uc-fe-steps-icon {
   border-color: #3860f4;
+  border-color: #3860f4;
+}
+
+.emotion-116:hover .uc-fe-steps-icon {
+  border-color: #3860f4;
 }
 
 .emotion-130 {
   position: relative;
+.emotion-130 {
+  position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -3240,7 +3115,7 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -3276,6 +3151,7 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-130 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
@@ -3311,7 +3187,6 @@ exports[`Steps demo -- steps-change 1`] = `
 .emotion-204 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -3321,7 +3196,7 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -3356,176 +3231,13 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-204 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
 .emotion-204 .emotion-8 {
   font-size: 12px;
   line-height: 1.7;
-}
-
-.emotion-279 {
-  position: relative;
-  display: inline-block;
-  min-width: 72px;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  overflow: hidden;
-  vertical-align: top;
-  display: block;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  margin-left: 0;
-  overflow: visible;
-  position: relative;
-  vertical-align: top;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.emotion-279:last-child {
-  margin-bottom: 0px;
-}
-
-.emotion-279:last-child .uc-fe-steps-item-tail {
-  display: none;
-}
-
-.emotion-279 .uc-fe-steps-item-tail {
-  display: block;
-  position: absolute;
-  top: 0;
-  wdith: 1px;
-  height: calc(100% - 20px);
-  padding: 36px 0 0 0;
-  inset-inline-start: 15px;
-}
-
-.emotion-279 .uc-fe-steps-item-tail:after {
-  display: inline-block;
-  content: "";
-  width: 1px;
-  height: 100%;
-  background-color: #c3cad9;
-}
-
-.emotion-279 .emotion-6 {
-  font-size: 14px;
-  min-height: 0px;
-}
-
-.emotion-279 .emotion-8 {
-  font-size: 12px;
-  line-height: 1.7;
-}
-
-.emotion-279 .uc-fe-steps-wrapper .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-279 .uc-fe-steps-wrapper .emotion-8 {
-  color: #7a8baa;
-}
-
-.emotion-279 .uc-fe-steps-wrapper .emotion-8 {
-  color: #f44336;
-}
-
-.emotion-279 .uc-fe-steps-wrapper .emotion-6 {
-  color: #f44336;
-}
-
-.emotion-277 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-277 .emotion-8 {
-  color: #f44336;
-}
-
-.emotion-277 .emotion-6 {
-  color: #f44336;
-}
-
-.emotion-277 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-277 .emotion-10 {
-  padding-right: 0px;
-}
-
-.emotion-269 {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  line-height: 30px;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 1px solid;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
-  background: #fff0f0;
-  border-color: #f44336;
-  color: #f44336;
-  fill: #f44336;
-}
-
-.emotion-292 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-292 .emotion-8 {
-  color: #f44336;
-}
-
-.emotion-292 .emotion-6 {
-  color: #f44336;
-}
-
-.emotion-292 .emotion-10 {
-  padding-right: 0px;
-}
-
-.emotion-367 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-367 .emotion-8 {
-  color: #7a8baa;
-}
-
-.emotion-367 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-367 .emotion-10 {
-  padding-right: 0px;
 }
 
 <div>
@@ -4099,585 +3811,16 @@ exports[`Steps demo -- steps-change 1`] = `
       </div>
     </div>
   </div>
-  <div
-    class="demo-wrap"
-  >
-    <div
-      class=" emotion-146 emotion-73"
-      direction="vertical"
-    >
-      <div
-        class=" emotion-87 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-87 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-116 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-40 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-32 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              3
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-279 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-277 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-269 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.07 4.93a1 1 0 010 1.41L13.41 12l5.66 5.66a1 1 0 11-1.41 1.41L12 13.41l-5.66 5.66a1 1 0 11-1.41-1.41L10.59 12 4.93 6.34a1 1 0 011.41-1.41L12 10.59l5.66-5.66a1 1 0 011.41 0z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-279 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-292 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-269 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.07 4.93a1 1 0 010 1.41L13.41 12l5.66 5.66a1 1 0 11-1.41 1.41L12 13.41l-5.66 5.66a1 1 0 11-1.41-1.41L10.59 12 4.93 6.34a1 1 0 011.41-1.41L12 10.59l5.66-5.66a1 1 0 011.41 0z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    class="demo-wrap"
-  >
-    <div
-      class=" emotion-146 emotion-73"
-      direction="vertical"
-    >
-      <div
-        class=" emotion-87 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-116 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-40 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-32 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              2
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-130 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              3
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-87 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-87 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-367 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    class="demo-wrap"
-  >
-    <div
-      class=" emotion-146 emotion-73"
-      direction="vertical"
-    >
-      <div
-        class=" emotion-130 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              1
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-130 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              2
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-130 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              3
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-116 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-40 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-32 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              4
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-130 emotion-14"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-68 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              5
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content is error
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 `;
 
 exports[`Steps demo -- steps-current 1`] = `
 .emotion-70 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -4714,7 +3857,6 @@ exports[`Steps demo -- steps-current 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
@@ -4723,14 +3865,9 @@ exports[`Steps demo -- steps-current 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-83 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-75 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -4739,12 +3876,12 @@ exports[`Steps demo -- steps-current 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
-  fill: #3860f4;
+  border-color: #3860f4;
 }
 
 .emotion-73 {
@@ -4772,6 +3909,7 @@ exports[`Steps demo -- steps-current 1`] = `
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
@@ -4794,7 +3932,64 @@ exports[`Steps demo -- steps-current 1`] = `
   color: #0a1633;
 }
 
-.emotion-10 .emotion-5 {
+.emotion-279 {
+  position: relative;
+  display: inline-block;
+  min-width: 72px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin-left: 0;
+  overflow: visible;
+  position: relative;
+  vertical-align: top;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.emotion-279:last-child {
+  margin-bottom: 0px;
+}
+
+.emotion-279:last-child .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-279 .uc-fe-steps-item-tail {
+  display: block;
+  position: absolute;
+  top: 0;
+  wdith: 1px;
+  height: calc(100% - 20px);
+  padding: 36px 0 0 0;
+  inset-inline-start: 15px;
+}
+
+.emotion-279 .uc-fe-steps-item-tail:after {
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #c3cad9;
+}
+
+.emotion-279 .emotion-6 {
+  font-size: 14px;
+  min-height: 0px;
+}
+
+.emotion-279 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-279 .uc-fe-steps-wrapper .emotion-6 {
   color: #0a1633;
 }
 
@@ -4803,17 +3998,12 @@ exports[`Steps demo -- steps-current 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-10 .emotion-9 {
-  padding-right: 0px;
 }
 
 .emotion-2 {
@@ -4830,14 +4020,48 @@ exports[`Steps demo -- steps-current 1`] = `
   vertical-align: top;
   -webkit-transition: background 0.3s,border 0.3s;
   transition: background 0.3s,border 0.3s;
-  background: #3860f4;
-  border-color: #3860f4;
-  color: #ffffff;
-  fill: #ffffff;
+  background: #fff0f0;
+  border-color: #f44336;
+  color: #f44336;
+  fill: #f44336;
 }
 
-.emotion-0 {
-  font-size: 16px;
+.emotion-292 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-292 .emotion-8 {
+  color: #f44336;
+}
+
+.emotion-292 .emotion-6 {
+  color: #f44336;
+}
+
+.emotion-292 .emotion-10 {
+  padding-right: 0px;
+}
+
+.emotion-367 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-367 .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-367 .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-367 .emotion-10 {
+  padding-right: 0px;
 }
 
 .emotion-24 {
@@ -4860,7 +4084,6 @@ exports[`Steps demo -- steps-current 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -4869,14 +4092,9 @@ exports[`Steps demo -- steps-current 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-24 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-16 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -4885,8 +4103,8 @@ exports[`Steps demo -- steps-current 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -4908,40 +4126,20 @@ exports[`Steps demo -- steps-current 1`] = `
   color: #cccccc;
 }
 
-.emotion-66 .emotion-9 {
-  padding-right: 0px;
-}
-
-.emotion-441 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-441 .emotion-7 {
-  color: #7a8baa;
-}
-
-.emotion-441 .emotion-5 {
-  color: #0a1633;
-}
-
-.emotion-441 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-12 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin: 0 8px;
   white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-12:first-child {
+  padding-inline-start: 0;
 }
 
 .emotion-12:last-child {
@@ -4952,6 +4150,7 @@ exports[`Steps demo -- steps-current 1`] = `
 
 .emotion-12 .emotion-5 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
@@ -4975,12 +4174,27 @@ exports[`Steps demo -- steps-current 1`] = `
   color: #0a1633;
 }
 
-.emotion-364 .emotion-9 {
-  padding-right: 0px;
+.emotion-441 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-441 .emotion-7 {
+  color: #7a8baa;
+}
+
+.emotion-441 .emotion-5 {
+  color: #0a1633;
 }
 
 .emotion-70 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -5017,7 +4231,6 @@ exports[`Steps demo -- steps-current 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
@@ -5026,14 +4239,9 @@ exports[`Steps demo -- steps-current 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-83 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-75 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -5041,9 +4249,14 @@ exports[`Steps demo -- steps-current 1`] = `
   border: 1px solid;
   font-size: 0;
   display: inline-block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 0;
+  display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
@@ -5067,6 +4280,9 @@ exports[`Steps demo -- steps-current 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .emotion-4 {
@@ -5075,6 +4291,7 @@ exports[`Steps demo -- steps-current 1`] = `
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
@@ -5106,17 +4323,12 @@ exports[`Steps demo -- steps-current 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-10 .emotion-9 {
-  padding-right: 0px;
 }
 
 .emotion-2 {
@@ -5131,8 +4343,8 @@ exports[`Steps demo -- steps-current 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #3860f4;
   border-color: #3860f4;
   color: #ffffff;
@@ -5163,17 +4375,12 @@ exports[`Steps demo -- steps-current 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-24 .emotion-9 {
-  padding-right: 0px;
 }
 
 .emotion-16 {
@@ -5188,8 +4395,8 @@ exports[`Steps demo -- steps-current 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -5211,40 +4418,20 @@ exports[`Steps demo -- steps-current 1`] = `
   color: #cccccc;
 }
 
-.emotion-66 .emotion-9 {
-  padding-right: 0px;
-}
-
-.emotion-441 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-441 .emotion-7 {
-  color: #7a8baa;
-}
-
-.emotion-441 .emotion-5 {
-  color: #0a1633;
-}
-
-.emotion-441 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-12 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin: 0 8px;
   white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-12:first-child {
+  padding-inline-start: 0;
 }
 
 .emotion-12:last-child {
@@ -5255,6 +4442,7 @@ exports[`Steps demo -- steps-current 1`] = `
 
 .emotion-12 .emotion-5 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
@@ -5278,8 +4466,19 @@ exports[`Steps demo -- steps-current 1`] = `
   color: #0a1633;
 }
 
-.emotion-364 .emotion-9 {
-  padding-right: 0px;
+.emotion-441 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-441 .emotion-7 {
+  color: #7a8baa;
+}
+
+.emotion-441 .emotion-5 {
+  color: #0a1633;
 }
 
 <div>
@@ -5850,6 +5049,8 @@ exports[`Steps demo -- steps-current 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="horizontal"
+      class=" emotion-70 emotion-71"
+      direction="horizontal"
     >
       <div
         class=" emotion-12 emotion-13"
@@ -6041,6 +5242,8 @@ exports[`Steps demo -- steps-current 1`] = `
     class="demo-wrap"
   >
     <div
+      class=" emotion-70 emotion-71"
+      direction="horizontal"
       class=" emotion-70 emotion-71"
       direction="horizontal"
     >
@@ -6239,8 +5442,198 @@ exports[`Steps demo -- steps-current 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="horizontal"
+      class=" emotion-70 emotion-71"
+      direction="horizontal"
     >
       <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-441 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         class=" emotion-12 emotion-13"
         direction="horizontal"
       >
@@ -6452,6 +5845,10 @@ exports[`Steps demo -- steps-status 1`] = `
 
 .emotion-72 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -6473,9 +5870,14 @@ exports[`Steps demo -- steps-status 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .emotion-11 .emotion-8 {
+  color: #7a8baa;
   color: #7a8baa;
 }
 
@@ -6488,17 +5890,12 @@ exports[`Steps demo -- steps-status 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-11 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-3 {
@@ -6513,14 +5910,24 @@ exports[`Steps demo -- steps-status 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
   fill: #3860f4;
+  color: #3860f4;
+  fill: #3860f4;
 }
 
+.emotion-1 {
+  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
+  transition: fill 0.3s,width 0.3s,height 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 16px;
+  height: 16px;
 .emotion-1 {
   -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
   transition: fill 0.3s,width 0.3s,height 0.3s;
@@ -6538,25 +5945,46 @@ exports[`Steps demo -- steps-status 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .emotion-5 {
   font-size: 14px;
   line-height: 32px;
   display: inline-block;
+  display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
 .emotion-7 {
   display: block;
+  display: block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   white-space: normal;
   max-width: calc(100% - 16px);
+  white-space: normal;
+  max-width: calc(100% - 16px);
 }
 
+.emotion-40 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-40 .emotion-8 {
+  color: #0a1633;
+}
+
+.emotion-40 .emotion-6 {
+  color: #0a1633;
 .emotion-40 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6577,7 +6005,6 @@ exports[`Steps demo -- steps-status 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -6586,10 +6013,7 @@ exports[`Steps demo -- steps-status 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-40 .emotion-10 {
-  padding-right: 0px;
-}
-
+.emotion-32 {
 .emotion-32 {
   width: 32px;
   height: 32px;
@@ -6602,8 +6026,8 @@ exports[`Steps demo -- steps-status 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #3860f4;
   border-color: #3860f4;
   color: #ffffff;
@@ -6629,22 +6053,21 @@ exports[`Steps demo -- steps-status 1`] = `
   color: #cccccc;
 }
 
+.emotion-54 .emotion-6 {
+  color: #cccccc;
+}
+
 .emotion-54 .emotion-6:after {
   content: '';
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-54 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-46 {
@@ -6659,8 +6082,8 @@ exports[`Steps demo -- steps-status 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -6682,8 +6105,77 @@ exports[`Steps demo -- steps-status 1`] = `
   color: #cccccc;
 }
 
-.emotion-68 .emotion-10 {
-  padding-right: 0px;
+.emotion-13 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-13:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-13:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-13 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-13 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-115 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-115 .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-115 .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-115 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-105 {
+  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
+  transition: fill 0.3s,width 0.3s,height 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 16px;
+  height: 16px;
+  -webkit-animation: animation-0 1.2s infinite linear;
+  animation: animation-0 1.2s infinite linear;
 }
 
 .emotion-190 {
@@ -6691,8 +6183,14 @@ exports[`Steps demo -- steps-status 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+.emotion-190 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
+.emotion-190 .emotion-8 {
 .emotion-190 .emotion-8 {
   color: #f44336;
 }
@@ -6706,17 +6204,12 @@ exports[`Steps demo -- steps-status 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-190 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-182 {
@@ -6829,6 +6322,10 @@ exports[`Steps demo -- steps-status 1`] = `
 
 .emotion-72 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -6850,9 +6347,14 @@ exports[`Steps demo -- steps-status 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .emotion-11 .emotion-8 {
+  color: #7a8baa;
   color: #7a8baa;
 }
 
@@ -6865,17 +6367,12 @@ exports[`Steps demo -- steps-status 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-11 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-3 {
@@ -6890,14 +6387,24 @@ exports[`Steps demo -- steps-status 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
   fill: #3860f4;
+  color: #3860f4;
+  fill: #3860f4;
 }
 
+.emotion-1 {
+  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
+  transition: fill 0.3s,width 0.3s,height 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 16px;
+  height: 16px;
 .emotion-1 {
   -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
   transition: fill 0.3s,width 0.3s,height 0.3s;
@@ -6915,25 +6422,46 @@ exports[`Steps demo -- steps-status 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .emotion-5 {
   font-size: 14px;
   line-height: 32px;
   display: inline-block;
+  display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
 .emotion-7 {
   display: block;
+  display: block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   white-space: normal;
   max-width: calc(100% - 16px);
+  white-space: normal;
+  max-width: calc(100% - 16px);
 }
 
+.emotion-40 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-40 .emotion-8 {
+  color: #0a1633;
+}
+
+.emotion-40 .emotion-6 {
+  color: #0a1633;
 .emotion-40 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6954,7 +6482,6 @@ exports[`Steps demo -- steps-status 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -6963,10 +6490,7 @@ exports[`Steps demo -- steps-status 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-40 .emotion-10 {
-  padding-right: 0px;
-}
-
+.emotion-32 {
 .emotion-32 {
   width: 32px;
   height: 32px;
@@ -6979,8 +6503,8 @@ exports[`Steps demo -- steps-status 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #3860f4;
   border-color: #3860f4;
   color: #ffffff;
@@ -7006,22 +6530,21 @@ exports[`Steps demo -- steps-status 1`] = `
   color: #cccccc;
 }
 
+.emotion-54 .emotion-6 {
+  color: #cccccc;
+}
+
 .emotion-54 .emotion-6:after {
   content: '';
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-54 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-46 {
@@ -7036,8 +6559,8 @@ exports[`Steps demo -- steps-status 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -7059,8 +6582,77 @@ exports[`Steps demo -- steps-status 1`] = `
   color: #cccccc;
 }
 
-.emotion-68 .emotion-10 {
-  padding-right: 0px;
+.emotion-13 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-13:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-13:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-13 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-13 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-115 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-115 .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-115 .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-115 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-105 {
+  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
+  transition: fill 0.3s,width 0.3s,height 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 16px;
+  height: 16px;
+  -webkit-animation: animation-0 1.2s infinite linear;
+  animation: animation-0 1.2s infinite linear;
 }
 
 .emotion-190 {
@@ -7068,8 +6660,14 @@ exports[`Steps demo -- steps-status 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+.emotion-190 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
+.emotion-190 .emotion-8 {
 .emotion-190 .emotion-8 {
   color: #f44336;
 }
@@ -7083,17 +6681,12 @@ exports[`Steps demo -- steps-status 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.emotion-190 .emotion-10 {
-  padding-right: 0px;
 }
 
 .emotion-182 {
@@ -7197,8 +6790,189 @@ exports[`Steps demo -- steps-status 1`] = `
     <div
       class=" emotion-72 emotion-73"
       direction="horizontal"
+      class=" emotion-72 emotion-73"
+      direction="horizontal"
     >
       <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-40 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-32 emotion-4"
+          >
+            <span
+              class="emotion-30 emotion-31"
+            >
+              3
+            </span>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-46 emotion-4"
+          >
+            <span
+              class="emotion-30 emotion-31"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-68 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-46 emotion-4"
+          >
+            <span
+              class="emotion-30 emotion-31"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         class=" emotion-13 emotion-14"
         direction="horizontal"
       >
@@ -7387,8 +7161,192 @@ exports[`Steps demo -- steps-status 1`] = `
     <div
       class=" emotion-72 emotion-73"
       direction="horizontal"
+      class=" emotion-72 emotion-73"
+      direction="horizontal"
     >
       <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-115 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-32 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-105 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2a1 1 0 010 2.09A7.91 7.91 0 1019.91 12 1 1 0 0122 12 10 10 0 1112 2z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-46 emotion-4"
+          >
+            <span
+              class="emotion-30 emotion-31"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-68 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-46 emotion-4"
+          >
+            <span
+              class="emotion-30 emotion-31"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         class=" emotion-13 emotion-14"
         direction="horizontal"
       >
@@ -7580,8 +7538,192 @@ exports[`Steps demo -- steps-status 1`] = `
     <div
       class=" emotion-72 emotion-73"
       direction="horizontal"
+      class=" emotion-72 emotion-73"
+      direction="horizontal"
     >
       <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-190 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-182 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.07 4.93a1 1 0 010 1.41L13.41 12l5.66 5.66a1 1 0 11-1.41 1.41L12 13.41l-5.66 5.66a1 1 0 11-1.41-1.41L10.59 12 4.93 6.34a1 1 0 011.41-1.41L12 10.59l5.66-5.66a1 1 0 011.41 0z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-46 emotion-4"
+          >
+            <span
+              class="emotion-30 emotion-31"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-13 emotion-14"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-68 emotion-12"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-46 emotion-4"
+          >
+            <span
+              class="emotion-30 emotion-31"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-9 emotion-10"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            >
+              content
+            </span>
+            <span
+              class="emotion-7 emotion-8"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         class=" emotion-13 emotion-14"
         direction="horizontal"
       >
@@ -7773,6 +7915,10 @@ exports[`Steps demo -- steps-status 1`] = `
 exports[`Steps demo -- steps-steps 1`] = `
 .emotion-63 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -7787,253 +7933,6 @@ exports[`Steps demo -- steps-steps 1`] = `
 
 .emotion-63 .uc-fe-steps-item-tail {
   display: none;
-}
-
-.emotion-204 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-204 .emotion-201 {
-  color: #7a8baa;
-}
-
-.emotion-204 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-204 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #3860f4;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-204 .emotion-8 {
-  padding-right: 0px;
-}
-
-.emotion-3 {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  line-height: 30px;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 1px solid;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
-  background: #e3e9ff;
-  border-color: #3860f4;
-  color: #3860f4;
-  fill: #3860f4;
-}
-
-.emotion-1 {
-  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
-  transition: fill 0.3s,width 0.3s,height 0.3s;
-  display: inline-block;
-  vertical-align: middle;
-  fill: currentcolor;
-  width: 16px;
-  height: 16px;
-}
-
-.emotion-7 {
-  margin-left: 12px;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-5 {
-  font-size: 14px;
-  line-height: 32px;
-  display: inline-block;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  position: relative;
-}
-
-.emotion-200 {
-  display: block;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  white-space: normal;
-  max-width: calc(100% - 16px);
-}
-
-.emotion-233 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-233 .emotion-201 {
-  color: #0a1633;
-}
-
-.emotion-233 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-233 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-233 .emotion-8 {
-  padding-right: 0px;
-}
-
-.emotion-41 {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  line-height: 30px;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 1px solid;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
-  background: #3860f4;
-  border-color: #3860f4;
-  color: #ffffff;
-  fill: #ffffff;
-}
-
-.emotion-39 {
-  font-size: 16px;
-}
-
-.emotion-247 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-247 .emotion-201 {
-  color: #cccccc;
-}
-
-.emotion-247 .emotion-6 {
-  color: #cccccc;
-}
-
-.emotion-247 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-247 .emotion-8 {
-  padding-right: 0px;
-}
-
-.emotion-53 {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  line-height: 30px;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 1px solid;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
-  background: #f7f7f7;
-  border-color: #fafafc;
-  color: #cccccc;
-  fill: #cccccc;
-}
-
-.emotion-59 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-59 .emotion-201 {
-  color: #cccccc;
-}
-
-.emotion-59 .emotion-6 {
-  color: #cccccc;
-}
-
-.emotion-59 .emotion-8 {
-  padding-right: 0px;
-}
-
-.emotion-11 {
-  position: relative;
-  display: inline-block;
-  min-width: 72px;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  overflow: hidden;
-  vertical-align: top;
-  margin: 0 8px;
-  white-space: nowrap;
-}
-
-.emotion-11:last-child {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-}
-
-.emotion-11 .emotion-6 {
-  font-size: 14px;
-  min-height: 32px;
-}
-
-.emotion-11 .emotion-201 {
-  font-size: 12px;
-  line-height: 1.7;
 }
 
 .emotion-9 {
@@ -8056,7 +7955,6 @@ exports[`Steps demo -- steps-steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 0px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
@@ -8065,8 +7963,81 @@ exports[`Steps demo -- steps-steps 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-9 .emotion-8 {
-  padding-right: 64px;
+.emotion-3 {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #e3e9ff;
+  border-color: #3860f4;
+  color: #3860f4;
+  fill: #3860f4;
+  color: #3860f4;
+  fill: #3860f4;
+}
+
+.emotion-1 {
+  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
+  transition: fill 0.3s,width 0.3s,height 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 16px;
+  height: 16px;
+.emotion-1 {
+  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
+  transition: fill 0.3s,width 0.3s,height 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 16px;
+  height: 16px;
+}
+
+.emotion-7 {
+.emotion-7 {
+  margin-left: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-5 {
+.emotion-5 {
+  font-size: 14px;
+  line-height: 32px;
+  display: inline-block;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
+}
+
+.emotion-200 {
+  display: block;
+.emotion-200 {
+  display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  white-space: normal;
+  max-width: calc(100% - 16px);
+  white-space: normal;
+  max-width: calc(100% - 16px);
 }
 
 .emotion-47 {
@@ -8089,7 +8060,6 @@ exports[`Steps demo -- steps-steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 0px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -8098,8 +8068,29 @@ exports[`Steps demo -- steps-steps 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-47 .emotion-8 {
-  padding-right: 64px;
+.emotion-41 {
+.emotion-41 {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #3860f4;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.emotion-39 {
+  font-size: 16px;
 }
 
 .emotion-111 {
@@ -8122,7 +8113,6 @@ exports[`Steps demo -- steps-steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 0px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -8131,166 +8121,113 @@ exports[`Steps demo -- steps-steps 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-111 .emotion-8 {
-  padding-right: 64px;
-}
-
-.emotion-138 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-138 .emotion-201 {
-  color: #7a8baa;
-}
-
-.emotion-138 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-138 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #3860f4;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-138 .emotion-8 {
-  padding-right: 64px;
-}
-
-.emotion-163 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-163 .emotion-201 {
-  color: #0a1633;
-}
-
-.emotion-163 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-163 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-163 .emotion-8 {
-  padding-right: 64px;
-}
-
-.emotion-175 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-175 .emotion-201 {
-  color: #cccccc;
-}
-
-.emotion-175 .emotion-6 {
-  color: #cccccc;
-}
-
-.emotion-175 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-175 .emotion-8 {
-  padding-right: 64px;
-}
-
-.emotion-339 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: initial;
+.emotion-53 {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  line-height: 30px;
+  text-align: center;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  border-radius: 50%;
+  border: 1px solid;
   font-size: 0;
-  list-style: none;
-  position: relative;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #f7f7f7;
+  border-color: #fafafc;
+  color: #cccccc;
+  fill: #cccccc;
 }
 
-.emotion-339 .uc-fe-steps-item-tail {
-  display: none;
+.emotion-59 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.emotion-280 {
+.emotion-59 .emotion-201 {
+  color: #cccccc;
+}
+
+.emotion-59 .emotion-6 {
+  color: #cccccc;
+}
+
+.emotion-140 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin-left: 16px;
   white-space: nowrap;
+  padding-inline-start: 16px;
 }
 
-.emotion-280:first-of-type {
-  margin-left: 0;
+.emotion-140:first-child {
+  padding-inline-start: 0;
 }
 
-.emotion-280:last-child {
+.emotion-140:last-child {
   -webkit-flex: none;
   -ms-flex: none;
   flex: none;
 }
 
-.emotion-280 .emotion-6 {
+.emotion-140 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
-.emotion-280 .emotion-201 {
+.emotion-140 .emotion-201 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-11 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-11:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-11:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-11 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 0px;
+  min-height: 32px;
+}
+
+.emotion-11 .emotion-201 {
   font-size: 12px;
   line-height: 1.7;
 }
 
 .emotion-63 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -8305,253 +8242,6 @@ exports[`Steps demo -- steps-steps 1`] = `
 
 .emotion-63 .uc-fe-steps-item-tail {
   display: none;
-}
-
-.emotion-204 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-204 .emotion-201 {
-  color: #7a8baa;
-}
-
-.emotion-204 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-204 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #3860f4;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-204 .emotion-8 {
-  padding-right: 0px;
-}
-
-.emotion-3 {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  line-height: 30px;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 1px solid;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
-  background: #e3e9ff;
-  border-color: #3860f4;
-  color: #3860f4;
-  fill: #3860f4;
-}
-
-.emotion-1 {
-  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
-  transition: fill 0.3s,width 0.3s,height 0.3s;
-  display: inline-block;
-  vertical-align: middle;
-  fill: currentcolor;
-  width: 16px;
-  height: 16px;
-}
-
-.emotion-7 {
-  margin-left: 12px;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-5 {
-  font-size: 14px;
-  line-height: 32px;
-  display: inline-block;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  position: relative;
-}
-
-.emotion-200 {
-  display: block;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  white-space: normal;
-  max-width: calc(100% - 16px);
-}
-
-.emotion-233 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-233 .emotion-201 {
-  color: #0a1633;
-}
-
-.emotion-233 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-233 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-233 .emotion-8 {
-  padding-right: 0px;
-}
-
-.emotion-41 {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  line-height: 30px;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 1px solid;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
-  background: #3860f4;
-  border-color: #3860f4;
-  color: #ffffff;
-  fill: #ffffff;
-}
-
-.emotion-39 {
-  font-size: 16px;
-}
-
-.emotion-247 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-247 .emotion-201 {
-  color: #cccccc;
-}
-
-.emotion-247 .emotion-6 {
-  color: #cccccc;
-}
-
-.emotion-247 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-247 .emotion-8 {
-  padding-right: 0px;
-}
-
-.emotion-53 {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  line-height: 30px;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 1px solid;
-  font-size: 0;
-  display: inline-block;
-  vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
-  background: #f7f7f7;
-  border-color: #fafafc;
-  color: #cccccc;
-  fill: #cccccc;
-}
-
-.emotion-59 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-59 .emotion-201 {
-  color: #cccccc;
-}
-
-.emotion-59 .emotion-6 {
-  color: #cccccc;
-}
-
-.emotion-59 .emotion-8 {
-  padding-right: 0px;
-}
-
-.emotion-11 {
-  position: relative;
-  display: inline-block;
-  min-width: 72px;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  overflow: hidden;
-  vertical-align: top;
-  margin: 0 8px;
-  white-space: nowrap;
-}
-
-.emotion-11:last-child {
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-}
-
-.emotion-11 .emotion-6 {
-  font-size: 14px;
-  min-height: 32px;
-}
-
-.emotion-11 .emotion-201 {
-  font-size: 12px;
-  line-height: 1.7;
 }
 
 .emotion-9 {
@@ -8574,7 +8264,6 @@ exports[`Steps demo -- steps-steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 0px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
@@ -8583,8 +8272,81 @@ exports[`Steps demo -- steps-steps 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-9 .emotion-8 {
-  padding-right: 64px;
+.emotion-3 {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #e3e9ff;
+  border-color: #3860f4;
+  color: #3860f4;
+  fill: #3860f4;
+  color: #3860f4;
+  fill: #3860f4;
+}
+
+.emotion-1 {
+  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
+  transition: fill 0.3s,width 0.3s,height 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 16px;
+  height: 16px;
+.emotion-1 {
+  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
+  transition: fill 0.3s,width 0.3s,height 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentcolor;
+  width: 16px;
+  height: 16px;
+}
+
+.emotion-7 {
+.emotion-7 {
+  margin-left: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-5 {
+.emotion-5 {
+  font-size: 14px;
+  line-height: 32px;
+  display: inline-block;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
+}
+
+.emotion-200 {
+  display: block;
+.emotion-200 {
+  display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  white-space: normal;
+  max-width: calc(100% - 16px);
+  white-space: normal;
+  max-width: calc(100% - 16px);
 }
 
 .emotion-47 {
@@ -8607,7 +8369,6 @@ exports[`Steps demo -- steps-steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 0px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -8616,8 +8377,29 @@ exports[`Steps demo -- steps-steps 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-47 .emotion-8 {
-  padding-right: 64px;
+.emotion-41 {
+.emotion-41 {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #3860f4;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.emotion-39 {
+  font-size: 16px;
 }
 
 .emotion-111 {
@@ -8640,7 +8422,6 @@ exports[`Steps demo -- steps-steps 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 0px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -8649,160 +8430,103 @@ exports[`Steps demo -- steps-steps 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-111 .emotion-8 {
-  padding-right: 64px;
-}
-
-.emotion-138 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-138 .emotion-201 {
-  color: #7a8baa;
-}
-
-.emotion-138 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-138 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #3860f4;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-138 .emotion-8 {
-  padding-right: 64px;
-}
-
-.emotion-163 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-163 .emotion-201 {
-  color: #0a1633;
-}
-
-.emotion-163 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-163 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-163 .emotion-8 {
-  padding-right: 64px;
-}
-
-.emotion-175 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-175 .emotion-201 {
-  color: #cccccc;
-}
-
-.emotion-175 .emotion-6 {
-  color: #cccccc;
-}
-
-.emotion-175 .emotion-6:after {
-  content: '';
-  position: absolute;
-  width: 99999px;
-  height: 1px;
-  margin-left: 16px;
-  background-color: #c3cad9;
-  inset-inline-start: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-175 .emotion-8 {
-  padding-right: 64px;
-}
-
-.emotion-339 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: initial;
+.emotion-53 {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  line-height: 30px;
+  text-align: center;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  border-radius: 50%;
+  border: 1px solid;
   font-size: 0;
-  list-style: none;
-  position: relative;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #f7f7f7;
+  border-color: #fafafc;
+  color: #cccccc;
+  fill: #cccccc;
 }
 
-.emotion-339 .uc-fe-steps-item-tail {
-  display: none;
+.emotion-59 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.emotion-280 {
+.emotion-59 .emotion-201 {
+  color: #cccccc;
+}
+
+.emotion-59 .emotion-6 {
+  color: #cccccc;
+}
+
+.emotion-140 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
   vertical-align: top;
-  margin-left: 16px;
   white-space: nowrap;
+  padding-inline-start: 16px;
 }
 
-.emotion-280:first-of-type {
-  margin-left: 0;
+.emotion-140:first-child {
+  padding-inline-start: 0;
 }
 
-.emotion-280:last-child {
+.emotion-140:last-child {
   -webkit-flex: none;
   -ms-flex: none;
   flex: none;
 }
 
-.emotion-280 .emotion-6 {
+.emotion-140 .emotion-6 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 32px;
 }
 
-.emotion-280 .emotion-201 {
+.emotion-140 .emotion-201 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-11 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-11:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-11:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-11 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 0px;
+  min-height: 32px;
+}
+
+.emotion-11 .emotion-201 {
   font-size: 12px;
   line-height: 1.7;
 }
@@ -8814,10 +8538,14 @@ exports[`Steps demo -- steps-steps 1`] = `
     <div
       class=" emotion-63 emotion-64"
       direction="horizontal"
+      class=" emotion-63 emotion-64"
+      direction="horizontal"
     >
       <div
         class=" emotion-11 emotion-12"
         direction="horizontal"
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
       >
         <div
           class="uc-fe-steps-wrapper  emotion-9 emotion-10"
@@ -8877,7 +8605,67 @@ exports[`Steps demo -- steps-steps 1`] = `
           </span>
         </div>
       </div>
+        <div
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
       <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
         class=" emotion-11 emotion-12"
         direction="horizontal"
       >
@@ -8936,7 +8724,64 @@ exports[`Steps demo -- steps-steps 1`] = `
           </span>
         </div>
       </div>
+        <div
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
       <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-47 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-41 emotion-4"
+          >
+            <span
+              class="emotion-39 emotion-40"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
         class=" emotion-11 emotion-12"
         direction="horizontal"
       >
@@ -9035,7 +8880,104 @@ exports[`Steps demo -- steps-steps 1`] = `
           </span>
         </div>
       </div>
+        <div
+          class="uc-fe-steps-wrapper  emotion-59 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-53 emotion-4"
+          >
+            <span
+              class="emotion-39 emotion-40"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="demo-wrap"
+  >
+    <div
+      class=" emotion-63 emotion-64"
+      direction="horizontal"
+    >
       <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
         class=" emotion-11 emotion-12"
         direction="horizontal"
       >
@@ -9091,10 +9033,87 @@ exports[`Steps demo -- steps-steps 1`] = `
           </span>
         </div>
       </div>
+        <div
+          class="uc-fe-steps-wrapper  emotion-47 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-41 emotion-4"
+          >
+            <span
+              class="emotion-39 emotion-40"
+            >
+              三
+            </span>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
       <div
         class=" emotion-11 emotion-12"
         direction="horizontal"
       >
+        <div
+          class="uc-fe-steps-wrapper  emotion-111 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-53 emotion-4"
+          >
+            <span
+              class="emotion-39 emotion-40"
+            >
+              四
+            </span>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-59 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-53 emotion-4"
+          >
+            <span
+              class="emotion-39 emotion-40"
+            >
+              五
+            </span>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
         <div
           class="uc-fe-steps-wrapper  emotion-59 emotion-10"
         >
@@ -9127,13 +9146,15 @@ exports[`Steps demo -- steps-steps 1`] = `
     <div
       class=" emotion-63 emotion-64"
       direction="horizontal"
+      class=" emotion-63 emotion-64"
+      direction="horizontal"
     >
       <div
-        class=" emotion-11 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
-          class="uc-fe-steps-wrapper  emotion-138 emotion-10"
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
         >
           <div
             class="uc-fe-steps-item-tail"
@@ -9162,11 +9183,11 @@ exports[`Steps demo -- steps-steps 1`] = `
         </div>
       </div>
       <div
-        class=" emotion-11 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
-          class="uc-fe-steps-wrapper  emotion-138 emotion-10"
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
         >
           <div
             class="uc-fe-steps-item-tail"
@@ -9195,11 +9216,11 @@ exports[`Steps demo -- steps-steps 1`] = `
         </div>
       </div>
       <div
-        class=" emotion-11 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
-          class="uc-fe-steps-wrapper  emotion-163 emotion-10"
+          class="uc-fe-steps-wrapper  emotion-47 emotion-10"
         >
           <div
             class="uc-fe-steps-item-tail"
@@ -9225,11 +9246,11 @@ exports[`Steps demo -- steps-steps 1`] = `
         </div>
       </div>
       <div
-        class=" emotion-11 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
-          class="uc-fe-steps-wrapper  emotion-175 emotion-10"
+          class="uc-fe-steps-wrapper  emotion-111 emotion-10"
         >
           <div
             class="uc-fe-steps-item-tail"
@@ -9255,7 +9276,7 @@ exports[`Steps demo -- steps-steps 1`] = `
         </div>
       </div>
       <div
-        class=" emotion-11 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
@@ -9294,11 +9315,11 @@ exports[`Steps demo -- steps-steps 1`] = `
       direction="horizontal"
     >
       <div
-        class=" emotion-11 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
-          class="uc-fe-steps-wrapper  emotion-204 emotion-10"
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
         >
           <div
             class="uc-fe-steps-item-tail"
@@ -9332,11 +9353,11 @@ exports[`Steps demo -- steps-steps 1`] = `
         </div>
       </div>
       <div
-        class=" emotion-11 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
-          class="uc-fe-steps-wrapper  emotion-204 emotion-10"
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
         >
           <div
             class="uc-fe-steps-item-tail"
@@ -9370,11 +9391,11 @@ exports[`Steps demo -- steps-steps 1`] = `
         </div>
       </div>
       <div
-        class=" emotion-11 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
-          class="uc-fe-steps-wrapper  emotion-233 emotion-10"
+          class="uc-fe-steps-wrapper  emotion-47 emotion-10"
         >
           <div
             class="uc-fe-steps-item-tail"
@@ -9405,11 +9426,11 @@ exports[`Steps demo -- steps-steps 1`] = `
         </div>
       </div>
       <div
-        class=" emotion-11 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
-          class="uc-fe-steps-wrapper  emotion-247 emotion-10"
+          class="uc-fe-steps-wrapper  emotion-111 emotion-10"
         >
           <div
             class="uc-fe-steps-item-tail"
@@ -9440,197 +9461,7 @@ exports[`Steps demo -- steps-steps 1`] = `
         </div>
       </div>
       <div
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-59 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-53 emotion-4"
-          >
-            <span
-              class="emotion-39 emotion-40"
-            >
-              5
-            </span>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-200 emotion-201"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    class="demo-wrap"
-  >
-    <div
-      class=" emotion-339 emotion-64"
-      direction="horizontal"
-    >
-      <div
-        class=" emotion-280 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-204 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-200 emotion-201"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-280 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-204 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-200 emotion-201"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-280 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-233 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-41 emotion-4"
-          >
-            <span
-              class="emotion-39 emotion-40"
-            >
-              3
-            </span>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-200 emotion-201"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-280 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-247 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-53 emotion-4"
-          >
-            <span
-              class="emotion-39 emotion-40"
-            >
-              4
-            </span>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-200 emotion-201"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-280 emotion-12"
+        class=" emotion-140 emotion-12"
         direction="horizontal"
       >
         <div
@@ -9690,7 +9521,6 @@ exports[`Steps demo -- steps-vertical 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
@@ -9699,14 +9529,9 @@ exports[`Steps demo -- steps-vertical 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-83 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-75 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -9715,8 +9540,8 @@ exports[`Steps demo -- steps-vertical 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
@@ -9748,6 +9573,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
@@ -9779,7 +9605,6 @@ exports[`Steps demo -- steps-vertical 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -9788,14 +9613,9 @@ exports[`Steps demo -- steps-vertical 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-10 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-2 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -9804,8 +9624,8 @@ exports[`Steps demo -- steps-vertical 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #3860f4;
   border-color: #3860f4;
   color: #ffffff;
@@ -9836,7 +9656,6 @@ exports[`Steps demo -- steps-vertical 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -9845,14 +9664,9 @@ exports[`Steps demo -- steps-vertical 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-24 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-16 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -9861,8 +9675,8 @@ exports[`Steps demo -- steps-vertical 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -9884,12 +9698,12 @@ exports[`Steps demo -- steps-vertical 1`] = `
   color: #cccccc;
 }
 
-.emotion-66 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-70 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -9909,7 +9723,6 @@ exports[`Steps demo -- steps-vertical 1`] = `
 .emotion-12 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -9919,7 +9732,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -9954,31 +9767,13 @@ exports[`Steps demo -- steps-vertical 1`] = `
 
 .emotion-12 .emotion-5 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
 .emotion-12 .emotion-7 {
   font-size: 12px;
   line-height: 1.7;
-}
-
-.emotion-441 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-441 .emotion-7 {
-  color: #7a8baa;
-}
-
-.emotion-441 .emotion-5 {
-  color: #0a1633;
-}
-
-.emotion-441 .emotion-9 {
-  padding-right: 0px;
 }
 
 .emotion-364 {
@@ -9996,14 +9791,24 @@ exports[`Steps demo -- steps-vertical 1`] = `
   color: #0a1633;
 }
 
-.emotion-364 .emotion-9 {
-  padding-right: 0px;
+.emotion-441 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-441 .emotion-7 {
+  color: #7a8baa;
+}
+
+.emotion-441 .emotion-5 {
+  color: #0a1633;
 }
 
 .emotion-85 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -10013,7 +9818,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -10048,6 +9853,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
 
 .emotion-85 .emotion-5 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
@@ -10076,7 +9882,6 @@ exports[`Steps demo -- steps-vertical 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #3860f4;
   inset-inline-start: 100%;
   top: 50%;
@@ -10085,14 +9890,9 @@ exports[`Steps demo -- steps-vertical 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-83 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-75 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -10101,8 +9901,8 @@ exports[`Steps demo -- steps-vertical 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
@@ -10134,6 +9934,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
   position: relative;
 }
 
@@ -10165,7 +9966,6 @@ exports[`Steps demo -- steps-vertical 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -10174,14 +9974,9 @@ exports[`Steps demo -- steps-vertical 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-10 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-2 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -10190,8 +9985,8 @@ exports[`Steps demo -- steps-vertical 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #3860f4;
   border-color: #3860f4;
   color: #ffffff;
@@ -10222,7 +10017,6 @@ exports[`Steps demo -- steps-vertical 1`] = `
   position: absolute;
   width: 99999px;
   height: 1px;
-  margin-left: 16px;
   background-color: #c3cad9;
   inset-inline-start: 100%;
   top: 50%;
@@ -10231,14 +10025,9 @@ exports[`Steps demo -- steps-vertical 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-24 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-16 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -10247,8 +10036,8 @@ exports[`Steps demo -- steps-vertical 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -10270,12 +10059,12 @@ exports[`Steps demo -- steps-vertical 1`] = `
   color: #cccccc;
 }
 
-.emotion-66 .emotion-9 {
-  padding-right: 0px;
-}
-
 .emotion-70 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: initial;
   box-sizing: border-box;
   margin: 0;
@@ -10295,7 +10084,6 @@ exports[`Steps demo -- steps-vertical 1`] = `
 .emotion-12 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -10305,7 +10093,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -10340,31 +10128,13 @@ exports[`Steps demo -- steps-vertical 1`] = `
 
 .emotion-12 .emotion-5 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
 .emotion-12 .emotion-7 {
   font-size: 12px;
   line-height: 1.7;
-}
-
-.emotion-441 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-441 .emotion-7 {
-  color: #7a8baa;
-}
-
-.emotion-441 .emotion-5 {
-  color: #0a1633;
-}
-
-.emotion-441 .emotion-9 {
-  padding-right: 0px;
 }
 
 .emotion-364 {
@@ -10382,14 +10152,24 @@ exports[`Steps demo -- steps-vertical 1`] = `
   color: #0a1633;
 }
 
-.emotion-364 .emotion-9 {
-  padding-right: 0px;
+.emotion-441 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-441 .emotion-7 {
+  color: #7a8baa;
+}
+
+.emotion-441 .emotion-5 {
+  color: #0a1633;
 }
 
 .emotion-85 {
   position: relative;
   display: inline-block;
-  min-width: 72px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -10399,7 +10179,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  margin-left: 0;
+  padding-inline-start: 0;
   overflow: visible;
   position: relative;
   vertical-align: top;
@@ -10434,6 +10214,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
 
 .emotion-85 .emotion-5 {
   font-size: 14px;
+  padding-inline-end: 16px;
   min-height: 0px;
 }
 
@@ -10633,6 +10414,8 @@ exports[`Steps demo -- steps-vertical 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="vertical"
+      class=" emotion-70 emotion-71"
+      direction="vertical"
     >
       <div
         class=" emotion-85 emotion-13"
@@ -11128,7 +10911,128 @@ exports[`Steps demo -- steps-vertical 1`] = `
       <div
         class=" emotion-12 emotion-13"
         direction="vertical"
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-85 emotion-13"
+        direction="vertical"
       >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-10 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-2 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-66 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         <div
           class="uc-fe-steps-wrapper  emotion-10 emotion-11"
         >
@@ -11203,11 +11107,90 @@ exports[`Steps demo -- steps-vertical 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="vertical"
+      class=" emotion-70 emotion-71"
+      direction="vertical"
     >
       <div
         class=" emotion-85 emotion-13"
         direction="vertical"
+        class=" emotion-85 emotion-13"
+        direction="vertical"
       >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-85 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-85 emotion-13"
+        direction="vertical"
         <div
           class="uc-fe-steps-wrapper  emotion-83 emotion-11"
         >
@@ -11460,6 +11443,182 @@ exports[`Steps demo -- steps-vertical 1`] = `
               />
             </svg>
           </span>
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-85 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-364 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-2 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="demo-wrap"
+  >
+    <div
+      class=" emotion-70 emotion-71"
+      direction="vertical"
+    >
+      <div
+        class=" emotion-85 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-85 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
           <span
             class="emotion-8 emotion-9"
           >
@@ -11536,7 +11695,83 @@ exports[`Steps demo -- steps-vertical 1`] = `
               />
             </svg>
           </span>
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-85 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
           <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-85 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
             class="emotion-8 emotion-9"
           >
             <span
@@ -11574,7 +11809,56 @@ exports[`Steps demo -- steps-vertical 1`] = `
               />
             </svg>
           </span>
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-85 emotion-13"
+        direction="vertical"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-441 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
           <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
             class="emotion-8 emotion-9"
           >
             <span
