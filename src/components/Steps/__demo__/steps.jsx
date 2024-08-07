@@ -24,17 +24,16 @@ class Demo extends React.Component {
             hasTitle: true,
             hasRemark: true,
             direction: 'horizontal',
-            changeType: 'close',
-            nowrap: false
+            changeType: 'close'
         };
     }
     render() {
-        const { current, status, hasTitle, hasRemark, direction, changeType, nowrap } = this.state;
+        const { current, status, hasTitle, hasRemark, direction, changeType } = this.state;
 
         const steps = new Array(3).fill(null).map((v, i) => {
             const step = {};
             if (hasTitle) step.title = `第 ${i + 1} 步`;
-            if (hasRemark) step.remark = '这是一条备注';
+            if (hasRemark) step.remark = '这是一条备注这是一条备注这是一条备注';
 
             if (i === 3) step.disabled = true;
             return step;
@@ -76,9 +75,6 @@ class Demo extends React.Component {
                             onChange={changeType => this.setState({ changeType })}
                         />
                     </Form.Item>
-                    <Form.Item label="nowrap" {...itemLayout}>
-                        <Switch checked={nowrap} onChange={nowrap => this.setState({ nowrap })} />
-                    </Form.Item>
                 </Form>
 
                 <div className="demo-wrap">
@@ -87,7 +83,6 @@ class Demo extends React.Component {
                         current={current}
                         status={status}
                         direction={direction}
-                        nowrap={nowrap}
                         onChange={
                             changeType === 'close'
                                 ? null
