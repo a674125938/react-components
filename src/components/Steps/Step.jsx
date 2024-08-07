@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 import StepIcon from './StepIcon';
 import { StepWrapper, ContentWrapper, TitleWrapper, RemarkWrapper, stepWrapperCls, itemTailCls } from './style';
-import { StepWrapper, ContentWrapper, TitleWrapper, RemarkWrapper, stepWrapperCls, itemTailCls } from './style';
 
 export default class Step extends PureComponent {
     static propTypes = {
@@ -13,9 +12,13 @@ export default class Step extends PureComponent {
         title: PropTypes.node,
         isLast: PropTypes.bool,
         disabled: PropTypes.bool
+        title: PropTypes.node,
+        isLast: PropTypes.bool,
+        disabled: PropTypes.bool
     };
 
     render() {
+        const { status, step, remark, title, isLast, ...rest } = this.props;
         const { status, step, remark, title, isLast, ...rest } = this.props;
         return (
             <StepWrapper
@@ -25,12 +28,14 @@ export default class Step extends PureComponent {
                 className={`${stepWrapperCls} ${rest.className ? rest.className : ''}`}
             >
                 <div className={itemTailCls}></div>
+            <StepWrapper
+                status={status}
+                isLast={isLast}
+                {...rest}
+                className={`${stepWrapperCls} ${rest.className ? rest.className : ''}`}
+            >
+                <div className={itemTailCls}></div>
                 <StepIcon status={status} step={step || 0} />
-
-                <ContentWrapper>
-                    <TitleWrapper>{title}</TitleWrapper>
-                    {remark && <RemarkWrapper>{remark}</RemarkWrapper>}
-                </ContentWrapper>
 
                 <ContentWrapper>
                     <TitleWrapper>{title}</TitleWrapper>

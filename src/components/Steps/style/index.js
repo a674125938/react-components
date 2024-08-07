@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import config from 'src/config';
-import config from 'src/config';
 import SvgIcon from 'src/components/SvgIcon';
 import { spinMixin, inlineBlockWithVerticalMixin } from 'src/style';
 import withProps from 'src/utils/withProps';
@@ -11,7 +10,6 @@ export const prefixCls = _prefixCls + '-steps';
 export const stepWrapperCls = prefixCls + '-wrapper';
 export const iconCls = prefixCls + '-icon';
 export const itemTailCls = prefixCls + '-item-tail';
-
 
 export const Icon = withProps({ size: '16px' })(styled(SvgIcon)`
     /* empty */
@@ -27,7 +25,6 @@ const statusMixin = props => {
         case 'before':
             return css`
                 background: ${DT.T_INPUT_COLOR_BG_HL_DEFAULT};
-                background: ${DT.T_INPUT_COLOR_BG_HL_DEFAULT};
                 border-color: ${DT.T_COLOR_LINE_PRIMARY_DEFAULT};
                 color: ${DT.T_COLOR_TEXT_PRIMARY_DEFAULT};
                 fill: ${DT.T_COLOR_TEXT_PRIMARY_DEFAULT};
@@ -35,9 +32,6 @@ const statusMixin = props => {
         case 'after':
             return css`
                 background: ${DT.T_COLOR_BG_DISABLED_LIGHT};
-                border-color: ${DT.T_INPUT_COLOR_BG_DEFAULT};
-                color: ${DT.T_COLOR_BG_DISABLED_DARK};
-                fill: ${DT.T_COLOR_BG_DISABLED_DARK};
                 border-color: ${DT.T_INPUT_COLOR_BG_DEFAULT};
                 color: ${DT.T_COLOR_BG_DISABLED_DARK};
                 fill: ${DT.T_COLOR_BG_DISABLED_DARK};
@@ -77,6 +71,7 @@ export const IconWrapper = withProps()(
             display: inline-block;
             vertical-align: top;
             transition: background 0.3s, border 0.3s;
+            transition: background 0.3s, border 0.3s;
 
             ${statusMixin(props)};
             ${spin && spinMixin};
@@ -93,15 +88,15 @@ export const ContentWrapper = styled('span')`
 
     ${inlineBlockWithVerticalMixin};
     flex: 1;
-    flex: 1;
 `;
 
 export const TitleWrapper = styled('span')`
     font-size: 14px;
     line-height: 32px;
     display: inline-block;
-    display: inline-block;
     transition: all 0.3s;
+    padding-inline-end: 16px;
+    position: relative;
     padding-inline-end: 16px;
     position: relative;
 `;
@@ -109,11 +104,7 @@ export const TitleWrapper = styled('span')`
 export const RemarkWrapper = styled('span')`
     display: block;
 
-    display: block;
-
     transition: all 0.3s;
-    white-space: normal;
-    max-width: calc(100% - 16px);
     white-space: normal;
     max-width: calc(100% - 16px);
 `;
@@ -126,6 +117,7 @@ export const StepWrapper = withProps()(
             theme: { designTokens: DT }
         } = props;
 
+        
         const titleAfterCss = !isLast
             ? css`
                   &:after {
@@ -159,9 +151,11 @@ export const StepWrapper = withProps()(
             return css`
                 display: flex;
                 ${RemarkWrapper} {
-                display: flex;
-                ${RemarkWrapper} {
                     color: ${DT.T_COLOR_TEXT_ERROR};
+                }
+                ${TitleWrapper} {
+                    color: ${DT.T_COLOR_TEXT_ERROR};
+                    ${titleAfterCss}
                 }
                 ${TitleWrapper} {
                     color: ${DT.T_COLOR_TEXT_ERROR};
@@ -187,17 +181,18 @@ export const StepWrapper = withProps()(
                 display: flex;
                 ${RemarkWrapper} {
                     color: ${DT.T_COLOR_TEXT_REMARK_DARK};
-                    color: ${DT.T_COLOR_TEXT_REMARK_DARK};
                 }
                 ${TitleWrapper} {
                     color: ${DT.T_COLOR_TEXT_DEFAULT_DARK};
                     ${titleAfterCss}
-                    ${titleAfterCss}
                 }
-                ${contentWrapperCss}
             `;
         }
         return css`
+            display: flex;
+            ${TitleWrapper} {
+                ${titleAfterCss}
+            }
             display: flex;
             ${TitleWrapper} {
                 ${titleAfterCss}
@@ -237,16 +232,11 @@ export const StepsWrapper = withProps()(
     styled('div')(props => {
         const { direction, status } = props;
         return css`
-<<<<<<< HEAD
             ${nowrap
                 ? css`
                       display: flex;
                   `
                 : css``}
-=======
-            width: 100%;
-            display: flex;
->>>>>>> f5141d11 (feat(steps): steps new version)
             text-align: initial;
             box-sizing: border-box;
             margin: 0;
