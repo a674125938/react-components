@@ -25,11 +25,32 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-154 {
   margin-left: 12px;
+.emotion-216 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-216 .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-154 {
+  margin-left: 12px;
   display: inline-block;
   vertical-align: middle;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -58,13 +79,53 @@ exports[`Steps demo -- steps 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+.emotion-150 {
+  font-size: 14px;
+  line-height: 32px;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
 }
 
-.emotion-156 .emotion-153 {
+.emotion-152 {
+  display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  white-space: normal;
+  max-width: calc(100% - 16px);
+}
+
+.emotion-156 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .emotion-156 .emotion-153 {
   color: #0a1633;
 }
 
+.emotion-156 .emotion-151 {
+  color: #0a1633;
+}
+
+.emotion-156 .emotion-151:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-148 {
 .emotion-156 .emotion-151 {
   color: #0a1633;
 }
@@ -103,7 +164,6 @@ exports[`Steps demo -- steps 1`] = `
 }
 
 .emotion-146 {
-.emotion-146 {
   font-size: 16px;
 }
 
@@ -112,19 +172,8 @@ exports[`Steps demo -- steps 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-.emotion-170 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
-.emotion-170 .emotion-153 {
-  color: #cccccc;
-}
-
-.emotion-170 .emotion-151 {
-  color: #cccccc;
 .emotion-170 .emotion-153 {
   color: #cccccc;
 }
@@ -147,7 +196,6 @@ exports[`Steps demo -- steps 1`] = `
 }
 
 .emotion-162 {
-.emotion-162 {
   width: 32px;
   height: 32px;
   min-width: 32px;
@@ -163,11 +211,54 @@ exports[`Steps demo -- steps 1`] = `
   transition: background 0.3s,border 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
-  border-color: #fafafc;
   color: #cccccc;
   fill: #cccccc;
 }
 
+.emotion-212 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-212 .emotion-153 {
+  color: #cccccc;
+}
+
+.emotion-212 .emotion-151 {
+  color: #cccccc;
+}
+
+.emotion-158 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-158:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-158:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-158 .emotion-151 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-158 .emotion-153 {
 .emotion-212 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -218,19 +309,12 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-144 {
   font-size: 12px;
-  line-height: 1.7;
 }
 
-.emotion-144 {
-  font-size: 12px;
-}
-
-.emotion-144 .uc-fe-form-item {
 .emotion-144 .uc-fe-form-item {
   margin-bottom: 16px;
 }
 
-.emotion-144 .uc-fe-form-item:last-child {
 .emotion-144 .uc-fe-form-item:last-child {
   margin-bottom: 0;
 }
@@ -607,8 +691,35 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-154 {
   margin-left: 12px;
+.emotion-216 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-216 .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-154 {
+  margin-left: 12px;
   display: inline-block;
   vertical-align: middle;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -637,12 +748,54 @@ exports[`Steps demo -- steps 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+.emotion-150 {
+  font-size: 14px;
+  line-height: 32px;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
 }
 
+.emotion-152 {
+  display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  white-space: normal;
+  max-width: calc(100% - 16px);
+}
+
+.emotion-156 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-156 .emotion-153 {
 .emotion-156 .emotion-153 {
   color: #0a1633;
 }
 
+.emotion-156 .emotion-151 {
+  color: #0a1633;
+}
+
+.emotion-156 .emotion-151:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-148 {
 .emotion-156 .emotion-151 {
   color: #0a1633;
 }
@@ -681,7 +834,6 @@ exports[`Steps demo -- steps 1`] = `
 }
 
 .emotion-146 {
-.emotion-146 {
   font-size: 16px;
 }
 
@@ -690,19 +842,8 @@ exports[`Steps demo -- steps 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-.emotion-170 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
-.emotion-170 .emotion-153 {
-  color: #cccccc;
-}
-
-.emotion-170 .emotion-151 {
-  color: #cccccc;
 .emotion-170 .emotion-153 {
   color: #cccccc;
 }
@@ -725,7 +866,6 @@ exports[`Steps demo -- steps 1`] = `
 }
 
 .emotion-162 {
-.emotion-162 {
   width: 32px;
   height: 32px;
   min-width: 32px;
@@ -741,11 +881,54 @@ exports[`Steps demo -- steps 1`] = `
   transition: background 0.3s,border 0.3s;
   background: #f7f7f7;
   border-color: #fafafc;
-  border-color: #fafafc;
   color: #cccccc;
   fill: #cccccc;
 }
 
+.emotion-212 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-212 .emotion-153 {
+  color: #cccccc;
+}
+
+.emotion-212 .emotion-151 {
+  color: #cccccc;
+}
+
+.emotion-158 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-158:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-158:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-158 .emotion-151 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-158 .emotion-153 {
 .emotion-212 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -796,19 +979,12 @@ exports[`Steps demo -- steps 1`] = `
 
 .emotion-144 {
   font-size: 12px;
-  line-height: 1.7;
 }
 
-.emotion-144 {
-  font-size: 12px;
-}
-
-.emotion-144 .uc-fe-form-item {
 .emotion-144 .uc-fe-form-item {
   margin-bottom: 16px;
 }
 
-.emotion-144 .uc-fe-form-item:last-child {
 .emotion-144 .uc-fe-form-item:last-child {
   margin-bottom: 0;
 }
@@ -1276,7 +1452,6 @@ exports[`Steps demo -- steps 1`] = `
 <div>
   <form
     class="uc-fe-form demo-form emotion-144 emotion-90"
-    class="uc-fe-form demo-form emotion-144 emotion-90"
   >
     <div
       class="uc-fe-row uc-fe-form-item emotion-8 emotion-9 emotion-10 emotion-11"
@@ -1620,7 +1795,186 @@ exports[`Steps demo -- steps 1`] = `
       >
         direction
       </div>
+    <div
+      class="uc-fe-row uc-fe-form-item emotion-8 emotion-9 emotion-10 emotion-11"
+    >
       <div
+        class="uc-fe-col uc-fe-form-label emotion-0 emotion-1 emotion-2"
+        span="3"
+      >
+        direction
+      </div>
+      <div
+        class="uc-fe-col uc-fe-form-controller emotion-5 emotion-6 emotion-2"
+        span="9"
+      >
+        <div
+          class="emotion-45 emotion-46"
+        >
+          <span
+            checked=""
+            class="uc-fe-radio uc-fe-radio-checked uc-fe-radio-size-md uc-fe-radio-styletype-default emotion-31 emotion-32"
+          >
+            <span
+              checked=""
+              class="uc-fe-radio-icon-wrap emotion-29 emotion-30"
+            >
+              <svg
+                class="uc-fe-radio-icon emotion-27 emotion-28"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="6"
+                />
+              </svg>
+            </span>
+            <span
+              class="uc-fe-radio-content"
+            >
+              horizontal
+            </span>
+          </span>
+          <span
+            class="uc-fe-radio uc-fe-radio-size-md uc-fe-radio-styletype-default emotion-37 emotion-32"
+          >
+            <span
+              class="uc-fe-radio-icon-wrap emotion-35 emotion-30"
+            >
+              <svg
+                class="uc-fe-radio-icon emotion-27 emotion-28"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="6"
+                />
+              </svg>
+            </span>
+            <span
+              class="uc-fe-radio-content"
+            >
+              vertical
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="uc-fe-row uc-fe-form-item emotion-8 emotion-9 emotion-10 emotion-11"
+    >
+      <div
+        class="uc-fe-col uc-fe-form-label emotion-0 emotion-1 emotion-2"
+        span="3"
+      >
+        onChange
+      </div>
+      <div
+        class="uc-fe-col uc-fe-form-controller emotion-5 emotion-6 emotion-2"
+        span="9"
+      >
+        <div
+          class="emotion-45 emotion-46"
+        >
+          <span
+            class="uc-fe-radio uc-fe-radio-size-md uc-fe-radio-styletype-default emotion-37 emotion-32"
+          >
+            <span
+              class="uc-fe-radio-icon-wrap emotion-35 emotion-30"
+            >
+              <svg
+                class="uc-fe-radio-icon emotion-27 emotion-28"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="6"
+                />
+              </svg>
+            </span>
+            <span
+              class="uc-fe-radio-content"
+            >
+              open
+            </span>
+          </span>
+          <span
+            checked=""
+            class="uc-fe-radio uc-fe-radio-checked uc-fe-radio-size-md uc-fe-radio-styletype-default emotion-31 emotion-32"
+          >
+            <span
+              checked=""
+              class="uc-fe-radio-icon-wrap emotion-29 emotion-30"
+            >
+              <svg
+                class="uc-fe-radio-icon emotion-27 emotion-28"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="6"
+                />
+              </svg>
+            </span>
+            <span
+              class="uc-fe-radio-content"
+            >
+              close
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div
+    class="demo-wrap"
+  >
+    <div
+      class=" emotion-216 emotion-217"
+      direction="horizontal"
+    >
+      <div
+        class=" emotion-158 emotion-159"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-156 emotion-157"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-148 emotion-149"
+          >
+            <span
+              class="emotion-146 emotion-147"
+            >
+              1
+            </span>
+          </span>
+          <span
+            class="emotion-154 emotion-155"
+          >
+            <span
+              class="emotion-150 emotion-151"
+            >
+              第 1 步
+            </span>
+            <span
+              class="emotion-152 emotion-153"
+            >
+              这是一条备注这是一条备注这是一条备注
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-158 emotion-159"
+        direction="horizontal"
         class="uc-fe-col uc-fe-form-controller emotion-5 emotion-6 emotion-2"
         span="9"
       >
@@ -1927,12 +2281,172 @@ exports[`Steps demo -- steps 1`] = `
             </span>
           </span>
         </div>
+        <div
+          class="uc-fe-steps-wrapper  emotion-170 emotion-157"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-162 emotion-149"
+          >
+            <span
+              class="emotion-146 emotion-147"
+            >
+              2
+            </span>
+          </span>
+          <span
+            class="emotion-154 emotion-155"
+          >
+            <span
+              class="emotion-150 emotion-151"
+            >
+              第 2 步
+            </span>
+            <span
+              class="emotion-152 emotion-153"
+            >
+              这是一条备注这是一条备注这是一条备注
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-158 emotion-159"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-170 emotion-157"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-162 emotion-149"
+          >
+            <span
+              class="emotion-146 emotion-147"
+            >
+              3
+            </span>
+          </span>
+          <span
+            class="emotion-154 emotion-155"
+          >
+            <span
+              class="emotion-150 emotion-151"
+            >
+              第 3 步
+            </span>
+            <span
+              class="emotion-152 emotion-153"
+            >
+              这是一条备注这是一条备注这是一条备注
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-158 emotion-159"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-170 emotion-157"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-162 emotion-149"
+          >
+            <span
+              class="emotion-146 emotion-147"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-154 emotion-155"
+          >
+            <span
+              class="emotion-150 emotion-151"
+            >
+              第 4 步
+            </span>
+            <span
+              class="emotion-152 emotion-153"
+            >
+              这是一条备注这是一条备注这是一条备注
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-158 emotion-159"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-212 emotion-157"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-162 emotion-149"
+          >
+            <span
+              class="emotion-146 emotion-147"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-154 emotion-155"
+          >
+            <span
+              class="emotion-150 emotion-151"
+            >
+              第 5 步
+            </span>
+            <span
+              class="emotion-152 emotion-153"
+            >
+              这是一条备注这是一条备注这是一条备注
+            </span>
+          </span>
+        </div>
       </div>
     </div>
   </div>
 </div>
 `;
 
+exports[`Steps demo -- steps-change 1`] = `
+.emotion-72 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-72 .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-13 {
+  position: relative;
 exports[`Steps demo -- steps-change 1`] = `
 .emotion-72 {
   width: 100%;
@@ -1967,8 +2481,35 @@ exports[`Steps demo -- steps-change 1`] = `
   white-space: nowrap;
   padding-inline-start: 16px;
   cursor: pointer;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+  cursor: pointer;
 }
 
+.emotion-13:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-13:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-13 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-13 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
 .emotion-13:first-child {
   padding-inline-start: 0;
 }
@@ -1991,10 +2532,52 @@ exports[`Steps demo -- steps-change 1`] = `
 }
 
 .emotion-13 .uc-fe-steps-wrapper .emotion-6 {
-.emotion-13 .uc-fe-steps-wrapper .emotion-6 {
   color: #0a1633;
 }
 
+.emotion-13 .uc-fe-steps-wrapper .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-13:hover .emotion-8,
+.emotion-13:hover .emotion-6 {
+  color: #3860f4;
+  border-color: #3860f4;
+}
+
+.emotion-13:hover .uc-fe-steps-icon {
+  border-color: #3860f4;
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-11 .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-11 .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-11 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #3860f4;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-3 {
 .emotion-13 .uc-fe-steps-wrapper .emotion-8 {
   color: #7a8baa;
 }
@@ -2052,11 +2635,10 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #e3e9ff;
+  background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
   fill: #3860f4;
-  color: #3860f4;
-  fill: #3860f4;
 }
 
 .emotion-1 {
@@ -2067,17 +2649,8 @@ exports[`Steps demo -- steps-change 1`] = `
   fill: currentcolor;
   width: 16px;
   height: 16px;
-.emotion-1 {
-  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
-  transition: fill 0.3s,width 0.3s,height 0.3s;
-  display: inline-block;
-  vertical-align: middle;
-  fill: currentcolor;
-  width: 16px;
-  height: 16px;
 }
 
-.emotion-9 {
 .emotion-9 {
   margin-left: 12px;
   display: inline-block;
@@ -2085,15 +2658,19 @@ exports[`Steps demo -- steps-change 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
 .emotion-5 {
-.emotion-5 {
   font-size: 14px;
   line-height: 32px;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
+}
+
+.emotion-7 {
   display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -2148,14 +2725,67 @@ exports[`Steps demo -- steps-change 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
+  white-space: normal;
+  max-width: calc(100% - 16px);
+}
+
+.emotion-40 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-40 .emotion-8 {
+  color: #0a1633;
+}
+
+.emotion-40 .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-40 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-32 {
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #3860f4;
   border-color: #3860f4;
   color: #ffffff;
   fill: #ffffff;
+  background: #3860f4;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
 }
 
+.emotion-30 {
+  font-size: 16px;
+}
+
+.emotion-56 {
+  position: relative;
 .emotion-30 {
   font-size: 16px;
 }
@@ -2250,7 +2880,99 @@ exports[`Steps demo -- steps-change 1`] = `
   width: 32px;
   height: 32px;
   line-height: 30px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+  cursor: pointer;
+}
+
+.emotion-56:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-56:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-56 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-56 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-56 .uc-fe-steps-wrapper .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-56 .uc-fe-steps-wrapper .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-56 .uc-fe-steps-wrapper .uc-fe-steps-icon {
+  border-color: #d2d6ea;
+  color: #0a1633;
+  fill: #0a1633;
+}
+
+.emotion-56:hover .emotion-8,
+.emotion-56:hover .emotion-6 {
+  color: #3860f4;
+  border-color: #3860f4;
+}
+
+.emotion-56:hover .uc-fe-steps-icon {
+  border-color: #3860f4;
+}
+
+.emotion-54 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-54 .emotion-8 {
+  color: #cccccc;
+}
+
+.emotion-54 .emotion-6 {
+  color: #cccccc;
+}
+
+.emotion-54 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-46 {
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
   text-align: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 0;
+  display: inline-block;
   box-sizing: border-box;
   border-radius: 50%;
   border: 1px solid;
@@ -2259,6 +2981,111 @@ exports[`Steps demo -- steps-change 1`] = `
   vertical-align: top;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  background: #f7f7f7;
+  border-color: #fafafc;
+  color: #cccccc;
+  fill: #cccccc;
+}
+
+.emotion-68 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-68 .emotion-8 {
+  color: #cccccc;
+}
+
+.emotion-68 .emotion-6 {
+  color: #cccccc;
+}
+
+.emotion-146 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-146 .uc-fe-steps-wrapper .emotion-6:after {
+  display: none;
+}
+
+.emotion-87 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-inline-start: 0;
+  overflow: visible;
+  position: relative;
+  vertical-align: top;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.emotion-87:last-child {
+  margin-bottom: 0px;
+}
+
+.emotion-87:last-child .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-87 .uc-fe-steps-item-tail {
+  display: block;
+  position: absolute;
+  top: 0;
+  wdith: 1px;
+  height: calc(100% - 20px);
+  padding: 36px 0 0 0;
+  inset-inline-start: 15px;
+}
+
+.emotion-87 .uc-fe-steps-item-tail:after {
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #3860f4;
+}
+
+.emotion-87 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 0px;
+}
+
+.emotion-87 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-87 .uc-fe-steps-wrapper .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-87 .uc-fe-steps-wrapper .emotion-8 {
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -2611,7 +3438,350 @@ exports[`Steps demo -- steps-change 1`] = `
   display: none;
 }
 
+.emotion-87:hover .emotion-8,
+.emotion-87:hover .emotion-6 {
+  color: #3860f4;
+  border-color: #3860f4;
+}
+
+.emotion-87:hover .uc-fe-steps-icon {
+  border-color: #3860f4;
+}
+
+.emotion-116 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-inline-start: 0;
+  overflow: visible;
+  position: relative;
+  vertical-align: top;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.emotion-116:last-child {
+  margin-bottom: 0px;
+}
+
+.emotion-116:last-child .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-116 .uc-fe-steps-item-tail {
+  display: block;
+  position: absolute;
+  top: 0;
+  wdith: 1px;
+  height: calc(100% - 20px);
+  padding: 36px 0 0 0;
+  inset-inline-start: 15px;
+}
+
+.emotion-116 .uc-fe-steps-item-tail:after {
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #c3cad9;
+}
+
+.emotion-116 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 0px;
+}
+
+.emotion-116 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-116 .uc-fe-steps-wrapper .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-116 .uc-fe-steps-wrapper .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-116:hover .emotion-8,
+.emotion-116:hover .emotion-6 {
+  color: #3860f4;
+  border-color: #3860f4;
+}
+
+.emotion-116:hover .uc-fe-steps-icon {
+  border-color: #3860f4;
+}
+
+.emotion-130 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-inline-start: 0;
+  overflow: visible;
+  position: relative;
+  vertical-align: top;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.emotion-130:last-child {
+  margin-bottom: 0px;
+}
+
+.emotion-130:last-child .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-130 .uc-fe-steps-item-tail {
+  display: block;
+  position: absolute;
+  top: 0;
+  wdith: 1px;
+  height: calc(100% - 20px);
+  padding: 36px 0 0 0;
+  inset-inline-start: 15px;
+}
+
+.emotion-130 .uc-fe-steps-item-tail:after {
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #c3cad9;
+}
+
+.emotion-130 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 0px;
+}
+
+.emotion-130 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-130 .uc-fe-steps-wrapper .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-130 .uc-fe-steps-wrapper .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-130 .uc-fe-steps-wrapper .uc-fe-steps-icon {
+  border-color: #d2d6ea;
+  color: #0a1633;
+  fill: #0a1633;
+}
+
+.emotion-130:hover .emotion-8,
+.emotion-130:hover .emotion-6 {
+  color: #3860f4;
+  border-color: #3860f4;
+}
+
+.emotion-130:hover .uc-fe-steps-icon {
+  border-color: #3860f4;
+}
+
+.emotion-204 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-inline-start: 0;
+  overflow: visible;
+  position: relative;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.emotion-204:last-child {
+  margin-bottom: 0px;
+}
+
+.emotion-204:last-child .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-204 .uc-fe-steps-item-tail {
+  display: block;
+  position: absolute;
+  top: 0;
+  wdith: 1px;
+  height: calc(100% - 20px);
+  padding: 36px 0 0 0;
+  inset-inline-start: 15px;
+}
+
+.emotion-204 .uc-fe-steps-item-tail:after {
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #c3cad9;
+}
+
+.emotion-204 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 0px;
+}
+
+.emotion-204 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-72 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-72 .uc-fe-steps-item-tail {
+  display: none;
+}
+
 .emotion-13 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+  cursor: pointer;
+}
+
+.emotion-13:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-13:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-13 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-13 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-13 .uc-fe-steps-wrapper .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-13 .uc-fe-steps-wrapper .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-13:hover .emotion-8,
+.emotion-13:hover .emotion-6 {
+  color: #3860f4;
+  border-color: #3860f4;
+}
+
+.emotion-13:hover .uc-fe-steps-icon {
+  border-color: #3860f4;
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-11 .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-11 .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-11 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #3860f4;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-3 {
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #e3e9ff;
+  border-color: #3860f4;
+  color: #3860f4;
+  fill: #3860f4;
+}
+
+.emotion-1 {
   position: relative;
   display: inline-block;
   -webkit-flex: 1;
@@ -2722,13 +3892,65 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-9 {
   margin-left: 12px;
+.emotion-9 {
+  margin-left: 12px;
   display: inline-block;
   vertical-align: middle;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
+.emotion-5 {
+  font-size: 14px;
+  line-height: 32px;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
+}
+
+.emotion-7 {
+  display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  white-space: normal;
+  max-width: calc(100% - 16px);
+}
+
+.emotion-40 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-40 .emotion-8 {
+  color: #0a1633;
+}
+
+.emotion-40 .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-40 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-32 {
 .emotion-5 {
   font-size: 14px;
   line-height: 32px;
@@ -2865,6 +4087,82 @@ exports[`Steps demo -- steps-change 1`] = `
 }
 
 .emotion-54 .emotion-8 {
+  background: #3860f4;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.emotion-30 {
+  font-size: 16px;
+}
+
+.emotion-56 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+  cursor: pointer;
+}
+
+.emotion-56:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-56:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-56 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-56 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-56 .uc-fe-steps-wrapper .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-56 .uc-fe-steps-wrapper .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-56 .uc-fe-steps-wrapper .uc-fe-steps-icon {
+  border-color: #d2d6ea;
+  color: #0a1633;
+  fill: #0a1633;
+}
+
+.emotion-56:hover .emotion-8,
+.emotion-56:hover .emotion-6 {
+  color: #3860f4;
+  border-color: #3860f4;
+}
+
+.emotion-56:hover .uc-fe-steps-icon {
+  border-color: #3860f4;
+}
+
+.emotion-54 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-54 .emotion-8 {
   color: #cccccc;
 }
 
@@ -2872,10 +4170,20 @@ exports[`Steps demo -- steps-change 1`] = `
   color: #cccccc;
 }
 
-.emotion-54 .emotion-6 {
-  color: #cccccc;
+.emotion-54 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
+.emotion-46 {
 .emotion-54 .emotion-6:after {
   content: '';
   position: absolute;
@@ -2903,6 +4211,117 @@ exports[`Steps demo -- steps-change 1`] = `
   vertical-align: top;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  background: #f7f7f7;
+  border-color: #fafafc;
+  color: #cccccc;
+  fill: #cccccc;
+}
+
+.emotion-68 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-68 .emotion-8 {
+  color: #cccccc;
+}
+
+.emotion-68 .emotion-6 {
+  color: #cccccc;
+}
+
+.emotion-146 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-146 .uc-fe-steps-wrapper .emotion-6:after {
+  display: none;
+}
+
+.emotion-87 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-inline-start: 0;
+  overflow: visible;
+  position: relative;
+  vertical-align: top;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.emotion-87:last-child {
+  margin-bottom: 0px;
+}
+
+.emotion-87:last-child .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-87 .uc-fe-steps-item-tail {
+  display: block;
+  position: absolute;
+  top: 0;
+  wdith: 1px;
+  height: calc(100% - 20px);
+  padding: 36px 0 0 0;
+  inset-inline-start: 15px;
+}
+
+.emotion-87 .uc-fe-steps-item-tail:after {
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #3860f4;
+}
+
+.emotion-87 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 0px;
+}
+
+.emotion-87 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-87 .uc-fe-steps-wrapper .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-87 .uc-fe-steps-wrapper .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-87:hover .emotion-8,
+.emotion-87:hover .emotion-6 {
+  color: #3860f4;
   background: #f7f7f7;
   border-color: #fafafc;
   color: #cccccc;
@@ -3088,21 +4507,87 @@ exports[`Steps demo -- steps-change 1`] = `
 
 .emotion-116:hover .emotion-8,
 .emotion-116:hover .emotion-6 {
+}
+
+.emotion-87:hover .uc-fe-steps-icon {
+  border-color: #3860f4;
+}
+
+.emotion-116 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  display: block;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-inline-start: 0;
+  overflow: visible;
+  position: relative;
+  vertical-align: top;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.emotion-116:last-child {
+  margin-bottom: 0px;
+}
+
+.emotion-116:last-child .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-116 .uc-fe-steps-item-tail {
+  display: block;
+  position: absolute;
+  top: 0;
+  wdith: 1px;
+  height: calc(100% - 20px);
+  padding: 36px 0 0 0;
+  inset-inline-start: 15px;
+}
+
+.emotion-116 .uc-fe-steps-item-tail:after {
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #c3cad9;
+}
+
+.emotion-116 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 0px;
+}
+
+.emotion-116 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-116 .uc-fe-steps-wrapper .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-116 .uc-fe-steps-wrapper .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-116:hover .emotion-8,
+.emotion-116:hover .emotion-6 {
   color: #3860f4;
   border-color: #3860f4;
 }
 
 .emotion-116:hover .uc-fe-steps-icon {
   border-color: #3860f4;
-  border-color: #3860f4;
 }
 
-.emotion-116:hover .uc-fe-steps-icon {
-  border-color: #3860f4;
-}
-
-.emotion-130 {
-  position: relative;
 .emotion-130 {
   position: relative;
   display: inline-block;
@@ -3932,64 +5417,7 @@ exports[`Steps demo -- steps-current 1`] = `
   color: #0a1633;
 }
 
-.emotion-279 {
-  position: relative;
-  display: inline-block;
-  min-width: 72px;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  overflow: hidden;
-  vertical-align: top;
-  display: block;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  margin-left: 0;
-  overflow: visible;
-  position: relative;
-  vertical-align: top;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.emotion-279:last-child {
-  margin-bottom: 0px;
-}
-
-.emotion-279:last-child .uc-fe-steps-item-tail {
-  display: none;
-}
-
-.emotion-279 .uc-fe-steps-item-tail {
-  display: block;
-  position: absolute;
-  top: 0;
-  wdith: 1px;
-  height: calc(100% - 20px);
-  padding: 36px 0 0 0;
-  inset-inline-start: 15px;
-}
-
-.emotion-279 .uc-fe-steps-item-tail:after {
-  display: inline-block;
-  content: "";
-  width: 1px;
-  height: 100%;
-  background-color: #c3cad9;
-}
-
-.emotion-279 .emotion-6 {
-  font-size: 14px;
-  min-height: 0px;
-}
-
-.emotion-279 .emotion-8 {
-  font-size: 12px;
-  line-height: 1.7;
-}
-
-.emotion-279 .uc-fe-steps-wrapper .emotion-6 {
+.emotion-10 .emotion-5 {
   color: #0a1633;
 }
 
@@ -4009,7 +5437,6 @@ exports[`Steps demo -- steps-current 1`] = `
 .emotion-2 {
   width: 32px;
   height: 32px;
-  min-width: 32px;
   line-height: 30px;
   text-align: center;
   box-sizing: border-box;
@@ -4018,50 +5445,16 @@ exports[`Steps demo -- steps-current 1`] = `
   font-size: 0;
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: background 0.3s,border 0.3s;
-  transition: background 0.3s,border 0.3s;
-  background: #fff0f0;
-  border-color: #f44336;
-  color: #f44336;
-  fill: #f44336;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: #e3e9ff;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
 }
 
-.emotion-292 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-292 .emotion-8 {
-  color: #f44336;
-}
-
-.emotion-292 .emotion-6 {
-  color: #f44336;
-}
-
-.emotion-292 .emotion-10 {
-  padding-right: 0px;
-}
-
-.emotion-367 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-367 .emotion-8 {
-  color: #7a8baa;
-}
-
-.emotion-367 .emotion-6 {
-  color: #0a1633;
-}
-
-.emotion-367 .emotion-10 {
-  padding-right: 0px;
+.emotion-0 {
+  font-size: 16px;
 }
 
 .emotion-24 {
@@ -4249,11 +5642,6 @@ exports[`Steps demo -- steps-current 1`] = `
   border: 1px solid;
   font-size: 0;
   display: inline-block;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border: 1px solid;
-  font-size: 0;
-  display: inline-block;
   vertical-align: top;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -4275,16 +5663,62 @@ exports[`Steps demo -- steps-current 1`] = `
 
 .emotion-8 {
   margin-left: 12px;
+.emotion-8 {
+  margin-left: 12px;
   display: inline-block;
   vertical-align: middle;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
+.emotion-4 {
+  font-size: 14px;
+  line-height: 32px;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
+}
+
+.emotion-6 {
+  display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  white-space: normal;
+  max-width: calc(100% - 16px);
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-10 .emotion-7 {
+  color: #0a1633;
+}
+
+.emotion-10 .emotion-5 {
+  color: #0a1633;
+}
+
+.emotion-10 .emotion-5:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-2 {
 .emotion-4 {
   font-size: 14px;
   line-height: 32px;
@@ -4363,6 +5797,24 @@ exports[`Steps demo -- steps-current 1`] = `
 }
 
 .emotion-24 .emotion-7 {
+  background: #3860f4;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.emotion-0 {
+  font-size: 16px;
+}
+
+.emotion-24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-24 .emotion-7 {
   color: #cccccc;
 }
 
@@ -4370,6 +5822,24 @@ exports[`Steps demo -- steps-current 1`] = `
   color: #cccccc;
 }
 
+.emotion-24 .emotion-5 {
+  color: #cccccc;
+}
+
+.emotion-24 .emotion-5:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-16 {
 .emotion-24 .emotion-5:after {
   content: '';
   position: absolute;
@@ -4416,8 +5886,29 @@ exports[`Steps demo -- steps-current 1`] = `
 
 .emotion-66 .emotion-5 {
   color: #cccccc;
+  background: #f7f7f7;
+  border-color: #fafafc;
+  color: #cccccc;
+  fill: #cccccc;
 }
 
+.emotion-66 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-66 .emotion-7 {
+  color: #cccccc;
+}
+
+.emotion-66 .emotion-5 {
+  color: #cccccc;
+}
+
+.emotion-12 {
+  position: relative;
 .emotion-12 {
   position: relative;
   display: inline-block;
@@ -4425,7 +5916,64 @@ exports[`Steps demo -- steps-current 1`] = `
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
   vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-12:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-12:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-12 .emotion-5 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-12 .emotion-7 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-364 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-364 .emotion-7 {
+  color: #0a1633;
+}
+
+.emotion-364 .emotion-5 {
+  color: #0a1633;
+}
+
+.emotion-441 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-441 .emotion-7 {
+  color: #7a8baa;
+}
+
+.emotion-441 .emotion-5 {
+  color: #0a1633;
   white-space: nowrap;
   padding-inline-start: 16px;
 }
@@ -4488,8 +6036,183 @@ exports[`Steps demo -- steps-current 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="horizontal"
+      class=" emotion-70 emotion-71"
+      direction="horizontal"
     >
       <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-10 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-2 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              1
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-24 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              2
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-24 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              3
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-24 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-66 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         class=" emotion-12 emotion-13"
         direction="horizontal"
       >
@@ -4672,8 +6395,186 @@ exports[`Steps demo -- steps-current 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="horizontal"
+      class=" emotion-70 emotion-71"
+      direction="horizontal"
     >
       <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-10 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-2 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              2
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-24 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              3
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-24 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-66 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         class=" emotion-12 emotion-13"
         direction="horizontal"
       >
@@ -4859,8 +6760,189 @@ exports[`Steps demo -- steps-current 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="horizontal"
+      class=" emotion-70 emotion-71"
+      direction="horizontal"
     >
       <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-10 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-2 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              3
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-24 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-66 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         class=" emotion-12 emotion-13"
         direction="horizontal"
       >
@@ -5049,10 +7131,190 @@ exports[`Steps demo -- steps-current 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="horizontal"
-      class=" emotion-70 emotion-71"
-      direction="horizontal"
     >
       <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-10 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-2 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-66 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-16 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         class=" emotion-12 emotion-13"
         direction="horizontal"
       >
@@ -5244,10 +7506,193 @@ exports[`Steps demo -- steps-current 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="horizontal"
-      class=" emotion-70 emotion-71"
-      direction="horizontal"
     >
       <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-75 emotion-3"
+          >
+            <svg
+              class=" emotion-72 emotion-73 emotion-74"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-12 emotion-13"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-364 emotion-11"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-2 emotion-3"
+          >
+            <span
+              class="emotion-0 emotion-1"
+            >
+              5
+            </span>
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            <span
+              class="emotion-4 emotion-5"
+            >
+              content
+            </span>
+            <span
+              class="emotion-6 emotion-7"
+            >
+              This is remark
+            </span>
+          </span>
+        </div>
         class=" emotion-12 emotion-13"
         direction="horizontal"
       >
@@ -5442,198 +7887,8 @@ exports[`Steps demo -- steps-current 1`] = `
     <div
       class=" emotion-70 emotion-71"
       direction="horizontal"
-      class=" emotion-70 emotion-71"
-      direction="horizontal"
     >
       <div
-        class=" emotion-12 emotion-13"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-12 emotion-13"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-12 emotion-13"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-12 emotion-13"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-12 emotion-13"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-441 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
         class=" emotion-12 emotion-13"
         direction="horizontal"
       >
@@ -5865,11 +8120,29 @@ exports[`Steps demo -- steps-status 1`] = `
   display: none;
 }
 
-.emotion-11 {
+.emotion-72 {
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-72 .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5878,13 +8151,26 @@ exports[`Steps demo -- steps-status 1`] = `
 
 .emotion-11 .emotion-8 {
   color: #7a8baa;
-  color: #7a8baa;
 }
 
 .emotion-11 .emotion-6 {
   color: #0a1633;
 }
 
+.emotion-11 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #3860f4;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-3 {
 .emotion-11 .emotion-6:after {
   content: '';
   position: absolute;
@@ -5913,21 +8199,12 @@ exports[`Steps demo -- steps-status 1`] = `
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #e3e9ff;
+  background: #e3e9ff;
   border-color: #3860f4;
-  color: #3860f4;
-  fill: #3860f4;
   color: #3860f4;
   fill: #3860f4;
 }
 
-.emotion-1 {
-  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
-  transition: fill 0.3s,width 0.3s,height 0.3s;
-  display: inline-block;
-  vertical-align: middle;
-  fill: currentcolor;
-  width: 16px;
-  height: 16px;
 .emotion-1 {
   -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
   transition: fill 0.3s,width 0.3s,height 0.3s;
@@ -5945,46 +8222,28 @@ exports[`Steps demo -- steps-status 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
 .emotion-5 {
   font-size: 14px;
   line-height: 32px;
   display: inline-block;
-  display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
   padding-inline-end: 16px;
   position: relative;
 }
 
 .emotion-7 {
   display: block;
-  display: block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   white-space: normal;
   max-width: calc(100% - 16px);
-  white-space: normal;
-  max-width: calc(100% - 16px);
 }
 
-.emotion-40 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-40 .emotion-8 {
-  color: #0a1633;
-}
-
-.emotion-40 .emotion-6 {
-  color: #0a1633;
 .emotion-40 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6013,7 +8272,6 @@ exports[`Steps demo -- steps-status 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-32 {
 .emotion-32 {
   width: 32px;
   height: 32px;
@@ -6046,6 +8304,24 @@ exports[`Steps demo -- steps-status 1`] = `
 }
 
 .emotion-54 .emotion-8 {
+  background: #3860f4;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.emotion-30 {
+  font-size: 16px;
+}
+
+.emotion-54 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-54 .emotion-8 {
   color: #cccccc;
 }
 
@@ -6053,10 +8329,20 @@ exports[`Steps demo -- steps-status 1`] = `
   color: #cccccc;
 }
 
-.emotion-54 .emotion-6 {
-  color: #cccccc;
+.emotion-54 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
+.emotion-46 {
 .emotion-54 .emotion-6:after {
   content: '';
   position: absolute;
@@ -6103,11 +8389,36 @@ exports[`Steps demo -- steps-status 1`] = `
 
 .emotion-68 .emotion-6 {
   color: #cccccc;
+  background: #f7f7f7;
+  border-color: #fafafc;
+  color: #cccccc;
+  fill: #cccccc;
+}
+
+.emotion-68 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-68 .emotion-8 {
+  color: #cccccc;
+}
+
+.emotion-68 .emotion-6 {
+  color: #cccccc;
 }
 
 .emotion-13 {
   position: relative;
+.emotion-13 {
+  position: relative;
   display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -6164,8 +8475,60 @@ exports[`Steps demo -- steps-status 1`] = `
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  white-space: nowrap;
+  padding-inline-start: 16px;
 }
 
+.emotion-13:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-13:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-13 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-13 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-115 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-115 .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-115 .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-115 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-105 {
 .emotion-105 {
   -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
   transition: fill 0.3s,width 0.3s,height 0.3s;
@@ -6183,18 +8546,30 @@ exports[`Steps demo -- steps-status 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-.emotion-190 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
-.emotion-190 .emotion-8 {
 .emotion-190 .emotion-8 {
   color: #f44336;
 }
 
+.emotion-190 .emotion-6 {
+  color: #f44336;
+}
+
+.emotion-190 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-182 {
 .emotion-190 .emotion-6 {
   color: #f44336;
 }
@@ -6342,11 +8717,29 @@ exports[`Steps demo -- steps-status 1`] = `
   display: none;
 }
 
-.emotion-11 {
+.emotion-72 {
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-72 .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6355,13 +8748,26 @@ exports[`Steps demo -- steps-status 1`] = `
 
 .emotion-11 .emotion-8 {
   color: #7a8baa;
-  color: #7a8baa;
 }
 
 .emotion-11 .emotion-6 {
   color: #0a1633;
 }
 
+.emotion-11 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #3860f4;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-3 {
 .emotion-11 .emotion-6:after {
   content: '';
   position: absolute;
@@ -6390,21 +8796,12 @@ exports[`Steps demo -- steps-status 1`] = `
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #e3e9ff;
+  background: #e3e9ff;
   border-color: #3860f4;
-  color: #3860f4;
-  fill: #3860f4;
   color: #3860f4;
   fill: #3860f4;
 }
 
-.emotion-1 {
-  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
-  transition: fill 0.3s,width 0.3s,height 0.3s;
-  display: inline-block;
-  vertical-align: middle;
-  fill: currentcolor;
-  width: 16px;
-  height: 16px;
 .emotion-1 {
   -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
   transition: fill 0.3s,width 0.3s,height 0.3s;
@@ -6422,46 +8819,28 @@ exports[`Steps demo -- steps-status 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
 .emotion-5 {
   font-size: 14px;
   line-height: 32px;
   display: inline-block;
-  display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
   padding-inline-end: 16px;
   position: relative;
 }
 
 .emotion-7 {
   display: block;
-  display: block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   white-space: normal;
   max-width: calc(100% - 16px);
-  white-space: normal;
-  max-width: calc(100% - 16px);
 }
 
-.emotion-40 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-40 .emotion-8 {
-  color: #0a1633;
-}
-
-.emotion-40 .emotion-6 {
-  color: #0a1633;
 .emotion-40 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6490,7 +8869,6 @@ exports[`Steps demo -- steps-status 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-32 {
 .emotion-32 {
   width: 32px;
   height: 32px;
@@ -6523,6 +8901,24 @@ exports[`Steps demo -- steps-status 1`] = `
 }
 
 .emotion-54 .emotion-8 {
+  background: #3860f4;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.emotion-30 {
+  font-size: 16px;
+}
+
+.emotion-54 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-54 .emotion-8 {
   color: #cccccc;
 }
 
@@ -6530,10 +8926,20 @@ exports[`Steps demo -- steps-status 1`] = `
   color: #cccccc;
 }
 
-.emotion-54 .emotion-6 {
-  color: #cccccc;
+.emotion-54 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
+.emotion-46 {
 .emotion-54 .emotion-6:after {
   content: '';
   position: absolute;
@@ -6580,11 +8986,36 @@ exports[`Steps demo -- steps-status 1`] = `
 
 .emotion-68 .emotion-6 {
   color: #cccccc;
+  background: #f7f7f7;
+  border-color: #fafafc;
+  color: #cccccc;
+  fill: #cccccc;
+}
+
+.emotion-68 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-68 .emotion-8 {
+  color: #cccccc;
+}
+
+.emotion-68 .emotion-6 {
+  color: #cccccc;
 }
 
 .emotion-13 {
   position: relative;
+.emotion-13 {
+  position: relative;
   display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -6641,8 +9072,60 @@ exports[`Steps demo -- steps-status 1`] = `
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  white-space: nowrap;
+  padding-inline-start: 16px;
 }
 
+.emotion-13:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-13:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-13 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-13 .emotion-8 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-115 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-115 .emotion-8 {
+  color: #7a8baa;
+}
+
+.emotion-115 .emotion-6 {
+  color: #0a1633;
+}
+
+.emotion-115 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-105 {
 .emotion-105 {
   -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
   transition: fill 0.3s,width 0.3s,height 0.3s;
@@ -6660,18 +9143,30 @@ exports[`Steps demo -- steps-status 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-.emotion-190 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
-.emotion-190 .emotion-8 {
 .emotion-190 .emotion-8 {
   color: #f44336;
 }
 
+.emotion-190 .emotion-6 {
+  color: #f44336;
+}
+
+.emotion-190 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-182 {
 .emotion-190 .emotion-6 {
   color: #f44336;
 }
@@ -6790,189 +9285,8 @@ exports[`Steps demo -- steps-status 1`] = `
     <div
       class=" emotion-72 emotion-73"
       direction="horizontal"
-      class=" emotion-72 emotion-73"
-      direction="horizontal"
     >
       <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-40 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-32 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              3
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              4
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-68 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              5
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
         class=" emotion-13 emotion-14"
         direction="horizontal"
       >
@@ -7161,192 +9475,8 @@ exports[`Steps demo -- steps-status 1`] = `
     <div
       class=" emotion-72 emotion-73"
       direction="horizontal"
-      class=" emotion-72 emotion-73"
-      direction="horizontal"
     >
       <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-115 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-32 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-105 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12 2a1 1 0 010 2.09A7.91 7.91 0 1019.91 12 1 1 0 0122 12 10 10 0 1112 2z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              4
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-68 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              5
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
         class=" emotion-13 emotion-14"
         direction="horizontal"
       >
@@ -7538,192 +9668,8 @@ exports[`Steps demo -- steps-status 1`] = `
     <div
       class=" emotion-72 emotion-73"
       direction="horizontal"
-      class=" emotion-72 emotion-73"
-      direction="horizontal"
     >
       <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-11 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-190 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-182 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.07 4.93a1 1 0 010 1.41L13.41 12l5.66 5.66a1 1 0 11-1.41 1.41L12 13.41l-5.66 5.66a1 1 0 11-1.41-1.41L10.59 12 4.93 6.34a1 1 0 011.41-1.41L12 10.59l5.66-5.66a1 1 0 011.41 0z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-54 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              4
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-13 emotion-14"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-68 emotion-12"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-46 emotion-4"
-          >
-            <span
-              class="emotion-30 emotion-31"
-            >
-              5
-            </span>
-          </span>
-          <span
-            class="emotion-9 emotion-10"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            >
-              content
-            </span>
-            <span
-              class="emotion-7 emotion-8"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
         class=" emotion-13 emotion-14"
         direction="horizontal"
       >
@@ -7940,16 +9886,60 @@ exports[`Steps demo -- steps-steps 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+.emotion-63 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
+.emotion-63 .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-9 .emotion-201 {
+  color: #7a8baa;
 .emotion-9 .emotion-201 {
   color: #7a8baa;
 }
 
 .emotion-9 .emotion-6 {
+.emotion-9 .emotion-6 {
   color: #0a1633;
 }
 
+.emotion-9 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #3860f4;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-3 {
 .emotion-9 .emotion-6:after {
   content: '';
   position: absolute;
@@ -7978,11 +9968,10 @@ exports[`Steps demo -- steps-steps 1`] = `
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #e3e9ff;
+  background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
   fill: #3860f4;
-  color: #3860f4;
-  fill: #3860f4;
 }
 
 .emotion-1 {
@@ -7993,17 +9982,8 @@ exports[`Steps demo -- steps-steps 1`] = `
   fill: currentcolor;
   width: 16px;
   height: 16px;
-.emotion-1 {
-  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
-  transition: fill 0.3s,width 0.3s,height 0.3s;
-  display: inline-block;
-  vertical-align: middle;
-  fill: currentcolor;
-  width: 16px;
-  height: 16px;
 }
 
-.emotion-7 {
 .emotion-7 {
   margin-left: 12px;
   display: inline-block;
@@ -8011,31 +9991,24 @@ exports[`Steps demo -- steps-steps 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
-.emotion-5 {
 .emotion-5 {
   font-size: 14px;
   line-height: 32px;
   display: inline-block;
-  display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
   padding-inline-end: 16px;
   position: relative;
 }
 
 .emotion-200 {
   display: block;
-.emotion-200 {
-  display: block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  white-space: normal;
-  max-width: calc(100% - 16px);
   white-space: normal;
   max-width: calc(100% - 16px);
 }
@@ -8066,9 +10039,19 @@ exports[`Steps demo -- steps-steps 1`] = `
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+.emotion-47 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.emotion-41 {
 .emotion-41 {
   width: 32px;
   height: 32px;
@@ -8101,6 +10084,24 @@ exports[`Steps demo -- steps-steps 1`] = `
 }
 
 .emotion-111 .emotion-201 {
+  background: #3860f4;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.emotion-39 {
+  font-size: 16px;
+}
+
+.emotion-111 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-111 .emotion-201 {
   color: #cccccc;
 }
 
@@ -8108,6 +10109,24 @@ exports[`Steps demo -- steps-steps 1`] = `
   color: #cccccc;
 }
 
+.emotion-111 .emotion-6 {
+  color: #cccccc;
+}
+
+.emotion-111 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-53 {
 .emotion-111 .emotion-6:after {
   content: '';
   position: absolute;
@@ -8154,11 +10173,36 @@ exports[`Steps demo -- steps-steps 1`] = `
 
 .emotion-59 .emotion-6 {
   color: #cccccc;
+  background: #f7f7f7;
+  border-color: #fafafc;
+  color: #cccccc;
+  fill: #cccccc;
+}
+
+.emotion-59 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-59 .emotion-201 {
+  color: #cccccc;
+}
+
+.emotion-59 .emotion-6 {
+  color: #cccccc;
 }
 
 .emotion-140 {
   position: relative;
+.emotion-140 {
+  position: relative;
   display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -8187,11 +10231,47 @@ exports[`Steps demo -- steps-steps 1`] = `
 .emotion-140 .emotion-201 {
   font-size: 12px;
   line-height: 1.7;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-140:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-140:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-140 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-140 .emotion-201 {
+  font-size: 12px;
+  line-height: 1.7;
 }
 
 .emotion-11 {
   position: relative;
+.emotion-11 {
+  position: relative;
   display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-11:first-child {
+  padding-inline-start: 0;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -8253,12 +10333,75 @@ exports[`Steps demo -- steps-steps 1`] = `
 
 .emotion-9 .emotion-201 {
   color: #7a8baa;
+.emotion-11:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
 }
 
+.emotion-11 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 0px;
+  min-height: 32px;
+}
+
+.emotion-11 .emotion-201 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-63 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: initial;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: relative;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-63 .uc-fe-steps-item-tail {
+  display: none;
+}
+
+.emotion-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-9 .emotion-201 {
+  color: #7a8baa;
+}
+
+.emotion-9 .emotion-6 {
 .emotion-9 .emotion-6 {
   color: #0a1633;
 }
 
+.emotion-9 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #3860f4;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-3 {
 .emotion-9 .emotion-6:after {
   content: '';
   position: absolute;
@@ -8287,11 +10430,10 @@ exports[`Steps demo -- steps-steps 1`] = `
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #e3e9ff;
+  background: #e3e9ff;
   border-color: #3860f4;
   color: #3860f4;
   fill: #3860f4;
-  color: #3860f4;
-  fill: #3860f4;
 }
 
 .emotion-1 {
@@ -8302,17 +10444,8 @@ exports[`Steps demo -- steps-steps 1`] = `
   fill: currentcolor;
   width: 16px;
   height: 16px;
-.emotion-1 {
-  -webkit-transition: fill 0.3s,width 0.3s,height 0.3s;
-  transition: fill 0.3s,width 0.3s,height 0.3s;
-  display: inline-block;
-  vertical-align: middle;
-  fill: currentcolor;
-  width: 16px;
-  height: 16px;
 }
 
-.emotion-7 {
 .emotion-7 {
   margin-left: 12px;
   display: inline-block;
@@ -8320,31 +10453,24 @@ exports[`Steps demo -- steps-steps 1`] = `
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
-.emotion-5 {
 .emotion-5 {
   font-size: 14px;
   line-height: 32px;
   display: inline-block;
-  display: inline-block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  padding-inline-end: 16px;
+  position: relative;
   padding-inline-end: 16px;
   position: relative;
 }
 
 .emotion-200 {
   display: block;
-.emotion-200 {
-  display: block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  white-space: normal;
-  max-width: calc(100% - 16px);
   white-space: normal;
   max-width: calc(100% - 16px);
 }
@@ -8375,9 +10501,19 @@ exports[`Steps demo -- steps-steps 1`] = `
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+.emotion-47 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.emotion-41 {
 .emotion-41 {
   width: 32px;
   height: 32px;
@@ -8410,6 +10546,24 @@ exports[`Steps demo -- steps-steps 1`] = `
 }
 
 .emotion-111 .emotion-201 {
+  background: #3860f4;
+  border-color: #3860f4;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.emotion-39 {
+  font-size: 16px;
+}
+
+.emotion-111 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-111 .emotion-201 {
   color: #cccccc;
 }
 
@@ -8417,6 +10571,24 @@ exports[`Steps demo -- steps-steps 1`] = `
   color: #cccccc;
 }
 
+.emotion-111 .emotion-6 {
+  color: #cccccc;
+}
+
+.emotion-111 .emotion-6:after {
+  content: '';
+  position: absolute;
+  width: 99999px;
+  height: 1px;
+  background-color: #c3cad9;
+  inset-inline-start: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-53 {
 .emotion-111 .emotion-6:after {
   content: '';
   position: absolute;
@@ -8463,8 +10635,29 @@ exports[`Steps demo -- steps-steps 1`] = `
 
 .emotion-59 .emotion-6 {
   color: #cccccc;
+  background: #f7f7f7;
+  border-color: #fafafc;
+  color: #cccccc;
+  fill: #cccccc;
 }
 
+.emotion-59 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-59 .emotion-201 {
+  color: #cccccc;
+}
+
+.emotion-59 .emotion-6 {
+  color: #cccccc;
+}
+
+.emotion-140 {
+  position: relative;
 .emotion-140 {
   position: relative;
   display: inline-block;
@@ -8472,7 +10665,67 @@ exports[`Steps demo -- steps-steps 1`] = `
   -ms-flex: 1;
   flex: 1;
   overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
   vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-140:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-140:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-140 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 16px;
+  min-height: 32px;
+}
+
+.emotion-140 .emotion-201 {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.emotion-11 {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  padding-inline-start: 16px;
+}
+
+.emotion-11:first-child {
+  padding-inline-start: 0;
+}
+
+.emotion-11:last-child {
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+.emotion-11 .emotion-6 {
+  font-size: 14px;
+  padding-inline-end: 0px;
+  min-height: 32px;
+}
+
+.emotion-11 .emotion-201 {
+  font-size: 12px;
+  line-height: 1.7;
   white-space: nowrap;
   padding-inline-start: 16px;
 }
@@ -8538,285 +10791,6 @@ exports[`Steps demo -- steps-steps 1`] = `
     <div
       class=" emotion-63 emotion-64"
       direction="horizontal"
-      class=" emotion-63 emotion-64"
-      direction="horizontal"
-    >
-      <div
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-        <div
-          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-47 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-41 emotion-4"
-          >
-            <span
-              class="emotion-39 emotion-40"
-            >
-              4
-            </span>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-        <div
-          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-3 emotion-4"
-          >
-            <svg
-              class=" emotion-0 emotion-1 emotion-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-47 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-41 emotion-4"
-          >
-            <span
-              class="emotion-39 emotion-40"
-            >
-              4
-            </span>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-59 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-53 emotion-4"
-          >
-            <span
-              class="emotion-39 emotion-40"
-            >
-              5
-            </span>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    class="demo-wrap"
-  >
-    <div
-      class=" emotion-63 emotion-64"
-      direction="horizontal"
     >
       <div
         class=" emotion-11 emotion-12"
@@ -8880,6 +10854,69 @@ exports[`Steps demo -- steps-steps 1`] = `
           </span>
         </div>
       </div>
+      <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-9 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-3 emotion-4"
+          >
+            <svg
+              class=" emotion-0 emotion-1 emotion-2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
+              />
+            </svg>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
+      >
+        <div
+          class="uc-fe-steps-wrapper  emotion-47 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-41 emotion-4"
+          >
+            <span
+              class="emotion-39 emotion-40"
+            >
+              4
+            </span>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
+          >
+            <span
+              class="emotion-5 emotion-6"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        class=" emotion-11 emotion-12"
+        direction="horizontal"
+      >
         <div
           class="uc-fe-steps-wrapper  emotion-59 emotion-10"
         >
@@ -9033,87 +11070,12 @@ exports[`Steps demo -- steps-steps 1`] = `
           </span>
         </div>
       </div>
-        <div
-          class="uc-fe-steps-wrapper  emotion-47 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-41 emotion-4"
-          >
-            <span
-              class="emotion-39 emotion-40"
-            >
-              三
-            </span>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-11 emotion-12"
-        direction="horizontal"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-111 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-53 emotion-4"
-          >
-            <span
-              class="emotion-39 emotion-40"
-            >
-              四
-            </span>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
-      </div>
       <div
         class=" emotion-11 emotion-12"
         direction="horizontal"
         class=" emotion-11 emotion-12"
         direction="horizontal"
       >
-        <div
-          class="uc-fe-steps-wrapper  emotion-59 emotion-10"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-53 emotion-4"
-          >
-            <span
-              class="emotion-39 emotion-40"
-            >
-              五
-            </span>
-          </span>
-          <span
-            class="emotion-7 emotion-8"
-          >
-            <span
-              class="emotion-5 emotion-6"
-            />
-          </span>
-        </div>
         <div
           class="uc-fe-steps-wrapper  emotion-59 emotion-10"
         >
@@ -9394,6 +11356,23 @@ exports[`Steps demo -- steps-steps 1`] = `
         class=" emotion-140 emotion-12"
         direction="horizontal"
       >
+        <div
+          class="uc-fe-steps-wrapper  emotion-47 emotion-10"
+        >
+          <div
+            class="uc-fe-steps-item-tail"
+          />
+          <span
+            class="uc-fe-steps-icon  emotion-41 emotion-4"
+          >
+            <span
+              class="emotion-39 emotion-40"
+            >
+              3
+            </span>
+          </span>
+          <span
+            class="emotion-7 emotion-8"
         <div
           class="uc-fe-steps-wrapper  emotion-47 emotion-10"
         >
@@ -10911,128 +12890,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
       <div
         class=" emotion-12 emotion-13"
         direction="vertical"
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-85 emotion-13"
-        direction="vertical"
       >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-12 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-10 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-2 emotion-3"
-          >
-            <span
-              class="emotion-0 emotion-1"
-            >
-              4
-            </span>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-12 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-66 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-16 emotion-3"
-          >
-            <span
-              class="emotion-0 emotion-1"
-            >
-              5
-            </span>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
         <div
           class="uc-fe-steps-wrapper  emotion-10 emotion-11"
         >
@@ -11116,81 +12974,6 @@ exports[`Steps demo -- steps-vertical 1`] = `
         class=" emotion-85 emotion-13"
         direction="vertical"
       >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-85 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-85 emotion-13"
-        direction="vertical"
         <div
           class="uc-fe-steps-wrapper  emotion-83 emotion-11"
         >
@@ -11443,258 +13226,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
               />
             </svg>
           </span>
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
           <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-85 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-12 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-364 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-2 emotion-3"
-          >
-            <span
-              class="emotion-0 emotion-1"
-            >
-              5
-            </span>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    class="demo-wrap"
-  >
-    <div
-      class=" emotion-70 emotion-71"
-      direction="vertical"
-    >
-      <div
-        class=" emotion-85 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-85 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-85 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-85 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-83 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
-          <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
             class="emotion-8 emotion-9"
           >
             <span
@@ -11809,56 +13341,7 @@ exports[`Steps demo -- steps-vertical 1`] = `
               />
             </svg>
           </span>
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
-      </div>
-      <div
-        class=" emotion-85 emotion-13"
-        direction="vertical"
-      >
-        <div
-          class="uc-fe-steps-wrapper  emotion-441 emotion-11"
-        >
-          <div
-            class="uc-fe-steps-item-tail"
-          />
           <span
-            class="uc-fe-steps-icon  emotion-75 emotion-3"
-          >
-            <svg
-              class=" emotion-72 emotion-73 emotion-74"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19.23 5.52a1 1 0 011.62 1.16l-.08.11-9.93 12.07a1 1 0 01-1.33.19l-.1-.05-6.07-5.38A1 1 0 014.56 12l.1.08L10 16.79z"
-              />
-            </svg>
-          </span>
-          <span
-            class="emotion-8 emotion-9"
-          >
-            <span
-              class="emotion-4 emotion-5"
-            >
-              content
-            </span>
-            <span
-              class="emotion-6 emotion-7"
-            >
-              This is remark
-            </span>
-          </span>
-        </div>
             class="emotion-8 emotion-9"
           >
             <span
