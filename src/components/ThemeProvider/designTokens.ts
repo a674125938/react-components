@@ -4,14 +4,51 @@
 export default {
     // 按钮加载遮罩
     T_BUTTON_COMMON_COLOR_MASK: '#ffffff',
+    // 按钮/备用/背景色/默认
+    T_BUTTON_OTHER_COLOR_BG_DEFAULT: '#fafafc',
+    // 按钮/备用/背景色/hover
+    T_BUTTON_OTHER_COLOR_BG_HOVER: '#ffffff',
+    // 按钮/备用/边框/默认
+    T_BUTTON_OTHER_COLOR_BORDER_DEFAULT: '#d2d6ea',
+    // 按钮/备用/边框/hover
+    T_BUTTON_OTHER_COLOR_BORDER_HOVER: '#3357df',
+    // 按钮/备用/投影/默认
+    T_BUTTON_OTHER_COLOR_SHADOW_DEFAULT: '0 0 0 0 rgba(0,0,0,0.12),inset 0 0 0 0 #e3e9ff',
+    // 按钮/备用/投影/hover
+    T_BUTTON_OTHER_COLOR_SHADOW_HOVER: '0 0 0 0 rgba(0,0,0,0.12),inset 0 0 0 0 #e3e9ff',
     // 按钮/主/背景色
     T_BUTTON_PRIMARY_COLOR_BG_DEFAULT: 'linear-gradient(135deg, #6488fc 0%,#3860f4 100%)',
     // 按钮/主/背景色/hover
     T_BUTTON_PRIMARY_COLOR_BG_HOVER: 'linear-gradient(135deg, #5c76e8 0%,#3357df 100%)',
+    // 按钮/投影/默认
+    T_BUTTON_PRIMARY_COLOR_SHADOW_DEFAULT:
+        '0 2px 4px -1px #5c76e8, inset 0 -3px 0 0 rgba(0,0,0,0.12), inset 0 1px 0 0 rgba(0,0,0,0.12)',
+    // 按钮/投影/hover
+    T_BUTTON_PRIMARY_COLOR_SHADOW_HOVER:
+        '0 5px 8px -4px #5c76e8, inset 0 -3px 0 0 rgba(0,0,0,0.12), inset 0 1px 0 0 rgba(0,0,0,0.12)',
     // 按钮/主/文本色
     T_BUTTON_PRIMARY_COLOR_TEXT_DEFAULT: '#ffffff',
-    // 按钮/次/背景色
+    // 按钮/次/背景色/默认
     T_BUTTON_SECONDARY_COLOR_BG_DEFAULT: '#ffffff',
+    // 按钮/次/背景色/hover
+    T_BUTTON_SECONDARY_COLOR_BG_HOVER: '#ffffff',
+    // 按钮/次/边框/默认
+    T_BUTTON_SECONDARY_COLOR_BORDER_DEFAULT: '#c3cad9',
+    // 按钮/次/边框/hover
+    T_BUTTON_SECONDARY_COLOR_BORDER_HOVER: '#d2d6ea',
+    // 按钮/次/投影/默认
+    T_BUTTON_SECONDARY_COLOR_SHADOW_DEFAULT: '0 2px 3px 0 rgba(0,0,0,0.12),inset 0 -2px 0 0 #e3e9ff',
+    // 按钮/次/投影/hover
+    T_BUTTON_SECONDARY_COLOR_SHADOW_HOVER:
+        '0 0 1px 0 rgba(0,0,0,0.12),0 8px 12px -4px rgba(0,0,0,0.12),0 2px 1px -1px rgba(0,0,0,0.05), inset 0 -2px 0 0 #e3e9ff',
+    // 操作区/间距/下
+    T_CARD_ACTION_BOTTOM: '0px',
+    // 操作区/间距/左
+    T_CARD_ACTION_LEFT: '24px',
+    // 操作区/间距/右
+    T_CARD_ACTION_RIGHT: '24px',
+    // 操作区/间距/上
+    T_CARD_ACTION_TOP: '16px',
     // 卡片/背景色
     T_CARD_COLOR_BG_DEFAULT: '#ffffff',
     // 卡片/外边距
@@ -248,6 +285,12 @@ export default {
     T_COLOR_LINE_WARNING_DARK: '#ffc42e',
     // 线条/警告/浅色
     T_COLOR_LINE_WARNING_LIGHT: '#ffe38d',
+    // 蒙层/背景/抽屉/弹窗
+    T_COLOR_MASK_BG: 'rgba(0,0,0,0.5)',
+    // 蒙层/组件
+    T_COLOR_MASK_COMP: 'rgba(255,255,255,0.5)',
+    // 蒙层/全局
+    T_COLOR_MASK_OVERALL: 'rgba(255,255,255,0.7)',
     // 文本/常规/亮色
     T_COLOR_TEXT_DEFAULT_BRIGHT: '#ffffff',
     // 文本/常规/深色
@@ -398,6 +441,10 @@ export default {
     T_INPUT_COLOR_BG_HL_DEFAULT: '#e3e9ff',
     // 输入框/背景色/高亮/错误
     T_INPUT_COLOR_BG_HL_ERROR: '#fed4d4',
+    // 输入框/阴影/默认
+    T_INPUT_COLOR_SHADOW_DEFAULT: 'inset 0 3px 0 0 rgba(0,0,0,0.05)',
+    // 输入框/阴影/错误
+    T_INPUT_COLOR_SHADOW_ERROR: 'inset 0 1px 3px 0 #fed4d4',
     // 默认线条，实线
     T_LINE_STYLE_BASE: 'solid',
     // 虚线边框样式，用于添加/上传照片按钮
