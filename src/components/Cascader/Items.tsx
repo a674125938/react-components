@@ -81,16 +81,16 @@ const Items = ({
                         const selected = value === selectedKey;
                         const expanded = value === expandedKey;
                         return (
-                            <Item
-                                key={value}
-                                value={value}
-                                title={title}
-                                selected={selected}
-                                expanded={expanded}
-                                expandAble={isParent || !!children}
-                                disabled={finalDisabled}
-                                parents={parents}
-                            />
+                                <Item
+                                    key={value}
+                                    value={value}
+                                    title={title}
+                                    selected={selected}
+                                    expanded={expanded}
+                                    expandAble={isParent || !!children}
+                                    disabled={finalDisabled}
+                                    parents={parents}
+                                />
                         );
                     })}
                 </div>
