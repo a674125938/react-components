@@ -6,11 +6,8 @@ package-lock.json
 /coverage
 
 # production
-/build
-/dist
 /styleguide-build
 /styleguide
-/lib
 
 # misc
 .DS_Store

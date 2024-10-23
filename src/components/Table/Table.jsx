@@ -815,14 +815,13 @@ class Table extends Component {
         // 选中的key
         const record = flatDataSourceKeys.find(record => String(record.key) == String(key));
         const disabledItems = this.initDisabledOfRow();
-        if (indeterminate[record.key]) {
-            indeterminate[record.key] = false;
-        }
+
+        indeterminate[String(record.key)] = false;
         // 子被动全选
         if (record && record.childrenKeys && record.childrenKeys.length > 0) {
             record.childrenKeys.forEach(childKey => {
                 parentKeyCheckedMap[childKey] = checked;
-                indeterminate[childKey] = false;
+                indeterminate[String(childKey)] = false;
             });
         }
         // 父被动状态
@@ -837,19 +836,19 @@ class Table extends Component {
             if (record && checked) {
                 if (record.childrenKeys.every(x => truthyKeys.includes(x))) {
                     childrenKeysAllChecked[record.key] = true;
-                    indeterminate[record.key] = false;
+                    indeterminate[String(record.key)] = false;
                 } else {
                     childrenKeysAllChecked[record.key] = false;
-                    indeterminate[record.key] = true;
+                    indeterminate[String(record.key)] = true;
                 }
             }
             if (record && !checked) {
                 if (record.childrenKeys.every(x => !truthyKeys.includes(x))) {
                     childrenKeysAllChecked[record.key] = false;
-                    indeterminate[record.key] = false;
+                    indeterminate[String(record.key)] = false;
                 } else {
                     childrenKeysAllChecked[record.key] = false;
-                    indeterminate[record.key] = true;
+                    indeterminate[String(record.key)] = true;
                 }
             }
             if (record.parent) {
@@ -861,7 +860,7 @@ class Table extends Component {
             changeParentChecked(record.parent, checked);
         }
         disabledItems.forEach(key => {
-            indeterminate[key] = false;
+            indeterminate[String(key)] = false;
         });
 
         const mergeMap = {
@@ -1148,7 +1147,7 @@ class Table extends Component {
                                 })
                             }
                             checked={!!selectedRowKeyMap[rowKey]}
-                            indeterminate={!!indeterminateSelectedRowKeyMap[rowKey]}
+                            indeterminate={!!indeterminateSelectedRowKeyMap[String(rowKey)]}
                         />
                     );
                 }
