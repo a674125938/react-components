@@ -1,6 +1,6 @@
 {
-  "name": "@ucloud-fe/react-components",
-  "version": "1.12.2",
+  "name": "@ucloud-fe/react-components-test",
+  "version": "0.0.2",
   "title": "UCloud react components",
   "description": "UCloud react components",
   "keywords": [
@@ -14,10 +14,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UCloud-FE/react-components.git"
+    "url": "git+https://github.com/a674125938/react-components"
   },
   "bugs": {
-    "url": "https://github.com/UCloud-FE/react-components/issues"
+    "url": "https://github.com/a674125938/react-components/issues"
   },
   "homepage": "https://ucloud-fe.github.io/react-components/",
   "scripts": {
