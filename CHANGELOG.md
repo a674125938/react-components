@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/a674125938/react-components/compare/v0.0.1...v0.0.3) (2024-10-25)
+
+### Features
+
+-   **table:** change disabled parent check type ([802cf78](https://github.com/a674125938/react-components/commit/802cf781f323b773448b0461675062e3fe40e223))
+-   私有包 ([05608de](https://github.com/a674125938/react-components/commit/05608debb4ce4c69ed4be9d33b2564da00b1d359))
+-   **Table:** rowSelection 增加聚合 ([4a9cfeb](https://github.com/a674125938/react-components/commit/4a9cfebe66bf8b316f0ecd379073c45f68447792))
+
 ### [0.0.2](https://github.com/a674125938/react-components/compare/v0.0.1...v0.0.2) (2024-10-25)
 
 ### Features
