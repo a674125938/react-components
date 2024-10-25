@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/a674125938/react-components/compare/v0.0.1...v0.0.2) (2024-10-25)
+
+### Features
+
+-   私有包 ([05608de](https://github.com/a674125938/react-components/commit/05608debb4ce4c69ed4be9d33b2564da00b1d359))
+
 ### [0.0.1](https://github.com/a674125938/react-components/compare/v0.0.2...v0.0.1) (2024-10-24)
 
 ### 0.0.2 (2024-10-24)
