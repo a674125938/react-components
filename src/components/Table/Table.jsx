@@ -471,11 +471,7 @@ class Table extends Component {
         });
         if (_.isObject(rowSelection)) {
             if (rowSelection.onChange) {
-                if (rowSelection.linkage) {
-                    rowSelection.onChange(selectedRowKeys, parentSelectedRowKeys);
-                } else {
-                    rowSelection.onChange(selectedRowKeys);
-                }
+                rowSelection.onChange(selectedRowKeys);
             }
             if (!('selectedRowKeys' in rowSelection)) {
                 this.setState({
@@ -1013,8 +1009,8 @@ class Table extends Component {
         return dragSorting;
     };
     getColumns = (dataSourceOfCurrentPage, filters) => {
-        const _self = this;
         const { columns, rowSelection, columnPlaceholder, locale, dataSource, columnResizable } = this.props;
+
         const {
             order: currentOrder = {},
             selectedRowKeyMap,
