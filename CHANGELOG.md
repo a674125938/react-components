@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/a674125938/react-components/compare/v0.0.3...v0.0.4) (2024-10-28)
+
+### Features
+
+-   **Table:** fix initRenderRowSelectionDate ([f3df67a](https://github.com/a674125938/react-components/commit/f3df67ac0803743dd04bb3eeba9d6289032cd698))
+
 ### [0.0.3](https://github.com/a674125938/react-components/compare/v0.0.1...v0.0.3) (2024-10-25)
 
 ### Features
