@@ -330,45 +330,49 @@ class Table extends Component {
             dataSource: data
         });
 
-        if (rowSelection.multiple !== false && rowSelection.linkage && flatDataSourceKeys.length) {
-            const { finalMergeMap, finalIndeterminate } = Object.keys(selectedRowKeyMap).reduce(
-                (p, key) => {
-                    const { mergeMap, indeterminate } = this.initLinkageRowSelectionMap(
-                        selectedRowKeyMap,
-                        true,
-                        key,
-                        flatDataSourceKeys,
-                        indeterminateSelectedRowKeyMap
-                    );
-                    return {
-                        finalMergeMap: {
-                            ...p.finalMergeMap,
-                            ...mergeMap
+        this.setState(
+            {
+                flatDataSourceKeys: flatDataSourceKeys
+            },
+            () => {
+                if (rowSelection.multiple !== false && rowSelection.linkage && flatDataSourceKeys.length) {
+                    const { finalMergeMap, finalIndeterminate } = Object.keys(selectedRowKeyMap).reduce(
+                        (p, key) => {
+                            const { mergeMap, indeterminate } = this.initLinkageRowSelectionMap(
+                                selectedRowKeyMap,
+                                true,
+                                key,
+                                flatDataSourceKeys,
+                                indeterminateSelectedRowKeyMap
+                            );
+                            return {
+                                finalMergeMap: {
+                                    ...p.finalMergeMap,
+                                    ...mergeMap
+                                },
+                                finalIndeterminate: {
+                                    ...p.finalIndeterminate,
+                                    ...indeterminate
+                                }
+                            };
                         },
-                        finalIndeterminate: {
-                            ...p.finalIndeterminate,
-                            ...indeterminate
+                        {
+                            finalMergeMap: {},
+                            finalIndeterminate: {}
                         }
-                    };
-                },
-                {
-                    finalMergeMap: {},
-                    finalIndeterminate: {}
-                }
-            );
+                    );
 
-            Object.keys(finalMergeMap).forEach(key => {
-                selectedRowKeyMap[key] = finalMergeMap[key];
-            });
-            this.setState({
-                indeterminateSelectedRowKeyMap: {
-                    ...finalIndeterminate
+                    Object.keys(finalMergeMap).forEach(key => {
+                        selectedRowKeyMap[key] = finalMergeMap[key];
+                    });
+                    this.setState({
+                        indeterminateSelectedRowKeyMap: {
+                            ...finalIndeterminate
+                        }
+                    });
                 }
-            });
-        }
-        this.setState({
-            flatDataSourceKeys: flatDataSourceKeys
-        });
+            }
+        );
     };
     getOrder = (order, columns) => {
         if (!order || !columns) return null;
@@ -770,9 +774,11 @@ class Table extends Component {
      * }
      * }
      */
-    handleSelectRecord = ({ key, checked, flatDataSourceKeys }) => {
+    handleSelectRecord = ({ key, checked }) => {
         const { rowSelection } = this.props;
-        const { selectedRowKeyMap, indeterminateSelectedRowKeyMap } = this.state;
+        const { selectedRowKeyMap, indeterminateSelectedRowKeyMap, flatDataSourceKeys } = this.state;
+        console.log('flatDataSourceKeys---->', flatDataSourceKeys);
+
         if (rowSelection.multiple === false) {
             this.onSelectedRowKeysChange({
                 [key]: true
@@ -1015,9 +1021,13 @@ class Table extends Component {
             order: currentOrder = {},
             selectedRowKeyMap,
             columnConfig,
-            indeterminateSelectedRowKeyMap,
-            flatDataSourceKeys
+            indeterminateSelectedRowKeyMap
         } = this.state;
+
+        const flatDataSourceKeys = this.flatDataSourceKeysForMap({
+            dataSource: dataSourceOfCurrentPage
+        });
+
         const cloneColumns = columns.map((column, index) => ({
             ...column,
             index
@@ -1166,8 +1176,7 @@ class Table extends Component {
                             onChange={() =>
                                 this.handleSelectRecord({
                                     key: rowKey,
-                                    checked: !selectedRowKeyMap[rowKey],
-                                    flatDataSourceKeys: flatDataSourceKeys
+                                    checked: !selectedRowKeyMap[rowKey]
                                 })
                             }
                             checked={!!selectedRowKeyMap[rowKey]}
@@ -1450,6 +1459,7 @@ class Table extends Component {
             dragSorting: _dragSorting,
             ...rest
         } = this.props;
+
         if (emptyContent === undefined) {
             emptyContent = <Notice closable={false}>{locale.emptyTip}</Notice>;
         }
