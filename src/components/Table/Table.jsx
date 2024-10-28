@@ -770,9 +770,9 @@ class Table extends Component {
      * }
      * }
      */
-    handleSelectRecord = ({ key, checked }) => {
+    handleSelectRecord = ({ key, checked, flatDataSourceKeys }) => {
         const { rowSelection } = this.props;
-        const { selectedRowKeyMap, indeterminateSelectedRowKeyMap, flatDataSourceKeys } = this.state;
+        const { selectedRowKeyMap, indeterminateSelectedRowKeyMap } = this.state;
         if (rowSelection.multiple === false) {
             this.onSelectedRowKeysChange({
                 [key]: true
@@ -1166,7 +1166,8 @@ class Table extends Component {
                             onChange={() =>
                                 this.handleSelectRecord({
                                     key: rowKey,
-                                    checked: !selectedRowKeyMap[rowKey]
+                                    checked: !selectedRowKeyMap[rowKey],
+                                    flatDataSourceKeys: flatDataSourceKeys
                                 })
                             }
                             checked={!!selectedRowKeyMap[rowKey]}
