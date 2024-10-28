@@ -774,9 +774,9 @@ class Table extends Component {
      * }
      * }
      */
-    handleSelectRecord = ({ key, checked }) => {
+    handleSelectRecord = ({ key, checked,flatDataSourceKeys }) => {
         const { rowSelection } = this.props;
-        const { selectedRowKeyMap, indeterminateSelectedRowKeyMap, flatDataSourceKeys } = this.state;
+        const { selectedRowKeyMap, indeterminateSelectedRowKeyMap } = this.state;
         console.log('flatDataSourceKeys---->', flatDataSourceKeys);
 
         if (rowSelection.multiple === false) {
@@ -827,6 +827,12 @@ class Table extends Component {
         }
     };
     initLinkageRowSelectionMap(nowSelectedRowKeyMap, checked, key, flatDataSourceKeys, indeterminateSelectedRowKeyMap) {
+       if(!flatDataSourceKeys.length){
+            return {
+                mergeMap:{},
+                indeterminate:{}
+            }
+       }
         // 半选状态
         const indeterminate = {
             ...indeterminateSelectedRowKeyMap
@@ -1176,7 +1182,8 @@ class Table extends Component {
                             onChange={() =>
                                 this.handleSelectRecord({
                                     key: rowKey,
-                                    checked: !selectedRowKeyMap[rowKey]
+                                    checked: !selectedRowKeyMap[rowKey],
+                                    flatDataSourceKeys
                                 })
                             }
                             checked={!!selectedRowKeyMap[rowKey]}
