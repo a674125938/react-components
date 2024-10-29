@@ -1,4 +1,4 @@
-### 说明
+<!-- ### 说明
 
 -   这是 SearchInput 表格搜索框
 -   使用 context 和 table 通信，所以需要嵌入到 table 中才起作用（title，footer）
@@ -10,4 +10,4 @@
 #### searchInput - 演示
 
 ```js {"codepath": "searchInput.jsx"}
-```
+``` -->

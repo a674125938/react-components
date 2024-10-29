@@ -305,10 +305,10 @@ class Table extends Component {
                 selectedRowKeyMap
             });
         }
-        if(JSON.stringify(dataSource) !== JSON.stringify(nextProps.dataSource)){
+        if (JSON.stringify(dataSource) !== JSON.stringify(nextProps.dataSource)) {
             this.initRenderRowSelectionDate(nextProps);
         }
-      
+
         // pick controlled filter value
         this.setState({
             filtersFromProps: this.calFiltersFromProps(nextProps)
@@ -1004,12 +1004,14 @@ class Table extends Component {
             });
             return index;
         }
-        const cloneDataSource = [...dataSource].filter(item => !!item);
+
+        const cloneDataSource = _.cloneDeep([...dataSource]).filter(item => !!item);
 
         // 调用递归函数
         setTableKeys(cloneDataSource);
 
         loop(cloneDataSource, null);
+        console.log(2222, dataSource);
 
         return result;
     };
