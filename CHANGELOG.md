@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/a674125938/react-components/compare/v0.0.9...v0.0.10) (2024-10-29)
+
+### Bug Fixes
+
+-   map filter ([b8f496c](https://github.com/a674125938/react-components/commit/b8f496c1e0b36f96aece6e0c12c57ce8faa577f9))
+
 ### [0.0.9](https://github.com/a674125938/react-components/compare/v0.0.8...v0.0.9) (2024-10-28)
 
 ### [0.0.8](https://github.com/a674125938/react-components/compare/v0.0.7...v0.0.8) (2024-10-28)
