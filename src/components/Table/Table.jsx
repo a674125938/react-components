@@ -296,6 +296,7 @@ class Table extends Component {
     };
     componentWillReceiveProps = nextProps => {
         const { rowSelection } = nextProps;
+        const { dataSource } = this.props;
 
         if (_.isObject(rowSelection) && 'selectedRowKeys' in rowSelection) {
             const selectedRowKeyMap = {};
@@ -304,7 +305,10 @@ class Table extends Component {
                 selectedRowKeyMap
             });
         }
-        this.initRenderRowSelectionDate(nextProps);
+        if(JSON.stringify(dataSource) !== JSON.stringify(nextProps.dataSource)){
+            this.initRenderRowSelectionDate(nextProps);
+        }
+      
         // pick controlled filter value
         this.setState({
             filtersFromProps: this.calFiltersFromProps(nextProps)
