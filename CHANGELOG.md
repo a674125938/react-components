@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/a674125938/react-components/compare/v0.0.11...v0.0.12) (2024-10-29)
+
+### Bug Fixes
+
+-   map filter3 ([a996816](https://github.com/a674125938/react-components/commit/a99681668e538552efd49cc1438b96377a2c5b2f))
+
 ### [0.0.11](https://github.com/a674125938/react-components/compare/v0.0.9...v0.0.11) (2024-10-29)
 
 ### Bug Fixes
