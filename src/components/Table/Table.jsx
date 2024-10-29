@@ -774,10 +774,9 @@ class Table extends Component {
      * }
      * }
      */
-    handleSelectRecord = ({ key, checked,flatDataSourceKeys }) => {
+    handleSelectRecord = ({ key, checked, flatDataSourceKeys, indeterminateSelectedRowKeyMap }) => {
         const { rowSelection } = this.props;
-        const { selectedRowKeyMap, indeterminateSelectedRowKeyMap } = this.state;
-        console.log('flatDataSourceKeys---->', flatDataSourceKeys);
+        const { selectedRowKeyMap } = this.state;
 
         if (rowSelection.multiple === false) {
             this.onSelectedRowKeysChange({
@@ -827,12 +826,12 @@ class Table extends Component {
         }
     };
     initLinkageRowSelectionMap(nowSelectedRowKeyMap, checked, key, flatDataSourceKeys, indeterminateSelectedRowKeyMap) {
-       if(!flatDataSourceKeys.length){
+        if (!flatDataSourceKeys.length) {
             return {
-                mergeMap:{},
-                indeterminate:{}
-            }
-       }
+                mergeMap: {},
+                indeterminate: {}
+            };
+        }
         // 半选状态
         const indeterminate = {
             ...indeterminateSelectedRowKeyMap
@@ -1020,15 +1019,10 @@ class Table extends Component {
         }
         return dragSorting;
     };
-    getColumns = (dataSourceOfCurrentPage, filters) => {
+    getColumns = (dataSourceOfCurrentPage, filters, indeterminateSelectedRowKeyMap) => {
         const { columns, rowSelection, columnPlaceholder, locale, dataSource, columnResizable } = this.props;
 
-        const {
-            order: currentOrder = {},
-            selectedRowKeyMap,
-            columnConfig,
-            indeterminateSelectedRowKeyMap
-        } = this.state;
+        const { order: currentOrder = {}, selectedRowKeyMap, columnConfig } = this.state;
 
         const flatDataSourceKeys = this.flatDataSourceKeysForMap({
             dataSource: dataSourceOfCurrentPage
@@ -1183,7 +1177,8 @@ class Table extends Component {
                                 this.handleSelectRecord({
                                     key: rowKey,
                                     checked: !selectedRowKeyMap[rowKey],
-                                    flatDataSourceKeys
+                                    flatDataSourceKeys,
+                                    indeterminateSelectedRowKeyMap
                                 })
                             }
                             checked={!!selectedRowKeyMap[rowKey]}
@@ -1472,13 +1467,13 @@ class Table extends Component {
         }
         /* eslint-enable no-unused-vars */
         const pagination = this.getPagination();
-        const { filters, filtersFromProps, searchValue, columnConfig } = this.state;
+        const { filters, filtersFromProps, searchValue, columnConfig, indeterminateSelectedRowKeyMap } = this.state;
         const finalFilters = this.mergeFilters(filters, filtersFromProps, _c);
         let { dataSource, total } = this.getDataSource(finalFilters);
         if (pagination && 'total' in pagination) {
             total = pagination.total;
         }
-        const columns = this.getColumns(dataSource, finalFilters);
+        const columns = this.getColumns(dataSource, finalFilters, indeterminateSelectedRowKeyMap);
 
         // 默认展开所有行
         const defaultExpandAllRowsProps = !defaultExpandAllRows
