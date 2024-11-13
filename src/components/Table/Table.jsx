@@ -1011,7 +1011,6 @@ class Table extends Component {
         setTableKeys(cloneDataSource);
 
         loop(cloneDataSource, null);
-        console.log(2222, dataSource);
 
         return result;
     };
