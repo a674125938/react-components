@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/a674125938/react-components/compare/v0.0.13...v0.0.14) (2024-11-15)
+
+### Features
+
+-   新增 select error ([94eff43](https://github.com/a674125938/react-components/commit/94eff435839d43589d39f6cf8255ec7c330e7155))
+-   **Select:** add error status ([75222ae](https://github.com/a674125938/react-components/commit/75222aecfc64aac279410a1cf2f077f592fc2ef7))
+
 ### [0.0.13](https://github.com/a674125938/react-components/compare/v0.0.12...v0.0.13) (2024-11-13)
 
 ### [0.0.12](https://github.com/a674125938/react-components/compare/v0.0.11...v0.0.12) (2024-10-29)
