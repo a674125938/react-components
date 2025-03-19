@@ -14,10 +14,20 @@ import LOCALE from './locale/zh_CN';
 export interface PopConfirmProps {
     /** @ignore */
     locale?: typeof LOCALE;
-    /** 确认按钮回调 */
-    onConfirm?: () => void;
+    /** 确认按钮回调 ,openConfirmCheck开启的场景会将 visible 方法 传递出去 */
+    onConfirm?: (fn?: (visible: boolean) => void) => void;
     /** 取消按钮回调 */
     onCancel?: () => void;
+    /** 隐藏Icon */
+    hideIcon?: boolean;
+    /** 弹窗中icon的自定义 */
+    icon ?: React.ReactNode;
+    /** 开启确定按钮回调的验证，返回false不会主动关闭弹窗 */
+    openConfirmCheck?: boolean;
+    /** popup样式 */
+    popupStyle?: React.CSSProperties;
+    /** 内容区盒子样式 */
+    contentWrapStyle?: React.CSSProperties;
 }
 
 const PopConfirm = (
@@ -29,14 +39,24 @@ const PopConfirm = (
         defaultVisible = false,
         visible: _visible,
         onVisibleChange: _onVisibleChange,
+        hideIcon: _hideIcon = false,
+        icon:_Icon,
+        openConfirmCheck:_openConfirmCheck = false,
+        popupStyle:_popupStyle = {},
+        contentWrapStyle:_contentWrapStyle = {},
         ...rest
     }: PopConfirmProps & any // TODO use popupProps
 ) => {
     const [visible, onVisibleChange] = useUncontrolled(_visible, defaultVisible, _onVisibleChange);
-    const onConfirm = useCallback(() => {
+    const onConfirm = useCallback( () => {
+        if(_openConfirmCheck){
+            _onConfirm((visible = false) => onVisibleChange(visible))
+            return
+        }
         onVisibleChange(false);
-        _onConfirm();
-    }, [_onConfirm, onVisibleChange]);
+        _onConfirm()
+    }, [_onConfirm, onVisibleChange,_openConfirmCheck]);
+
     const onCancel = useCallback(() => {
         onVisibleChange(false);
         _onCancel();
@@ -44,11 +64,13 @@ const PopConfirm = (
     const locale = useLocale(LOCALE, 'PopConfirm', _locale);
     const popup = useMemo(() => {
         return (
-            <PopupWrap>
-                <IconWrap>
-                    <SvgIcon size="20px" type="exclamation-circle-filled" />
-                </IconWrap>
-                <ContentWrap>{_popup}</ContentWrap>
+            <PopupWrap hideIcon={_hideIcon} style={{..._popupStyle}}>
+                {
+                    !_hideIcon && <IconWrap>
+                        {_Icon || <SvgIcon size="20px" type="exclamation-circle-filled" />}
+                    </IconWrap>
+                }
+                <ContentWrap style={{..._contentWrapStyle}}>{_popup}</ContentWrap>
                 <FooterWrap>
                     <Combine sharedProps={{ size: 'sm' }}>
                         <Button onClick={onCancel}>{locale.cancel}</Button>

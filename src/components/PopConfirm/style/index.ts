@@ -7,12 +7,20 @@ import { sWrap } from 'src/style';
 const { prefixCls: _prefixCls } = config;
 export const prefixCls = _prefixCls + '-popconfirm';
 
-export const PopupWrap = styled('div')`
-    min-width: 186px;
-    max-width: 300px;
-    box-sizing: border-box;
-    padding: 12px 16px 12px 40px;
-`;
+export const PopupWrap =sWrap<{ hideIcon?: boolean }>({})(
+    styled('div')((props) => {
+        const {
+            hideIcon
+        } = props;
+        return css` 
+            min-width: 186px;
+            max-width: 300px;
+            box-sizing: border-box;
+            padding: 12px 16px 12px ${hideIcon ? '20px': '40px'};
+        `
+    })
+);
+
 export const ContentWrap = sWrap({})(
     styled('div')(props => {
         const {

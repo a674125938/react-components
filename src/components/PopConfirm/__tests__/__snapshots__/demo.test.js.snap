@@ -184,6 +184,120 @@ exports[`PopConfirm demo -- demo 1`] = `
 </div>
 `;
 
+exports[`PopConfirm demo -- form 1`] = `
+.emotion-0 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 8px;
+  color: #ffffff;
+  fill: #ffffff;
+  border: none;
+  background: linear-gradient(135deg,#6488fc 0%,#3860f4 100%);
+  box-shadow: 0 2px 4px -1px #5c76e8,inset 0 -3px 0 0 rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.12);
+  -webkit-transition: width,height,border,background,color,fill,box-shadow .16s ease-out;
+  transition: width,height,border,background,color,fill,box-shadow .16s ease-out;
+}
+
+.emotion-0:link,
+.emotion-0:visited {
+  color: #ffffff;
+}
+
+.emotion-0:hover,
+.emotion-0:active {
+  background: linear-gradient(135deg,#5c76e8 0%,#3357df 100%);
+  box-shadow: 0 5px 8px -4px #5c76e8,inset 0 -3px 0 0 rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.12);
+}
+
+.emotion-0 {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  white-space: nowrap;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 8px;
+  color: #ffffff;
+  fill: #ffffff;
+  border: none;
+  background: linear-gradient(135deg,#6488fc 0%,#3860f4 100%);
+  box-shadow: 0 2px 4px -1px #5c76e8,inset 0 -3px 0 0 rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.12);
+  -webkit-transition: width,height,border,background,color,fill,box-shadow .16s ease-out;
+  transition: width,height,border,background,color,fill,box-shadow .16s ease-out;
+}
+
+.emotion-0:link,
+.emotion-0:visited {
+  color: #ffffff;
+}
+
+.emotion-0:hover,
+.emotion-0:active {
+  background: linear-gradient(135deg,#5c76e8 0%,#3357df 100%);
+  box-shadow: 0 5px 8px -4px #5c76e8,inset 0 -3px 0 0 rgba(0,0,0,0.12),inset 0 1px 0 0 rgba(0,0,0,0.12);
+}
+
+<div>
+  <h2>
+    组合 ZForm 表单
+  </h2>
+  <div
+    class="demo-wrap"
+  >
+    <div>
+      <button
+        class="uc-fe-button uc-fe-button-size-md uc-fe-button-styletype-primary emotion-0 emotion-1"
+        type="button"
+      >
+        一点文字
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`PopConfirm demo -- onCancel 1`] = `
 .emotion-0 {
   margin: 0;
