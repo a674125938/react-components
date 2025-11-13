@@ -19,9 +19,9 @@ class Demo extends React.Component {
                     value={value}
                     multiple
                     search
+                    autoClearSearchValue
                     onChange={v => {
                         console.log(v);
-
                         this.setState({ value: v });
                     }}
                 >
